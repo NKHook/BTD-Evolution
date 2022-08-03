@@ -1,0 +1,62 @@
+{
+    "Alignment" : null,
+    "Point" : null,
+    "actors" : [
+       {
+          "Alignment" : [ 0, 0 ],
+          "Alpha" : 1.0,
+          "Angle" : 0.0,
+          "Colour" : 4294913839,
+          "Flip" : 0,
+          "Position" : [ 0.0, 6.0 ],
+          "Scale" : [ 0.5, 0.5 ],
+          "Shown" : true,
+          "sprite" : "monkey_apprentice_dragon_breath_01",
+          "type" : 1,
+          "uid" : 1
+       }
+    ],
+    "customvariables" : null,
+    "events" : null,
+    "labels" : null,
+    "stageOptions" : {
+       "SpriteInfo" : [
+          {
+             "SpriteInfo" : "monkey_apprentice_dragon_breath_01",
+             "Texture" : "InGame"
+          }
+       ],
+       "StageLength" : 0.1,
+       "Version" : 1
+    },
+    "timelines" : [
+       {
+          "spriteuid" : 1,
+          "stage" : [
+             {
+                "Alignment" : [ 0, 0 ],
+                "Alpha" : 1.0,
+                "Angle" : 0.0,
+                "Colour" : 4294913839,
+                "Flip" : 0,
+                "Position" : [ 0.0, 6.0 ],
+                "Scale" : [ 0.5, 0.5 ],
+                "Shown" : true,
+                "Time" : 0.0
+             },
+             {
+                "Alignment" : [ 0, 0 ],
+                "Alpha" : 1.0,
+                "Angle" : 0.0,
+                "Colour" : 4294913839,
+                "Flip" : 0,
+                "Position" : [ 0.0, 6.0 ],
+                "Scale" : [ 0.5, 0.5 ],
+                "Shown" : false,
+                "Time" : 0.1
+             }
+          ]
+       }
+    ]
+ }
+ 

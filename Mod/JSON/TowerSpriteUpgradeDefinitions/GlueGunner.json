@@ -1,0 +1,38 @@
+{
+	"Sprites":
+	{
+        "0" : "GlueGunner",
+        "1" : "GlueGunnerGreyTank",
+        "2" : "GlueGunnerCorrosiveGlue",
+        "3" : "GlueGunnerBloonDissolver",
+        "4" : "GlueGunnerBloonLiquefier",
+        "5" : "GlueGunnerSplatter",
+        "6" : "GlueGunnerHose",
+        "7" : "GlueGunnerStriker"
+	},
+	
+	"UpgradeLevels":
+	{
+		"00"		: 0,
+		"01"		: 1,
+		"02"		: 5,
+		"03"		: 6,
+		"04"		: 7,
+		"10"		: 1,
+		"11"		: 1,
+		"12"		: 5,
+		"13"		: 6,
+		"14"		: 7,
+		"20"		: 2,
+		"21"		: 2,
+		"22"		: 2,
+		"23"		: 6,
+		"24"		: 7,
+		"30"		: 3,
+		"31"		: 3,
+		"32"		: 3,
+		"40"		: 4,
+		"41"		: 4,
+		"42"		: 4
+	}
+}

@@ -1,0 +1,80 @@
+{
+    "AircraftList" : [ ],
+    "BaseCost" : 200,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : true,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : false,
+    "DefaultWeapons" : [
+        "DartMonkey.weapon",
+		"FanClubDart.weapon"
+    ],
+	"ActiveWeaponSlots": [
+		true,
+		false
+	],
+    "Icon" : "dart_monkey_avatar_small",
+    "PlacementH" : 0.0,
+    "PlacementRadius" : 8.0,
+    "PlacementW" : 0.0,
+    "RankToUnlock" : 1,
+    "RotatesToTarget" : true,
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "First",
+    "TargetsManually" : false,
+    "TypeName" : "DartMonkey",
+    "Upgrades" : [
+        [
+            "Long Range Darts",
+            "Enhanced Eyesight",
+            "Spike-O-Pult",
+            "Juggernaut"
+        ],
+        [
+            "Sharp Shots",
+            "Razor Sharp Shots",
+            "Triple Darts",
+            "Super Monkey Fan Club"
+        ]
+    ],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 0, "XP" : 30 }, { "Rank" : 0, "XP" : 460 }, { "Rank" : 0, "XP" : 1890 }, { "Rank" : 21, "XP" : 9330 } ],
+		[ { "Rank" : 0, "XP" : 75 }, { "Rank" : 0, "XP" : 580 }, { "Rank" : 0, "XP" : 3250 }, { "Rank" : 21, "XP" : 14535 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 90, 120, 500, 1500 ],
+        [ 140, 170, 330, 8000 ]
+    ],
+    "UpgradeIcons" : [
+        [
+            "dart_monkey_longer_range_icon",
+            "dart_monkey_enhanced_eyesight_icon",
+            "dart_monkey_spikeopult_icon",
+            "dart_monkey_juggernaut_icon"
+        ],
+        [
+            "dart_monkey_sharp_shots_icon",
+            "dart_monkey_razor_icon",
+            "dart_monkey_triple_icon",
+            "dart_monkey_fanclub_icon"
+        ]
+    ],
+    "UpgradeAvatars" : [
+        [
+            "dart_monkey_avatar_increased_range_small",
+            "dart_monkey_avatar_enhanced_eyesight_small",
+            "dart_monkey_avatar_spikeopult_small",
+            "dart_monkey_avatar_juggernaut_small"
+        ],
+        [
+            "dart_monkey_avatar_sharp_shots_small",
+            "dart_monkey_avatar_razor_sharp_small",
+            "dart_monkey_avatar_triple_shot_small",
+            "dart_monkey_avatar_supermonkey_fanclub_small"
+        ]
+    ],
+    "UseRadiusPlacement" : true,
+    "SpriteUpgradeDefinition" : "DartMonkey.json"
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "id": "LOC_FlameThrower_TOWER",
+        "l": 0,
+        "value": "Flame Thrower"
+    },
+    {
+        "id": "LOC_FlameThrower_TOWER_PLURAL",
+        "l": 0,
+        "value": "Flame Throwers"
+    },
+    {
+        "id": "LOC_FlameThrower_TOWER_CAPS",
+        "l": 0,
+        "value": "FLAME THROWER"
+    },
+    {
+        "id": "LOC_TOWER_DESC_FlameThrower",
+        "l": 0,
+        "value": "An arsonist monkey exhiled from the village, however since the Bloons have caused them both so much trouble, he has return to help fight a common enemy."
+    }
+]

@@ -1,0 +1,54 @@
+{
+	"Type": "TripleDarts",
+	"TargetRange": 150.0,
+	"CooldownTime": 0.01,
+	"FireDelayTime": 0.01,
+	"Tasks": [
+		{
+			"Type": "Projectile",
+			"SpriteFile": "flamethrower_gas_prices.json",
+			"NumPersists": -1,
+			"LoopAnimation": false,
+			"SpreadAngle": 45,
+			"HasLimitedDuration": true,
+			"LimitedDuration": 5,
+			"TerminateOnZeroPersists": false,
+			"CollisionType": "Once",
+			"Movement": {
+				"Type": "Forward",
+				"Speed": 200.0,
+				"CutOffDistance": 300,
+				"TerminateOnCutOffEnd": true
+			},
+			"TasksToProcessOnCollision": [
+				0,
+				1,
+				2
+			],
+			"TasksToProcessOnTerminate": [
+				1,
+				2
+			],
+			"Tasks": [
+				{
+					"Type": "Damage",
+					"DamageType": "Plasma",
+					"Amount": 1
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "Explosion.json",
+					"Scale": 0.25
+				},
+				{
+					"Type": "StatusEffect",
+					"Status": "Napalm",
+					"NumPersists" : -1,
+					"Duration" : 0,
+					"DamageRate" : 0,
+					"IgnoreImmunity" : true
+				}
+			]
+		}
+	]
+}

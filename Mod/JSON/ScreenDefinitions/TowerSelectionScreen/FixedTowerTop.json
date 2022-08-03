@@ -1,0 +1,5 @@
+{
+	"Items" : [
+		{ "Icon" : "tacks_icon", "FactoryName" : "RoadSpikes", "ObjectType" : 1, "KeyboardShortcut" : "z" }
+	]
+}

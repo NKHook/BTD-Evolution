@@ -1,0 +1,120 @@
+{
+    "AircraftList": [],
+    "BaseCost": 0,
+    "CanBePlacedInWater": false,
+    "CanBePlacedOnLand": true,
+    "CanBePlacedOnPath": false,
+    "CanTargetCamo": false,
+    "DefaultWeapons": [
+        "Dragonbreath.weapon"
+    ],
+    "ActiveWeaponSlots": [
+        true
+    ],
+    "Icon": "monkey_engineer_sentry_avatar_small",
+    "PlacementH": 0.0,
+    "PlacementRadius": 8.0,
+    "PlacementW": 0.0,
+    "RankToUnlock": 1,
+    "RotatesToTarget": true,
+    "TargetIsWeaponOrigin": false,
+    "TargetingMode": "First",
+    "TargetsManually": false,
+    "TypeName": "FlameThrowerMinion",
+    "Upgrades": [
+        [
+            "Sentry Gun",
+            "Fast Engineering",
+            "Cleansing Foam",
+            "Bloon Trap"
+        ],
+        [
+            "9-inch nails",
+            "Larger Service Area",
+            "Sprockets",
+            "Overclock"
+        ]
+    ],
+    "UpgradeGateway": [
+        [
+            {
+                "Rank": 0,
+                "XP": 0
+            },
+            {
+                "Rank": 0,
+                "XP": 0
+            },
+            {
+                "Rank": 0,
+                "XP": 0
+            },
+            {
+                "Rank": 0,
+                "XP": 0
+            }
+        ],
+        [
+            {
+                "Rank": 0,
+                "XP": 0
+            },
+            {
+                "Rank": 0,
+                "XP": 0
+            },
+            {
+                "Rank": 0,
+                "XP": 0
+            },
+            {
+                "Rank": 0,
+                "XP": 0
+            }
+        ]
+    ],
+    "UpgradePrices": [
+        [
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0
+        ]
+    ],
+    "UpgradeIcons": [
+        [
+            "engineer_sentry_icon",
+            "engineer_fast_engineering_icon",
+            "engineer_foam_icon",
+            "engineer_trap_icon"
+        ],
+        [
+            "engineer_9inch_nails_icon",
+            "engineer_larger_service_area_icon",
+            "engineer_sprockets_icon",
+            "engineer_overclock_icon"
+        ]
+    ],
+    "UpgradeAvatars": [
+        [
+            "monkey_engineer_sentry_avatar_small",
+            "monkey_engineer_sentry_avatar_small",
+            "monkey_engineer_sentry_avatar_small",
+            "monkey_engineer_sentry_avatar_small"
+        ],
+        [
+            "monkey_engineer_sentry_avatar_small",
+            "monkey_engineer_sentry_avatar_small",
+            "monkey_engineer_sentry_avatar_small",
+            "monkey_engineer_sentry_avatar_small"
+        ]
+    ],
+    "UseRadiusPlacement": true,
+    "SpriteUpgradeDefinition": "FlameThrowerMinion.json"
+}

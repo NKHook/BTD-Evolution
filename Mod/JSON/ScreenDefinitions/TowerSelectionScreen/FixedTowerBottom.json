@@ -1,0 +1,5 @@
+{
+	"Items" : [
+		{ "Icon" : "pineapple_icon", "FactoryName" : "ExplodingPineapple", "ObjectType" : 1, "KeyboardShortcut" : "x" }
+	]
+}

@@ -1,0 +1,54 @@
+{
+    "Type": "SpawnTurret",
+    "TargetRange": 1.0,
+    "CooldownTime": 10.0,
+    "FireDelayTime": 0.0,
+    "CanFireWithNoTargetsAndRoundInProgress": true,
+    "StartsOnCooldown": true,
+    "Tasks": [
+        {
+            "Type": "RandomFire",
+            "Range": 130,
+            "MinimumRange": 20,
+            "FireFullRange": true,
+            "OnlyTargetPlacementLocations": false,
+            "PlacementTowerType": "FlameThrowerMinion",
+            "TargetIsWeaponTaskOrigin": true,
+            "Tasks": [
+                {
+                    "Type": "Effect",
+                    "SpriteFile": "engineer_sentry_spawn.json",
+                    "Scale": 1.0,
+                    "DrawLayer": "UnderTowers",
+                    "LoopForever": false,
+                    "Duration": 0.45,
+                    "Tasks": [
+                        {
+                            "Type": "CreateTower",
+                            "TowerType": "FlameThrowerMinion",
+                            "TowerColour": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "TowerLifetime": 25,
+                            "HasParentTower": true,
+                            "UseParentTowerUpgradeLevel": false,
+                            "Tasks": [
+                                {
+                                    "Type": "Effect",
+                                    "SpriteFile": "engineer_sentry_destruct.json",
+                                    "Scale": 1.0,
+                                    "DrawLayer": "UnderTowers",
+                                    "LoopForever": false,
+                                    "Duration": 0.4
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
