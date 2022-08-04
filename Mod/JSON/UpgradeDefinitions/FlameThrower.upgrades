@@ -52,18 +52,23 @@
                 "SlotIndices": [
                     1
                 ],
+                "Replace": {
+                    "CooldownTime": 0.03
+                },
                 "TaskUpgrade": [
                     {
                         "Operation": "SelectByType",
-                        "Type": "StatusEffect"
+                        "Type": "Projectile"
                     },
                     {
-                        "Operation": "Replace",
-                        "Duration": 5,
-                        "DamageRate": 1
+                        "Operation": "Adjust",
+                        "Movement": {
+                            "Speed": 150.0
+                        }
                     }
                 ]
             }
+            
         },
         {
             "Name": "Bad Influence",
@@ -79,8 +84,7 @@
                 "SlotIndices": [
                     1
                 ],
-                "Replace" :
-                {
+                "Replace": {
                     "CooldownTime": 0.07
                 }
             }
@@ -91,10 +95,17 @@
                 "SlotIndices": [
                     1
                 ],
-                "Replace" :
-                {
-                    "CooldownTime": 0.03
-                }
+                "TaskUpgrade": [
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "StatusEffect"
+                    },
+                    {
+                        "Operation": "Replace",
+                        "Duration": 5,
+                        "DamageRate": 1
+                    }
+                ]
             }
         },
         {
