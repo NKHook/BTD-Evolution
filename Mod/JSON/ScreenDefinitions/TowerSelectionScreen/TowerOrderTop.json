@@ -1,16 +1,4 @@
 {
-	"Items" : [
-	   { "Icon" : "dart_monkey_icon", 	"FactoryName" : "DartMonkey", "ObjectType" : 0, "KeyboardShortcut" : "q" },
-	   { "Icon" : "sniper_icon", 		"FactoryName" : "SniperMonkey", "ObjectType" : 0, "KeyboardShortcut" : "e" },
-	   { "Icon" : "ninja_icon", 		"FactoryName" : "NinjaMonkey", "ObjectType" : 0, "KeyboardShortcut" : "t" },
-	   { "Icon" : "ice_icon", 			"FactoryName" : "IceTower", "ObjectType" : 0, "KeyboardShortcut" : "a" },
-	   { "Icon" : "buccaneer_icon", 	"FactoryName" : "MonkeyBuccaneer", "ObjectType" : 0, "KeyboardShortcut" : "d" },
-	   { "Icon" : "supermonkey_icon", 	"FactoryName" : "SuperMonkey", "ObjectType" : 0, "KeyboardShortcut" : "g" },
-	   { "Icon" : "village_icon", 		"FactoryName" : "MonkeyVillage", "ObjectType" : 0, "KeyboardShortcut" : "c" },
-	   { "Icon" : "mortar_icon", 		"FactoryName" : "MortarTower", "ObjectType" : 0, "KeyboardShortcut" : "b" },
-	   { "Icon" : "spike_factory_icon", "FactoryName" : "SpikeFactory", "ObjectType" : 0, "KeyboardShortcut" : "m" },
-       { "Icon" : "engineer_icon", 		"FactoryName" : "MonkeyEngineer", "ObjectType" : 0, "KeyboardShortcut" : "l" },
-       { "Icon" : "monkeysub_icon", 	"FactoryName" : "MonkeySub", "ObjectType" : 0, "KeyboardShortcut" : "k" },
-       { "Icon" : "monkeysub_icon", 	"FactoryName" : "FlameThrower", "ObjectType" : 0, "KeyboardShortcut" : ";" }
-	]
+    "MERGE_MODE": "INSERTIVE",
+	"Items": []
 }
