@@ -1,86 +1,19 @@
 {	
-    "Type":             	"SpikeStorm",    
-    "TargetRange":      	1000,
-	"CooldownTime":     	40.0,
-    "FireDelayTime":    	0.0,
-	"ManuallyFired": 		true,
-	"RequiresTargetToFire":	false,
-	
     "Tasks" :
     [
 		{
-			"Type": "MultiFire",
-			"InitialOffset": 0,
-			"AngleIncrement": 0,
-			"ShotDelay": 0,
-			"FireCount": 200,
-			
 			"Tasks":
 			[
 				{
-					"Type": "RandomFire",
-					"Range": 1000,
-					"OnlyTargetPathLocations": true,
-					"FireFullRange": true,
-					"TerminateOnZeroPersists": true,
-					"FollowTarget": false,
-                    "DrawLayer" : "UnderTowers",
-
 					"Tasks":
 					[
 						{
-							"Type": "Projectile",
-							"SpriteFile": "RoadTacks.json",
-							"NumPersists": 5,
-                            "OnlyCollidePastCutOff" : true,
-							"TerminateOnZeroPersists": true,
 							"RemoveOnRoundEnd" : false,
-                            "HasLimitedDuration" : false,
-                            "LimitedDuration" : 8,
-							"HasRandomOrientation" : true,
-						
-							"CollisionType": "Continual",
-							"Radius": 25,
-							"GraphicsAtPierceLevels" : [
-								[ 0, 10],
-								[ 0.05, 9],
-								[ 0.1, 8],
-								[ 0.15, 7],
-								[ 0.2, 6],
-								[ 0.25, 5],
-								[ 0.3, 4],
-								[ 0.35, 3],
-								[ 0.4, 2],
-								[ 0.45, 1]
-							],
-							
-							"Movement":
-							{
-								"Type": "MotionCurve",
-								"Curves":
-								[
-									[ [0, 0], [0.9, 0], [1, 0], [1, 0] ]
-								],
-								"Speed": 155.0,
-								"TerminateAtEndOfCurve": false,
-								"RandomDelay": 1
-							},
-						
-							"Tasks" :
-							[ 
-								 { "Type": "Damage", "DamageType": "Piercing", "Amount": 1 },
-								 { "Type": "Damage", "DamageType": "MOABMauler", "Amount": 2 }	
-							]
+                            "HasLimitedDuration" : false
 						}
 					]
 				}
 			]
-		},
-		{
-			"Type": "Effect",
-			"SpriteFile": "GeneralShockwave.json",
-			"Scale": 1,
-			"DrawLayer": "FullScreen"
 		}
 	]
 }

@@ -1,65 +1,10 @@
-{	
-    "Type":             "SpikeFactory",    
-    "TargetRange":      100.0,
-	"CooldownTime":     2.29,
-    "FireDelayTime":    0.0,
-    "CanFireWithNoTargetsAndRoundInProgress" : true,
-    
-    "Tasks" :
-    [
+{
+	"Tasks": [
 		{
-			"Type": "RandomFire",
-			"Range": 100,
-			"OnlyTargetPathLocations": true,
-			"FireFullRange": true,
-			"TerminateOnZeroPersists": true,
-			"FollowTarget": false,
-			
-			"Tasks":
-			[
+			"Tasks": [
 				{
-					"Type": "Projectile",
-					"SpriteFile": "RoadTacks.json",
-					"NumPersists":      5,
-					"TerminateOnZeroPersists": true,
-					"RemoveOnRoundEnd" : false,
-                    "OnlyCollidePastCutOff" : true,
-                    "DrawLayer" : "UnderTowers",
-			
-					"GraphicsAtPierceLevels" : [
-						[ 0, 10],
-						[ 0.05, 9],
-						[ 0.1, 8],
-						[ 0.15, 7],
-						[ 0.2, 6],
-						[ 0.25, 5],
-						[ 0.3, 4],
-						[ 0.35, 3],
-						[ 0.4, 2],
-						[ 0.45, 1]
-					],
-
-					"HasLimitedDuration" : false,
-					"LimitedDuration" : 70,
-                    "HasRandomOrientation" : true,
-					
-					"CollisionType": "Continual",
-					
-					"Movement":
-					{
-						"Type": "MotionCurve",
-						"Curves": 
-						[
-							[ [0, 0], [0.9, 0], [1, 0], [1, 0] ]
-						],
-						"Speed": 115.0,
-						"TerminateAtEndOfCurve": false
-					},
-				
-					"Tasks" :
-					[ 
-						{ "Type": "Damage", "DamageType": "Piercing", "Amount": 1 }
-					]
+					"RemoveOnRoundEnd": false,
+					"HasLimitedDuration": false
 				}
 			]
 		}

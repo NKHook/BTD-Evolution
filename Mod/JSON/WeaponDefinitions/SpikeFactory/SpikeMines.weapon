@@ -1,96 +1,12 @@
-{	
-    "Type":             "SpikeMines",    
-    "TargetRange":      105.0,
-	"CooldownTime":     1.0,
-    "FireDelayTime":    0.0,
-    "CanFireWithNoTargetsAndRoundInProgress" : true,
-    
-    "Tasks" :
-    [{
-        "Type": "RandomFire",
-        "Range": 100,
-        "OnlyTargetPathLocations": true,
-        "FireFullRange": true,
-    	"TerminateOnZeroPersists": true,
-        "FollowTarget": false,
-        
-        "Tasks":
-        [{
-            "Type":             "Projectile",
-            "NumPersists":      16,
-            "Radius":           25,
-            "TerminateOnZeroPersists": true,
-            "RemoveOnRoundEnd" : false,
-            "OnlyCollidePastCutOff" : true,
-            "DrawLayer" : "UnderTowers",
-		
-            "SpriteFile":      "SpikedMines.json",
-			"GraphicsAtPierceLevels" : [
-				[ 0, 16],
-				[ 0.05, 14],
-				[ 0.1, 12],
-				[ 0.15, 11],
-				[ 0.2, 9],
-				[ 0.25, 7],
-				[ 0.3, 6],
-				[ 0.35, 4],
-				[ 0.4, 2],
-				[ 0.45, 1]
-			],
-
-            "HasLimitedDuration" : false,
-            "LimitedDuration" : 70,
-            "HasRandomOrientation" : true,
-
-            "CollisionType": "Continual",
-            
-			"OnlyFireTerminateTasksOnZeroPersists": true,
-            "TasksToProcessOnCollision" : [ 0 ],
-            "TasksToProcessOnTerminate" : [ 1, 2 ],
-            
-			"Movement":
-			{
-				"Type": "MotionCurve",
-				"Curves":
-				[
-					[ [0, 0], [0.9, 0], [1, 0], [1, 0] ]
-				],
-				"Speed": 115.0,
-				"TerminateAtEndOfCurve": false
-			},
-            
-            "Tasks" :
-            [ 
-                { 
-                    "Type": "Damage",
-                    "DamageType": "Plasma",
-                    "Amount": 1
-                },
-                {
-                    "Type": "AreaOfEffect",
-                    "Range": 60,
-                    "MaxTargets": 40,
-                    "Tasks" :
-                    [
-                        { 
-                            "Type": "Damage",
-                            "DamageType": "Plasma",
-                            "Amount": 4
-                        },
-						{
-							"Type": "StatusEffect",
-							"Status": "Napalm",
-							"DamageRate" : 2,
-							"Duration" : 6
-						}
-                    ]
-                },
-                {
-                    "Type": "Effect",
-                    "SpriteFile": "Explosion.json",
-                    "Scale": 0.635
-                }
-            ]
-        }]
-    }]
+{
+	"Tasks": [
+		{
+			"Tasks": [
+				{
+					"RemoveOnRoundEnd": false,
+					"HasLimitedDuration": false
+				}
+			]
+		}
+	]
 }

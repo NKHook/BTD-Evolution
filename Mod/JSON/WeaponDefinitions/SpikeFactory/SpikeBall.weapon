@@ -1,63 +1,12 @@
-{	
-    "Type":             "SpikeBall",    
-    "TargetRange":      105.0,
-	"CooldownTime":     2.29,
-    "FireDelayTime":    0.0,
-    "CanFireWithNoTargetsAndRoundInProgress" : true,
-    
-    "Tasks" :
-    [{
-        "Type": "RandomFire",
-        "Range": 100,
-        "OnlyTargetPathLocations": true,
-        "FireFullRange": true,
-    	"TerminateOnZeroPersists": true,
-        "FollowTarget": false,
-        
-        "Tasks":
-        [{
-            "Type":             "Projectile",
-            "NumPersists":      15,
-            "TerminateOnZeroPersists": true,
-            "RemoveOnRoundEnd" : false,
-            "OnlyCollidePastCutOff" : true,
-            "DrawLayer" : "UnderTowers",
-			
-            "SpriteFile":      "SpikedBalls.json",
-			"GraphicsAtPierceLevels" : [
-				[ 0, 20],
-				[ 0.05, 18],
-				[ 0.1, 16],
-				[ 0.15, 14],
-				[ 0.2, 12],
-				[ 0.25, 10],
-				[ 0.3, 8],
-				[ 0.35, 6],
-				[ 0.4, 4],
-				[ 0.45, 2]
-			],
-
-            "HasLimitedDuration" : false,
-            "LimitedDuration" : 70,
-            "HasRandomOrientation" : true,
-            "CollisionType": "Continual",
-            
-			"Movement":
-			{
-				"Type": "MotionCurve",
-				"Curves":
-				[
-                	[ [0, 0], [0.9, 0], [1, 0], [1, 0] ]
-            	],
-				"Speed": 115.0,
-				"TerminateAtEndOfCurve": false
-			},
-        
-            "Tasks" :
-            [
-             { "Type": "Damage", "DamageType": "Plasma", "Amount": 1 },
-             { "Type": "Damage", "DamageType": "Juggernaut", "Amount": 2 }	
-        	]
-        }]
-    }]
+{
+    "Tasks": [
+        {
+            "Tasks": [
+                {
+                    "RemoveOnRoundEnd": false,
+                    "HasLimitedDuration": false
+                }
+            ]
+        }
+    ]
 }
