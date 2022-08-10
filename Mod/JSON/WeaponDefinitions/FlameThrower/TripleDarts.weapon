@@ -43,10 +43,10 @@
 				{
 					"Type": "StatusEffect",
 					"Status": "Napalm",
-					"NumPersists" : -1,
-					"Duration" : 0,
-					"DamageRate" : 0,
-					"IgnoreImmunity" : true
+					"NumPersists": -1,
+					"Duration": 0,
+					"DamageRate": 0,
+					"IgnoreImmunity": true
 				}
 			]
 		}
