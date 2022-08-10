@@ -1,4 +1,5 @@
 {
+    //We have no items now, but when we have more towers to add, put them here
     "MERGE_MODE": "INSERTIVE",
 	"Items": []
 }

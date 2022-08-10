@@ -23,7 +23,7 @@
        "SpriteInfo" : [
           {
              "SpriteInfo" : "monkey_apprentice_dragon_breath_01",
-             "Texture" : "InGame"
+             "Texture" : "InGame" //TODO: automatic spritesheets
           }
        ],
        "StageLength" : 0.1,

@@ -1,4 +1,5 @@
 [
+    //Custom tower flags are assumed insertive since it wouldnt make sense otherwise, and also its not an object so it cannot be specified
     "FlameThrower",
     "FlameThrowerMinion"
 ]

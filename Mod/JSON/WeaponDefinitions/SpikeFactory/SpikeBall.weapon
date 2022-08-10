@@ -1,4 +1,5 @@
 {
+    //We specify substitutive because we want to replace peices of the tasks at these locations (obj[0][0])
     "MERGE_MODE": "SUBSTITUTIVE",
     "Tasks": [
         {

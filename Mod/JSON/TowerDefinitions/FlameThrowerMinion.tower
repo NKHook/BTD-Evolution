@@ -1,3 +1,6 @@
+//This also implements an entire tower
+//this file is for the flamethrowers that spawn
+//with the "Bad Influence" upgrade
 {
     "AircraftList": [],
     "BaseCost": 0,

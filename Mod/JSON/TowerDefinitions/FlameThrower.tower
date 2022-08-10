@@ -1,3 +1,5 @@
+//This fully implements the tower
+//it has every property needed for a valid tower
 {
     "AircraftList": [],
     "BaseCost": 1500,
