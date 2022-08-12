@@ -1,4 +1,7 @@
 {
+    //Since we're modifying an existing file, we can have only the changed we make.
+    //NKHook5 will automatically merge at runtime unless you package the mod in a vanilla supported
+    //format where json document merging doesn't exist
     "Tasks": [
         {
             "RemoveOnRoundEnd": false,
