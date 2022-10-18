@@ -7,7 +7,7 @@
     "CanBePlacedOnPath" : false,
     "CanTargetCamo" : false,
     "DefaultWeapons" : [
-        "CobraMonkey.weapon"
+        "SniperMonkey.weapon"
     ],
     "Description" : "Covert Ops Battles Response Agent. Enhances your abilities and hinders your opponents. The ultimate utility weapon for BTD Battles.",
     "Icon" : "cobra_avatar_small",
@@ -105,19 +105,7 @@
             "cobra_misdirection_icon"
         ]
     ],
-        
-    "FiresWeaponsInSequence" : false,
-    "FiringSequence" : [ 
-		[ 0, 1 ], 
-		[ 2 ],
-		[ 3 ],
-		[ 4 ],
-		[ 5 ],
-		[ 6 ],
-		[ 7 ]
-	],
     "UseRadiusPlacement" : true,
     "SpriteUpgradeDefinition" : "CobraMonkey.json",
-    "UseDefaultRangeCircle" : false,
-    "NewTower" : false
+    "UseDefaultRangeCircle" : false
 }
