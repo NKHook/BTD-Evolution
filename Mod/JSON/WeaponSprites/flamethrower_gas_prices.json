@@ -6,12 +6,12 @@
           "Alignment" : [ 0, 0 ],
           "Alpha" : 1.0,
           "Angle" : 0.0,
-          "Colour" : 4294913839,
+          "Colour" : 4294967295,
           "Flip" : 0,
           "Position" : [ 0.0, 6.0 ],
           "Scale" : [ 0.5, 0.5 ],
           "Shown" : true,
-          "sprite" : "monkey_apprentice_dragon_breath_01",
+          "sprite" : "flamethrower_flame_blue",
           "type" : 1,
           "uid" : 1
        }
@@ -22,8 +22,8 @@
     "stageOptions" : {
        "SpriteInfo" : [
           {
-             "SpriteInfo" : "monkey_apprentice_dragon_breath_01",
-             "Texture" : "InGame" //TODO: automatic spritesheets
+             "SpriteInfo" : "flamethrower_flame_blue",
+             "Texture" : "btdr_sprites"
           }
        ],
        "StageLength" : 0.1,
@@ -37,7 +37,7 @@
                 "Alignment" : [ 0, 0 ],
                 "Alpha" : 1.0,
                 "Angle" : 0.0,
-                "Colour" : 4294913839,
+                "Colour" : 4294967295,
                 "Flip" : 0,
                 "Position" : [ 0.0, 6.0 ],
                 "Scale" : [ 0.5, 0.5 ],
@@ -48,7 +48,7 @@
                 "Alignment" : [ 0, 0 ],
                 "Alpha" : 1.0,
                 "Angle" : 0.0,
-                "Colour" : 4294913839,
+                "Colour" : 4294967295,
                 "Flip" : 0,
                 "Position" : [ 0.0, 6.0 ],
                 "Scale" : [ 0.5, 0.5 ],

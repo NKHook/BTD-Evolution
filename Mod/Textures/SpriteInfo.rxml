@@ -1,0 +1,5 @@
+<Reflect>
+    <Select node="SpriteInformation">
+        <Insert node="SpriteInfoXml" name="btdr_sprites" type="png"/>
+    </Select>
+</Reflect>

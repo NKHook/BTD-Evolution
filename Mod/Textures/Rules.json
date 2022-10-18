@@ -1,0 +1,22 @@
+{
+    "Reflections": [
+        "SpriteInfo.rxml"
+    ],
+    "Compiles": [
+        {
+            "SourceDir": "btdr_sprites",
+            "Results": [
+                {
+                    "Quality": "Tablet",
+                    "Texture": "btdr_sprites.png",
+                    "InfoXml": "btdr_sprites.xml"
+                },
+                {
+                    "Quality": "Ultra",
+                    "Texture": "btdr_sprites.png",
+                    "InfoXml": "btdr_sprites.xml"
+                }
+            ]
+        }
+    ]
+}
