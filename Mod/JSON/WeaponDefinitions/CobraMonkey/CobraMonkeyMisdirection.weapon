@@ -1,0 +1,75 @@
+{	
+    "Type": "CobraMonkeyMisdirection",
+    "TargetRange": 140.0,
+	"CooldownTime": 20.0,
+    "FireDelayTime": 0.0,
+	"ManuallyFired": true,
+	"AnimatesTower" : false,
+	"CanSelfTargetCamo": true,
+    "TargetsIndependently": true,
+    "SelfTargetMode": "Strong",
+    "StartsOnCooldown" : true,
+
+    "TargetingFilter": {
+        "Include" : {
+			"BloonType" : [
+				"Red",
+				"Blue",
+				"Green",
+				"Yellow",
+				"Pink",
+				"Black",
+				"White",
+				"Lead",
+				"Zebra",
+				"Rainbow",
+				"Ceramic",
+				"MOAB",
+				"BFB"
+			]
+		}
+    },
+
+    "Tasks" : [
+		{
+			"Type": "AreaOfEffect",
+			"Range" : 140,
+			"MaxTargets" : 1,
+			"UseRangeModifier" : true,
+			"Sort" : true,
+			
+			"Tasks" : [
+				{
+					"Type" : "Effect",
+					"SpriteFile": "black_smoke.json",
+					"ApplyToTarget" : true,
+					"Scale": 0.635,
+					"DrawLayer" : "Ground"
+				},
+				{
+					"Type": "TransferGame",
+					"CooldownTimes" : {
+						"Red" : 5,
+						"Blue" : 5,
+						"Green" : 5,
+						"Yellow" : 5,
+						"Pink" : 5,
+						"Black" : 5,
+						"White" : 5,
+						"Lead" : 5,
+						"Zebra" : 5,
+						"Rainbow" : 5,
+						"Ceramic" : 15,
+						"MOAB" : 30,
+						"BFB" : 90
+					}
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "SupplyDropAbility.json",
+			"DrawLayer": "FullScreen"
+		}
+    ]
+}

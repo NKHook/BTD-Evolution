@@ -1,0 +1,44 @@
+{
+	"Sprites":
+	{
+        "0" : "CobraMonkey",
+        "1" : "CobraMonkey_WiredFunds",
+        "2" : "CobraMonkey_BloonAdjustment",
+        "3" : "CobraMonkey_MonkeyStim",
+        "4" : "CobraMonkey_OffensivePush",
+        "5" : "CobraMonkey_DoubleTap",
+        "6" : "CobraMonkey_Attrition",
+        "7" : "CobraMonkey_FinishHim",
+        "8" : "CobraMonkey_Misdirection",
+        "9" : "CobraMonkey_DoubleTap_WiredFunds",
+        "10" : "CobraMonkey_DoubleTap_BloonAdjustment",
+        "11" : "CobraMonkey_WiredFunds_Attrition",
+        "12" : "CobraMonkey_WiredFunds_FinishHim",
+        "13" : "CobraMonkey_DoubleTap_MonkeyStim"
+	},
+	
+	"UpgradeLevels":
+	{
+		"00"		: 0,
+		"01"		: 5,
+		"02"		: 6,
+		"03"		: 7,
+		"04"		: 8,
+		"10"		: 1,
+		"11"		: 9,
+		"12"		: 11,
+		"13"		: 12,
+		"14"		: 8,
+		"20"		: 2,
+		"21"		: 10,
+		"22"		: 10,
+		"23"		: 12,
+		"24"		: 8,
+		"30"		: 3,
+		"31"		: 13,
+		"32"		: 13,
+		"40"		: 4,
+		"41"		: 4,
+		"42"		: 4
+	}
+}

@@ -5,16 +5,21 @@
     "Compiles": [
         {
             "SourceDir": "btdr_sprites",
+            "Quality": "Ultra",
             "Results": [
                 {
-                    "Quality": "Tablet",
                     "Texture": "btdr_sprites.png",
                     "InfoXml": "btdr_sprites.xml"
-                },
+                }
+            ]
+        },
+        {
+            "SourceDir": "btdb_ported",
+            "Quality": "High",
+            "Results": [
                 {
-                    "Quality": "Ultra",
-                    "Texture": "btdr_sprites.png",
-                    "InfoXml": "btdr_sprites.xml"
+                    "Texture": "btdb_ported.png",
+                    "InfoXml": "btdb_ported.xml"
                 }
             ]
         }

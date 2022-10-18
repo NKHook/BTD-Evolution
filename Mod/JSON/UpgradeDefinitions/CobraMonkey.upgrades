@@ -1,0 +1,418 @@
+{
+    "Upgrades": [
+        {
+            "Name" : "Wired Funds",
+			"TowerUpgrade" : {
+				"Weapons" : {
+					"2" : "CobraMonkeyWiredFunds.weapon"
+				}
+			},
+			"WeaponUpgrades" : [
+				{
+					"SlotIndices" : [ 
+						0
+					],
+					"Replace" : {
+                        "RequiresMinUpgradeCounters" : [
+							0,
+							2
+						],
+						"DefaultSprite" : "Cobra_Attrition_Right.json"
+					}
+				},
+				{
+					"SlotIndices" : [ 
+						1
+					],
+					"Replace" : {
+                        "RequiresMinUpgradeCounters" : [
+							0,
+							2
+						],
+						"DefaultSprite" : "Cobra_Attrition_Left.json"
+					}
+				}
+			]
+        },
+
+        {
+            "Name" : "Bloon Adjustment",
+			"TowerUpgrades" : [
+				{
+					"Weapons" : {
+						"6" : "CobraMonkeyBloonAdjustment.weapon"
+					}
+				},
+				{
+					"RequiresMinUpgradeCounters" : [
+						0,
+						1
+					],
+					"Weapons" : {
+						"1" : "CobraMonkey.weapon"
+					},
+					"Replace" : {
+						"FiresWeaponsInSequence" : true
+					}
+				},
+				{
+					"RequiresMinUpgradeCounters" : [
+						0,
+						3
+					],
+					"Weapons" : {
+						"1" : ""
+					},
+					"Replace" : {
+						"FiresWeaponsInSequence" : false
+					}
+				}
+			],
+            "WeaponUpgrades" : [
+				{
+					"SlotIndices" : [ 
+						0
+					],
+					"Replace" : {
+                        "RequiresMinUpgradeCounters" : [
+							0,
+							1
+						],
+						"DefaultSprite" : "Cobra_DoubleTap_BloonAdjustment_Right.json"
+					}
+				},
+				{
+					"SlotIndices" : [ 
+						1
+					],
+					"Replace" : {
+                        "RequiresMinUpgradeCounters" : [
+							0,
+							1
+						],
+						"DefaultSprite" : "Cobra_DoubleTap_BloonAdjustment_Left.json"
+					}
+				},
+				{
+					"SlotIndices" : [ 
+						0
+					],
+					"Replace" : {
+                        "RequiresMinUpgradeCounters" : [
+							0,
+							3
+						],
+						"DefaultSprite" : ""
+					}
+				},
+				{
+					"SlotIndices" : [ 
+						1
+					],
+					"Replace" : {
+                        "RequiresMinUpgradeCounters" : [
+							0,
+							3
+						],
+						"DefaultSprite" : ""
+					}
+				}
+			]
+        },
+
+        {
+            "Name" : "Monkey Stim",
+			"TowerUpgrade" : {
+				"Weapons" : {
+					"3" : "CobraMonkeyBoostReducer.weapon"
+				}
+			},
+            "WeaponUpgrades" : [
+				{
+					"SlotIndices" : [ 
+						0
+					],
+					"Replace" : {
+						"RequiresMinUpgradeCounters" : [
+							0,
+							1
+						],
+						"DefaultSprite" : "Cobra_DoubleTap_MonkeyStim_Right.json"
+					}
+				},
+				{
+					"SlotIndices" : [ 
+						1
+					],
+					"Replace" : {
+						"RequiresMinUpgradeCounters" : [
+							0,
+							1
+						],
+						"DefaultSprite" : "Cobra_DoubleTap_MonkeyStim_Left.json"
+					}
+				},
+				{
+					"SlotIndices" : [
+						3
+					],
+					"TaskUpgrade" : [
+						{
+							"Operation" : "SelectByType",
+							"Type" : "BoostReducer"
+						},
+						{
+							"Operation" : "Replace",
+							"Boost" : "Tower",
+							"Amount" : 5
+						}
+					]
+				}
+			]
+        },
+        
+        {
+            "Name" : "Offensive Push",
+			"TowerUpgrade" : {
+				"Weapons" : {
+					"1" : "CobraMonkey.weapon",
+					"4" : "CobraMonkeyBloonRoundReducer.weapon"
+				},
+				"Replace" : {
+					"FiresWeaponsInSequence" : true
+				}
+			},
+            "WeaponUpgrades" : [
+				{
+					"SlotIndices" : [ 
+						0
+					],
+					"Replace" : {
+						"DefaultSprite" : "Cobra_OffensivePush_Right.json"
+					}
+				},
+				{
+					"SlotIndices" : [ 
+						1
+					],
+					"Replace" : {
+						"DefaultSprite" : "Cobra_OffensivePush_Left.json"
+					}
+				}
+			]
+        },
+
+        {
+            "Name" : "Double Tap",
+			"TowerUpgrades" : [
+				{
+					"Weapons" : {
+						"1" : "CobraMonkey.weapon"
+					},
+					"Replace" : {
+						"FiresWeaponsInSequence" : true
+					}
+				}
+			],
+			"WeaponUpgrades" : [
+				{
+					"SlotIndices" : [ 
+						0
+					],
+					"Replace" : {
+						"CooldownTime" : 0.555555,
+						"DefaultSprite" : "Cobra_DoubleTap_Right.json"
+					}
+				},
+				{
+					"SlotIndices" : [ 
+						1
+					],
+					"Replace" : {
+						"CooldownTime" : 0.555555,
+						"DefaultSprite" : "Cobra_DoubleTap_Left.json"
+					}
+				},
+				{
+					"SlotIndices" : [ 
+						0
+					],
+					"Replace" : {
+                        "RequiresMinUpgradeCounters" : [
+							2,
+							0
+						],
+						"DefaultSprite" : "Cobra_DoubleTap_BloonAdjustment_Right.json"
+					}
+				},
+				{
+					"SlotIndices" : [ 
+						1
+					],
+					"Replace" : {
+                        "RequiresMinUpgradeCounters" : [
+							2,
+							0
+						],
+						"DefaultSprite" : "Cobra_DoubleTap_BloonAdjustment_Left.json"
+					}
+				},
+				{
+					"SlotIndices" : [ 
+						0
+					],
+					"Replace" : {
+						"RequiresMinUpgradeCounters" : [
+							3,
+							0
+						],
+						"DefaultSprite" : "Cobra_DoubleTap_MonkeyStim_Right.json"
+					}
+				},
+				{
+					"SlotIndices" : [ 
+						1
+					],
+					"Replace" : {
+						"RequiresMinUpgradeCounters" : [
+							3,
+							0
+						],
+						"DefaultSprite" : "Cobra_DoubleTap_MonkeyStim_Left.json"
+					}
+				},
+				{
+					"SlotIndices" : [ 
+						0
+					],
+					"Replace" : {
+						"RequiresMinUpgradeCounters" : [
+							4,
+							0
+						],
+						"DefaultSprite" : "Cobra_OffensivePush_Right.json"
+					}
+				},
+				{
+					"SlotIndices" : [ 
+						1
+					],
+					"Replace" : {
+						"RequiresMinUpgradeCounters" : [
+							4,
+							0
+						],
+						"DefaultSprite" : "Cobra_OffensivePush_Left.json"
+					}
+				}
+			]
+        },
+
+        {
+            "Name" : "Attrition",
+			"TowerUpgrade" : {
+				"Weapons" : {
+					"5" : "CobraMonkeyLifeVampire.weapon"
+				}
+			},
+            "WeaponUpgrades" : [
+				{
+					"SlotIndices" : [ 
+						0
+					],
+					"Replace" : {
+						"DefaultSprite" : "Cobra_Attrition_Right.json"
+					}
+				},
+				{
+					"SlotIndices" : [ 
+						1
+					],
+					"Replace" : {
+						"DefaultSprite" : "Cobra_Attrition_Left.json"
+					}
+				},
+				{
+					"SlotIndices" : [ 
+						0
+					],
+					"Replace" : {
+						"RequiresMinUpgradeCounters" : [
+							2,
+							0
+						],
+						"DefaultSprite" : "Cobra_DoubleTap_BloonAdjustment_Right.json"
+					}
+				},
+				{
+					"SlotIndices" : [ 
+						1
+					],
+					"Replace" : {
+						"RequiresMinUpgradeCounters" : [
+							2,
+							0
+						],
+						"DefaultSprite" : "Cobra_DoubleTap_BloonAdjustment_Left.json"
+					}
+				}
+			]
+        },
+
+        {
+            "Name" : "Finish Him!",
+			"TowerUpgrade" : {
+				"Weapons" : {
+					"1" : "",
+					"3" : "CobraMonkeyBoostReducer.weapon"
+				},
+				"Replace" : {
+					"FiresWeaponsInSequence" : false
+				}
+			},
+            "WeaponUpgrades" : [
+				{
+					"SlotIndices" : [
+						3
+					],
+					"TaskUpgrade" : [
+						{
+							"Operation" : "SelectByType",
+							"Type" : "BoostReducer"
+						},
+						{
+							"Operation" : "Replace",
+							"Boost" : "Bloon",
+							"Amount" : 10
+						}
+					]
+				},
+				{
+					"SlotIndices" : [ 
+						0
+					],
+					"Replace" : {
+						"DefaultSprite" : ""
+					}
+				},
+				{
+					"SlotIndices" : [ 
+						1
+					],
+					"Replace" : {
+						"DefaultSprite" : ""
+					}
+				}
+			]
+        },
+        
+        {
+            "Name" : "Misdirection",
+			"TowerUpgrade" : {
+				"Weapons" : {
+					"7" : "CobraMonkeyMisdirection.weapon"
+				}
+			}
+        }
+    ]
+}

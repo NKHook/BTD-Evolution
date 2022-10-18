@@ -1,0 +1,17 @@
+{	
+    "Type": "CobraMonkeyBloonRoundReducer",
+    "TargetRange": 1,
+	"CooldownTime": 0.0,
+    "FireDelayTime": 0.0,
+    "RequiresTargetToFire" : false,
+	"AnimatesTower" : false,
+	"MaxShots" : 1,
+
+    "Tasks" : [
+		{
+			"Type": "BoostReducer",
+			"Boost": "BloonRound",
+			"Amount" : 1
+		}
+    ]
+}

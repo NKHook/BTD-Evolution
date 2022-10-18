@@ -1,0 +1,87 @@
+{	
+    "Type": "CobraMonkeyLifeVampire",
+    "TargetRange": 1,
+	"CooldownTime": 15.0,
+    "FireDelayTime": 0.0,
+    "RequiresTargetToFire" : false,
+	"AnimatesTower" : false,
+	"TotalAmmo" : 3,
+	"RemainingAmmo" : 3,
+    "StartsOnCooldown" : true,
+	"ReloadOnRoundStart" : true,
+
+    "Tasks" : [
+		{
+			"Type" : "PlayerDamage",
+			"Amount" : 2,
+			"MinHealth" : 1,
+
+			"Tasks"	 : [
+				{
+					"Type": "Collectable",
+					"GraphicName": "banana_box",
+					"Duration":	10,
+					"LivesRange": [ 2, 2 ],
+					"CollectionRadius": 50,
+					"AutoCollect" : true,
+					"LimitHealth" : true,
+
+					"Movement": {
+						"Type": "Forward",
+						"Speed": 250,
+						"KeepOnScreen": true,
+						"SpeedDecay": 0.96
+					},
+			
+					"Tasks": [
+						{
+							"Type": "TextEffect",
+							"Text": "2",
+							"Font": "oetztype_24_black_stroke",
+							"Colour": [ 1, 1, 1 ],
+					
+							"Movement": {
+								"Type": "Forward",
+								"Direction": [0, -1],
+								"Speed": 20,
+								"CutOffDistance": 30
+							}
+						}
+					]
+				},
+				{
+					"Type": "Collectable",
+					"GraphicName": "bananas",
+					"Duration":	15,
+					"MoneyRange": [ 30, 30 ],
+					"MoneyMultiplier": 1.0,
+					"CollectionRadius": 50,
+					"AutoCollect" : true,
+
+					"Movement": {
+						"Type": "Forward",
+						"Speed": 250,
+						"KeepOnScreen": true,
+						"SpeedDecay": 0.95
+					},
+
+					"Tasks": [
+						{
+							"Type": "TextEffect",
+							"Text": "",
+							"Font": "oetztype_24_black_stroke",
+							"Colour": [ 1.0, 1.0, 1.0 ],
+					
+							"Movement": {
+								"Type": "Forward",
+								"Direction": [0, -1],
+								"Speed": 20,
+								"CutOffDistance": 30
+							}
+						}
+					]
+				}
+			]
+		}
+    ]
+}
