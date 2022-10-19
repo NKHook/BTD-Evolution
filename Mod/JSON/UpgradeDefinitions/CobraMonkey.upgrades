@@ -4,37 +4,10 @@
             "Name" : "Wired Funds",
 			"TowerUpgrade" : {
 				"Weapons" : {
-					"2" : "CobraMonkeyWiredFunds.weapon"
+					"2" : "BananaFarm.weapon"
 				}
-			},
-			"WeaponUpgrades" : [
-				{
-					"SlotIndices" : [ 
-						0
-					],
-					"Replace" : {
-                        "RequiresMinUpgradeCounters" : [
-							0,
-							2
-						],
-						"DefaultSprite" : "Cobra_Attrition_Right.json"
-					}
-				},
-				{
-					"SlotIndices" : [ 
-						1
-					],
-					"Replace" : {
-                        "RequiresMinUpgradeCounters" : [
-							0,
-							2
-						],
-						"DefaultSprite" : "Cobra_Attrition_Left.json"
-					}
-				}
-			]
+			}
         },
-
         {
             "Name" : "Bloon Adjustment",
 			"TowerUpgrades" : [
@@ -46,7 +19,7 @@
 				{
 					"RequiresMinUpgradeCounters" : [
 						0,
-						1
+						2
 					],
 					"Weapons" : {
 						"1" : "CobraMonkey.weapon"
@@ -207,7 +180,7 @@
 			"TowerUpgrades" : [
 				{
 					"Weapons" : {
-						"1" : "CobraMonkey.weapon"
+						"1" : "SniperMonkey.weapon"
 					},
 					"Replace" : {
 						"FiresWeaponsInSequence" : true
@@ -312,7 +285,7 @@
             "Name" : "Attrition",
 			"TowerUpgrade" : {
 				"Weapons" : {
-					"5" : "CobraMonkeyLifeVampire.weapon"
+					"5" : "DartMonkey.weapon"
 				}
 			},
             "WeaponUpgrades" : [

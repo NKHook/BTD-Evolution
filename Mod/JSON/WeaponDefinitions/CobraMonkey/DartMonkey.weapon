@@ -1,0 +1,66 @@
+{	
+    "Type":             "DartMonkey",    
+    "TargetRange":      120,
+	"CooldownTime":     1.0,
+    "FireDelayTime":    0.0,
+   	"RequiresTargetToFire"	: false,
+	"AllowFiringOnlyOnRoundStart": true,
+	"TotalAmmo": 5,
+
+    "Tasks":
+    [
+		{
+			"Type": "RandomFire",
+			"Range": 120,
+			"OnlyTargetPathLocations": false,
+			"FireFullRange": true,
+			"TerminateOnZeroPersists": true,
+			"FollowTarget": false,
+            "WaitTimeRange": [ 15.0, 15.0 ],
+			
+			"Tasks":
+			[
+				{
+					"Type":             "Collectable",
+					"GraphicName":      "bananas",
+					"Duration":	15,
+					"LivesRange": [ 2, 2 ],
+					"LivesMultiplier": 1.0,
+					"CollectionRadius": 50,
+					"COLLECT_METHOD": "AUTOMATIC",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 250,
+						"KeepOnScreen": true,
+						"SpeedDecay": 0.95
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "TextEffect",
+							"Text": "",
+							"Font": "oetztype_24_black_stroke",
+							"Colour": [ 1.0, 1.0, 1.0 ],
+
+							"Fade": true,
+							"FadeTime": 0.4,
+							"FadeEase": true,
+							"FadeDelay": 0.9,
+							
+							"Movement":
+							{
+								"Type": "Forward",
+								"Direction": [0, -1],
+								"Speed": 20,
+								"CutOffDistance": 30
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
