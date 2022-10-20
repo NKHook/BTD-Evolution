@@ -1,0 +1,25 @@
+{	
+    "Type":             "ArcticWind",    
+    "TargetRange":      70.0,
+	"CooldownTime":     0.05,
+    "FireDelayTime":    0.0,
+    "TerminateOnZeroPersists": true,
+    "FollowTarget": false,
+    
+    "Tasks" :
+    [{
+        "Type": "AreaOfEffect",
+        "Range": 70,
+		"UseRangeModifier" : true,
+        "MaxTargets": -1,
+        "Tasks" :
+        [
+			{
+				"Type": "StatusEffect",
+				"Status": "Slow",
+                "Duration" :  2,
+                "SpeedScale" : 0.25
+			}
+        ]
+    }]
+}

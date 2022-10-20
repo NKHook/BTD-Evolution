@@ -24,7 +24,7 @@
          "Position" : [ 5.0, -14.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "cobra_gun_03",
+         "sprite" : "cobra_gun_02",
          "type" : 1,
          "uid" : 3
       },
@@ -52,7 +52,7 @@
             "Texture" : "btdb_ported"
          },
          {
-            "SpriteInfo" : "cobra_gun_03",
+            "SpriteInfo" : "cobra_gun_02",
             "Texture" : "btdb_ported"
          },
          {

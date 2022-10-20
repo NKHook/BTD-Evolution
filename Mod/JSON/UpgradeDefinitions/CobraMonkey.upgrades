@@ -337,7 +337,7 @@
 			"TowerUpgrade" : {
 				"Weapons" : {
 					"1" : "",
-					"3" : "CobraMonkeyBoostReducer.weapon"
+					"3" : "ArcticWind.weapon"
 				},
 				"Replace" : {
 					"FiresWeaponsInSequence" : false

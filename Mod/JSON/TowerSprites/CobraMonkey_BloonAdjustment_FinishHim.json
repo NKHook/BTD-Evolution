@@ -13,7 +13,7 @@
          "Shown" : true,
          "sprite" : "cobra_briefcase",
          "type" : 1,
-         "uid" : 12
+         "uid" : 13
       },
       {
          "Alignment" : [ 0, 0 ],
@@ -76,7 +76,7 @@
          "Position" : [ 0.0, 0.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "cobra_head_02",
+         "sprite" : "cobra_head_03",
          "type" : 1,
          "uid" : 1
       },
@@ -89,7 +89,7 @@
          "Position" : [ 5.0, -14.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "cobra_gun_01",
+         "sprite" : "cobra_gun_04",
          "type" : 1,
          "uid" : 6
       },
@@ -115,9 +115,22 @@
          "Position" : [ 0.0, -4.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : false,
-         "sprite" : "cobra_muzzle_flash_face_02",
+         "sprite" : "cobra_muzzle_flash_face_03",
          "type" : 1,
          "uid" : 10
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 12.0, -18.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : false,
+         "sprite" : "cobra_light_green",
+         "type" : 1,
+         "uid" : 12
       },
       {
          "Alignment" : [ 0, 0 ],
@@ -130,23 +143,19 @@
          "Shown" : true,
          "sprite" : "cobra_bluetooth",
          "type" : 1,
-         "uid" : 13
+         "uid" : 14
       }
    ],
-   "customvariables" : [
-      {
-         "Name" : "FirePosition",
-         "Type" : 4,
-         "Value" : [ 0.0, 6.0 ]
-      }
-   ],
+    "customvariables" : [
+        {
+            "VariableName" : "FirePosition",
+            "ValueType"    : 4,
+            "Value"        : [0.0, 6.0]
+        }
+    ],
    "labels" : null,
    "stageOptions" : {
       "SpriteInfo" : [
-         {
-            "SpriteInfo" : "cobra_briefcase",
-            "Texture" : "btdb_ported"
-         },
          {
             "SpriteInfo" : "cobra_shadow",
             "Texture" : "btdb_ported"
@@ -164,11 +173,11 @@
             "Texture" : "btdb_ported"
          },
          {
-            "SpriteInfo" : "cobra_head_02",
+            "SpriteInfo" : "cobra_head_03",
             "Texture" : "btdb_ported"
          },
          {
-            "SpriteInfo" : "cobra_gun_01",
+            "SpriteInfo" : "cobra_gun_04",
             "Texture" : "btdb_ported"
          },
          {
@@ -176,11 +185,19 @@
             "Texture" : "btdb_ported"
          },
          {
-            "SpriteInfo" : "cobra_muzzle_flash_face_02",
+            "SpriteInfo" : "cobra_muzzle_flash_face_03",
+            "Texture" : "btdb_ported"
+         },
+         {
+            "SpriteInfo" : "cobra_light_green",
             "Texture" : "btdb_ported"
          },
          {
             "SpriteInfo" : "cobra_bluetooth",
+            "Texture" : "btdb_ported"
+         },
+         {
+            "SpriteInfo" : "cobra_briefcase",
             "Texture" : "btdb_ported"
          }
       ],
@@ -188,6 +205,48 @@
       "Version" : 1
    },
    "timelines" : [
+      {
+         "spriteuid" : 11,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 9.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : false,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 9.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0001
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 9.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : false,
+               "Time" : 0.09027777612209320
+            }
+         ]
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : null
+      },
       {
          "spriteuid" : 4,
          "stage" : [
@@ -211,7 +270,7 @@
                "Position" : [ 7.0, -5.0 ],
                "Scale" : [ 1.0, 1.0 ],
                "Shown" : false,
-               "Time" : 9.999999747378752e-005
+               "Time" : 0.0001
             },
             {
                "Alignment" : [ 0, 0 ],
@@ -260,7 +319,7 @@
                "Position" : [ 7.0, -4.0 ],
                "Scale" : [ 1.0, 1.0 ],
                "Shown" : true,
-               "Time" : 9.999999747378752e-005
+               "Time" : 0.0001
             },
             {
                "Alignment" : [ 0, 0 ],
@@ -302,7 +361,7 @@
                "Position" : [ 5.0, -14.0 ],
                "Scale" : [ 1.0, 1.0 ],
                "Shown" : false,
-               "Time" : 9.999999747378752e-005
+               "Time" : 0.0001
             },
             {
                "Alignment" : [ 0, 0 ],
@@ -351,7 +410,7 @@
                "Position" : [ 5.0, -19.0 ],
                "Scale" : [ 1.0, 1.0 ],
                "Shown" : true,
-               "Time" : 9.999999747378752e-005
+               "Time" : 0.0001
             },
             {
                "Alignment" : [ 0, 0 ],
@@ -389,7 +448,7 @@
                "Position" : [ 0.0, -4.0 ],
                "Scale" : [ 1.0, 1.0 ],
                "Shown" : true,
-               "Time" : 9.999999747378752e-005
+               "Time" : 0.0001
             },
             {
                "Alignment" : [ 0, 0 ],
@@ -405,15 +464,7 @@
          ]
       },
       {
-         "spriteuid" : 13,
-         "stage" : null
-      },
-      {
          "spriteuid" : 12,
-         "stage" : null
-      },
-      {
-         "spriteuid" : 11,
          "stage" : [
             {
                "Alignment" : [ 0, 0 ],
@@ -421,9 +472,9 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 0.0, 9.0 ],
+               "Position" : [ 5.0, -24.0 ],
                "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
+               "Shown" : true,
                "Time" : 0.0
             },
             {
@@ -432,10 +483,10 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 0.0, 9.0 ],
+               "Position" : [ 5.0, -24.0 ],
                "Scale" : [ 1.0, 1.0 ],
-               "Shown" : true,
-               "Time" : 9.999999747378752e-005
+               "Shown" : false,
+               "Time" : 0.0001
             },
             {
                "Alignment" : [ 0, 0 ],
@@ -443,16 +494,23 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 0.0, 9.0 ],
+               "Position" : [ 5.0, -22.0 ],
                "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
-               "Time" : 0.09027777612209320
+               "Shown" : true,
+               "Time" : 0.09114583581686020
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 5.0, -24.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.2864583432674408
             }
          ]
-      },
-      {
-         "spriteuid" : 2,
-         "stage" : null
       }
    ]
 }

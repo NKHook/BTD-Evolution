@@ -330,7 +330,7 @@
                "Flip" : 0,
                "Position" : [ 5.0, -14.0 ],
                "Scale" : [ 1.0, 1.0 ],
-               "Shown" : true,
+               "Shown" : false,
                "Time" : 0.0001
             },
             {
@@ -369,7 +369,7 @@
                "Position" : [ 5.0, -19.0 ],
                "Scale" : [ 1.0, 1.0 ],
                "Shown" : false,
-               "Time" : 0.00
+               "Time" : 0.0
             },
             {
                "Alignment" : [ 0, 0 ],
@@ -380,7 +380,7 @@
                "Position" : [ 5.0, -19.0 ],
                "Scale" : [ 1.0, 1.0 ],
                "Shown" : true,
-               "Time" : 0.0501
+               "Time" : 0.0001
             },
             {
                "Alignment" : [ 0, 0 ],
@@ -391,7 +391,7 @@
                "Position" : [ 5.0, -19.0 ],
                "Scale" : [ 1.0, 1.0 ],
                "Shown" : false,
-               "Time" : 0.14027777612209320
+               "Time" : 0.09027777612209320
             }
          ]
       },

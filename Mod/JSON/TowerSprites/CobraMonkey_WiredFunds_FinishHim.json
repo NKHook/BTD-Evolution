@@ -10,7 +10,7 @@
          "Flip" : 0,
          "Position" : [ 0.0, 9.0 ],
          "Scale" : [ 1.0, 1.0 ],
-         "Shown" : true,
+         "Shown" : false,
          "sprite" : "cobra_shadow",
          "type" : 1,
          "uid" : 11
@@ -36,7 +36,7 @@
          "Flip" : 0,
          "Position" : [ 7.0, -5.0 ],
          "Scale" : [ 1.0, 1.0 ],
-         "Shown" : false,
+         "Shown" : true,
          "sprite" : "cobra_arm_bab_01",
          "type" : 1,
          "uid" : 4
@@ -49,7 +49,7 @@
          "Flip" : 0,
          "Position" : [ 7.0, -4.0 ],
          "Scale" : [ 1.0, 1.0 ],
-         "Shown" : true,
+         "Shown" : false,
          "sprite" : "cobra_muzzle_flash_arm_01",
          "type" : 1,
          "uid" : 9
@@ -75,7 +75,7 @@
          "Flip" : 0,
          "Position" : [ 5.0, -14.0 ],
          "Scale" : [ 1.0, 1.0 ],
-         "Shown" : false,
+         "Shown" : true,
          "sprite" : "cobra_gun_04",
          "type" : 1,
          "uid" : 6
@@ -88,7 +88,7 @@
          "Flip" : 0,
          "Position" : [ 5.0, -19.0 ],
          "Scale" : [ 1.0, 1.0 ],
-         "Shown" : true,
+         "Shown" : false,
          "sprite" : "cobra_muzzle_flash",
          "type" : 1,
          "uid" : 7
@@ -101,7 +101,7 @@
          "Flip" : 0,
          "Position" : [ 0.0, -4.0 ],
          "Scale" : [ 1.0, 1.0 ],
-         "Shown" : true,
+         "Shown" : false,
          "sprite" : "cobra_muzzle_flash_face_03",
          "type" : 1,
          "uid" : 10
@@ -278,10 +278,6 @@
                "Time" : 0.2821180522441864
             }
          ]
-      },
-      {
-         "spriteuid" : 13,
-         "stage" : null
       },
       {
          "spriteuid" : 9,

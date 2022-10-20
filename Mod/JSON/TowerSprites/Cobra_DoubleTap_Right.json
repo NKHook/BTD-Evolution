@@ -10,7 +10,7 @@
          "Flip" : 0,
          "Position" : [ 7.0, -5.0 ],
          "Scale" : [ 1.0, 1.0 ],
-         "Shown" : false,
+         "Shown" : true,
          "sprite" : "cobra_arm_base_01",
          "type" : 1,
          "uid" : 1
@@ -21,38 +21,12 @@
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ 7.0, -4.0 ],
-         "Scale" : [ 1.0, 1.0 ],
-         "Shown" : true,
-         "sprite" : "cobra_muzzle_flash_arm_01",
-         "type" : 1,
-         "uid" : 2
-      },
-      {
-         "Alignment" : [ 0, 0 ],
-         "Alpha" : 1.0,
-         "Angle" : 0.0,
-         "Colour" : 4294967295,
-         "Flip" : 0,
          "Position" : [ 5.0, -14.0 ],
          "Scale" : [ 1.0, 1.0 ],
-         "Shown" : false,
-         "sprite" : "cobra_gun_01",
+         "Shown" : true,
+         "sprite" : "cobra_gun_03",
          "type" : 1,
          "uid" : 3
-      },
-      {
-         "Alignment" : [ 0, 0 ],
-         "Alpha" : 1.0,
-         "Angle" : 0.0,
-         "Colour" : 4294967295,
-         "Flip" : 0,
-         "Position" : [ 5.0, -19.0 ],
-         "Scale" : [ 1.0, 1.0 ],
-         "Shown" : true,
-         "sprite" : "cobra_muzzle_flash",
-         "type" : 1,
-         "uid" : 4
       }
    ],
    "customvariables" : null,
@@ -65,19 +39,11 @@
             "Texture" : "btdb_ported"
          },
          {
-            "SpriteInfo" : "cobra_muzzle_flash_arm_01",
-            "Texture" : "btdb_ported"
-         },
-         {
-            "SpriteInfo" : "cobra_gun_01",
-            "Texture" : "btdb_ported"
-         },
-         {
-            "SpriteInfo" : "cobra_muzzle_flash",
+            "SpriteInfo" : "cobra_gun_03",
             "Texture" : "btdb_ported"
          }
       ],
-      "StageLength" : 0.36,
+      "StageLength" : 0.33,
       "Version" : 1
    },
    "timelines" : [
@@ -103,19 +69,8 @@
                "Flip" : 0,
                "Position" : [ 7.0, -5.0 ],
                "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
-               "Time" : 0.0001
-            },
-            {
-               "Alignment" : [ 0, 0 ],
-               "Alpha" : 1.0,
-               "Angle" : 0.0,
-               "Colour" : 4294967295,
-               "Flip" : 0,
-               "Position" : [ 7.0, -3.0 ],
-               "Scale" : [ 1.0, 1.0 ],
                "Shown" : true,
-               "Time" : 0.09027777612209320
+               "Time" : 0.05
             },
             {
                "Alignment" : [ 0, 0 ],
@@ -126,23 +81,7 @@
                "Position" : [ 7.0, -5.0 ],
                "Scale" : [ 1.0, 1.0 ],
                "Shown" : true,
-               "Time" : 0.2821180522441864
-            }
-         ]
-      },
-      {
-         "spriteuid" : 2,
-         "stage" : [
-            {
-               "Alignment" : [ 0, 0 ],
-               "Alpha" : 1.0,
-               "Angle" : 0.0,
-               "Colour" : 4294967295,
-               "Flip" : 0,
-               "Position" : [ 7.0, -4.0 ],
-               "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
-               "Time" : 0.0
+               "Time" : 0.0501
             },
             {
                "Alignment" : [ 0, 0 ],
@@ -150,10 +89,10 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 7.0, -4.0 ],
+               "Position" : [ 7.0, -3.0 ],
                "Scale" : [ 1.0, 1.0 ],
                "Shown" : true,
-               "Time" : 0.0001
+               "Time" : 0.14027777612209320
             },
             {
                "Alignment" : [ 0, 0 ],
@@ -161,10 +100,10 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 7.0, -4.0 ],
+               "Position" : [ 7.0, -5.0 ],
                "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
-               "Time" : 0.09027777612209320
+               "Shown" : true,
+               "Time" : 0.3321180522441864
             }
          ]
       },
@@ -190,19 +129,8 @@
                "Flip" : 0,
                "Position" : [ 5.0, -14.0 ],
                "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
-               "Time" : 0.0001
-            },
-            {
-               "Alignment" : [ 0, 0 ],
-               "Alpha" : 1.0,
-               "Angle" : 0.0,
-               "Colour" : 4294967295,
-               "Flip" : 0,
-               "Position" : [ 5.0, -12.0 ],
-               "Scale" : [ 1.0, 1.0 ],
                "Shown" : true,
-               "Time" : 0.09027777612209320
+               "Time" : 0.05
             },
             {
                "Alignment" : [ 0, 0 ],
@@ -213,23 +141,7 @@
                "Position" : [ 5.0, -14.0 ],
                "Scale" : [ 1.0, 1.0 ],
                "Shown" : true,
-               "Time" : 0.2855902910232544
-            }
-         ]
-      },
-      {
-         "spriteuid" : 4,
-         "stage" : [
-            {
-               "Alignment" : [ 0, 0 ],
-               "Alpha" : 1.0,
-               "Angle" : 0.0,
-               "Colour" : 4294967295,
-               "Flip" : 0,
-               "Position" : [ 5.0, -19.0 ],
-               "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
-               "Time" : 0.0
+               "Time" : 0.0501
             },
             {
                "Alignment" : [ 0, 0 ],
@@ -237,10 +149,10 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 5.0, -19.0 ],
+               "Position" : [ 5.0, -12.0 ],
                "Scale" : [ 1.0, 1.0 ],
                "Shown" : true,
-               "Time" : 0.0001
+               "Time" : 0.14027777612209320
             },
             {
                "Alignment" : [ 0, 0 ],
@@ -248,10 +160,10 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 5.0, -19.0 ],
+               "Position" : [ 5.0, -14.0 ],
                "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
-               "Time" : 0.09027777612209320
+               "Shown" : true,
+               "Time" : 0.3355902910232544
             }
          ]
       }
