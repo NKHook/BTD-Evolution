@@ -1,0 +1,29 @@
+{
+	//Tower Boost and Bloon Bash deactivator
+    "Type":             "IceTower",
+    "TargetRange":      0.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire": false,
+    "TotalAmmo":            1,
+    "RemainingAmmo":        1,
+    
+	"Tasks" :
+	[
+		{
+			"Type" : "TowerModifier",
+			"Range":  1,
+			"PriorityLevel" : 12,
+			"TerminateOnUserUpgrade" : true,
+			"ApplyToUserTower": true,
+			"ModifyNewlySpawnedTowers": true,
+			"ReplacesPriorityLevel": true,
+			"Modifier" : { "AbilityCooldown" : [ 100000000, 0 ] }
+		},
+		{
+			"Type" : "RestoreAmmo",
+			"SlotIndex" : 9,
+			"Amount" : 1
+		}
+	]
+}

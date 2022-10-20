@@ -1,18 +1,17 @@
 {
-	//Wired Funds
-    "Type": "BananaFarm",
+	//MIB Aid
+    "Type": "VitalSupplies",
     "TargetRange":      0,
-	"CooldownTime":     0.0,
+	"CooldownTime":     15.0,
     "FireDelayTime":    0.0,
-   	"RequiresTargetToFire"	: false,
-	"FiresOnRoundEnd": true,
+    "CanFireWithNoTargetsAndRoundInProgress" : true,
+	"StartsOnCooldown": true,
 	
     "Tasks" :
     [
 		{
 			"Type": "RandomFire",
-			"Range": 100000,
-			"MinimumRange" : 100000,
+			"Range": 0,
 			"OnlyTargetPathLocations": false,
 			"FireFullRange": true,
 			"TerminateOnZeroPersists": true,
@@ -23,30 +22,27 @@
 			[
 				{
 					"Type":             "Collectable",
-					"GraphicName":      "bananas",
-					"MoneyRange": [ 70, 70 ],
-					"COLLECT_METHOD": "AUTOMATIC",
+					"GraphicName":      "banana_box",
+					"Duration":	10,
+					"LivesRange": [ 2, 8 ],
+					"LivesMultiplier": 1.0,
+					"CollectionRadius": 50,
 					
 					"Movement":
 					{
 						"Type": "Forward",
-						"Speed": 0,
+						"Speed": 250,
 						"KeepOnScreen": true,
-						"SpeedDecay": 0.95
+						"SpeedDecay": 0.96
 					},
-
+					
 					"Tasks":
 					[
 						{
 							"Type": "TextEffect",
 							"Text": "",
 							"Font": "oetztype_24_black_stroke",
-							"Colour": [ 1.0, 1.0, 1.0 ],
-
-                            "Fade": true,
-                            "FadeTime": 0.4,
-                            "FadeEase": true,
-                            "FadeDelay": 0.9,
+							"Colour": [ 1, 1, 1 ],
 							
 							"Movement":
 							{

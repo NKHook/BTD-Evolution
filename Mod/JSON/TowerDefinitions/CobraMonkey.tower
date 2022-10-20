@@ -1,21 +1,51 @@
 {
-    "AircraftList" : [
-    ],
+    "AircraftList" : [ ],
     "BaseCost" : 425,
     "CanBePlacedInWater" : false,
     "CanBePlacedOnLand" : true,
     "CanBePlacedOnPath" : false,
     "CanTargetCamo" : false,
+    "DefaultSprite" : "monkey_farmer.json",
     "DefaultWeapons" : [
-        "SniperMonkey.weapon"
+        "BananaFarmer.weapon",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
     ],
-    "Description" : "Covert Ops Battles Response Agent. Enhances your abilities and hinders your opponents. The ultimate utility weapon for BTD Battles.",
+    "ActiveWeaponSlots" :
+    [
+        true,
+        true,
+        true,
+        true,
+        true,
+		true,
+		true,
+		true,
+		true,
+		false,
+		true,
+		true,
+		true
+	],
+	"DrawWeaponsOnTop" : false,
     "Icon" : "cobra_avatar_small",
     "PlacementH" : 0.0,
     "PlacementRadius" : 8.0,
     "PlacementW" : 0.0,
-    "RankToUnlock" : 3,
+    "RankToUnlock" : 1,
     "RotatesToTarget" : true,
+    "Specialities" : [
+    ],
     "TargetIsWeaponOrigin" : false,
     "TargetingMode" : "First",
     "TargetsManually" : false,
@@ -26,7 +56,7 @@
             "Wired Funds",
             "Bloon Adjustment",
             "Monkey Stim",
-            "Offensive Push"
+            "MIB Aid"
         ],
         [
             "Double Tap",
@@ -35,45 +65,15 @@
             "Misdirection"
         ]
     ],
-	"ShortUpgradeDescriptions" :
-	[
-		[
-			"",
-			"",
-			"",
-			""
-		],
-		[
-			"",
-			"",
-			"",
-			""
-		]
-	], 
-	"UpgradeDescriptions" :
-	[
-		[
-			"You gain +70 extra money per round.",
-			"Every 5th neutral Bloon on opponent's side is randomly given regen, camo or +1 rank. (Max Ceramic)",
-			"Decrease Tower Power cooldown by 5 seconds (min 15 seconds).",
-			"Next tier of Bloons becomes available to send 1 round earlier than normal."
-		],
-		[
-			"Doubles COBRA's attack speed.",
-			"Every 15 seconds either: steal 2 lives from opponent (assault mode) or add 2 lives (defend mode)",
-			"Decrease Bloon Power cooldown by 10 seconds (min 10 seconds).",
-			"Moves highest Bloon in range to your opponent. Cooldown varies based on Bloon type. (Max BFB)."
-		]
-	],
 	"UpgradeGateway" :
 	[
-		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ],
-		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
+		[ { "Rank" : 10, "XP" : 0 }, { "Rank" : 20, "XP" : 0 }, { "Rank" : 30, "XP" : 0 }, { "Rank" : 50, "XP" : 0 } ],
+		[ { "Rank" : 15, "XP" : 0 }, { "Rank" : 25, "XP" : 0 }, { "Rank" : 40, "XP" : 0 }, { "Rank" : 60, "XP" : 0 } ]
 	],
     "UpgradePrices" : 
     [
-        [ 400, 650, 400, 1750 ],
-        [ 325, 600, 400, 3500 ]
+        [ 400, 550, 600, 2400 ],
+        [ 325, 600, 1250, 3500 ]
     ],
     "UpgradeAvatars" : [
         [
@@ -96,16 +96,28 @@
             "cobra_wired_funds_icon",
             "cobra_bloon_adjustment_icon",
             "cobra_monkey_stim_icon",
-            "cobra_offensive_push_icon"
+            "cobra_attrition_icon"
         ],
         [
             "cobra_double_tap_icon",
-            "cobra_attrition_icon",
+            "cobra_mib_aid_icon",
             "cobra_finish_him",
             "cobra_misdirection_icon"
         ]
     ],
+    "FiresWeaponsInSequence" : false,
+    "FiringSequence" : [ 
+		[ 0, 1 ], 
+		[ 2 ],
+		[ 3 ],
+		[ 4 ],
+		[ 5 ],
+		[ 6 ],
+		[ 9 ],
+		[ 10 ]
+	],
     "UseRadiusPlacement" : true,
     "SpriteUpgradeDefinition" : "CobraMonkey.json",
-    "UseDefaultRangeCircle" : false
+    "UseDefaultRangeCircle" : false,
+	"AnimationWeaponSlotIndex": 0
 }

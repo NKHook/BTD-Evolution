@@ -1,0 +1,22 @@
+{
+	"Type":             	"RocketStorm",
+	"TargetRange":      	100000.0,
+	"CooldownTime":     	0.0,
+	"FireDelayTime":    	0.0,
+	"RequiresTargetToFire":	false,
+	"FiresOnRoundEnd": true,
+	"ShowRange": false,
+
+	"Tasks" :
+	[
+		{
+			"Type" : "TowerModifier",
+			"Range":  1,
+			"PriorityLevel" : 2,
+			"TerminateOnUserUpgrade" : false,
+			"ReplacesPriorityLevel": true,
+			"ApplyToUserTower": true,
+			"Modifier" : {}
+		}
+	]
+}

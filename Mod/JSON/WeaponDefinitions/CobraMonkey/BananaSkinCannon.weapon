@@ -1,11 +1,13 @@
-{	
-    "Type":             "SniperMonkey",
+{
+	//Main weapon
+    "Type":             "BananaSkinCannon",
     "TargetRange":      140.0,
 	"CooldownTime":     1.234567,
     "FireDelayTime":    0.0,
     
     "Tasks" :
     [
+		{"Type": "Effect","SpriteFile": "null.json"},
         {
             "Type": "Damage",
             "DamageType": "Piercing",
@@ -15,10 +17,10 @@
             "Type": "StatusEffect",
             "Status": "MultiLayerDamage"
         },
-        {   
-            "Type": "StatusEffect",
-            "Status": "",
-            "Duration" : 2
-        }
+		{
+			"Type": "Effect",
+			"SpriteFile": "null.json",
+            "AppliedToTower": true
+		}
     ]
 }

@@ -1,0 +1,47 @@
+{
+	//Misdirection
+    "Type": "Whirlwind",
+    "TargetRange": 140.0,
+	"CooldownTime": 60.0,
+    "FireDelayTime": 0.0,
+	"ManuallyFired": true,
+	"CanSelfTargetCamo": true,
+    "TargetsIndependently": true,
+	"RequiresTargetToFire":	true,
+    "SelfTargetMode": "Strong",
+
+    "TargetingFilter": {
+        "Exclude" : {
+			"BloonType" : [
+				"ZOMG",
+				"Bloonarius",
+				"Vortex",
+				"Dreadbloon",
+				"Blastapopoulos"
+			],
+			"StatusEffect" : [
+				"CrippleMOAB",
+				"Stun",
+				"MoveToPath",
+				"Ice",
+				"AbsoluteZero"
+			]
+		}
+    },
+
+    "Tasks" :
+	[
+		{
+			"Type": "StatusEffect",
+			"Status": "Slow",
+			"Duration" :  5,
+			"SpeedScale" : -500,
+			"IgnoreImmunity": true
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "SupplyDropAbility.json",
+			"DrawLayer": "FullScreen"
+		}
+    ]
+}

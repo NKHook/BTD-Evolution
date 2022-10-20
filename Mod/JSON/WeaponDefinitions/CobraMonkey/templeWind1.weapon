@@ -1,0 +1,12 @@
+{
+    "Type": "templeWind1",
+    "TargetRange":      140.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.0,
+	"TargetsIndependently": true,
+	"RotatesToTarget": false,
+	"RequiresTargetToFire": false,
+	
+    "Tasks": [
+    ]
+}

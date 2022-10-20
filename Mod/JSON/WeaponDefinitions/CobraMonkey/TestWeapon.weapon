@@ -1,0 +1,41 @@
+{
+	//Tower Boost Ability
+    "Type":                 "TestWeapon",    
+    "TargetRange":          100000,   
+    "CooldownTime":     	50.625,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+	"StartsOnCooldown": true,
+   
+    "Tasks" :
+    [
+		{
+			"Type": "TowerModifier",
+			"Range": 100000,
+			"PriorityLevel": 10,
+			"TerminateOnUserUpgrade": false,
+			"ApplyToUserTower": false,
+			"TargetIsWeaponTaskOrigin": true,
+			"ModifyNewlySpawnedTowers": false,
+			"ModifyMovingTowers": false,
+			"Duration": 10,
+			"Modifier":
+			{
+				"Cooldown": [ 0.769230769, 0 ],
+				"FireDelay": [ 0.769230769, 0 ]
+			},
+			
+			"Tasks":
+			[
+				{
+					"Type": "Effect",
+					"SpriteFile": "boosted_tower.json",
+					"Scale": 1.0,
+					"LoopCount": 20,
+					"AppliedToTower": true
+				}
+			]
+		}
+    ]
+}

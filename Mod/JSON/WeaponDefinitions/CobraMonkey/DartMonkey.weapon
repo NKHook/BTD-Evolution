@@ -1,66 +1,116 @@
-{	
-    "Type":             "DartMonkey",    
-    "TargetRange":      120,
-	"CooldownTime":     1.0,
-    "FireDelayTime":    0.0,
-   	"RequiresTargetToFire"	: false,
-	"AllowFiringOnlyOnRoundStart": true,
-	"TotalAmmo": 5,
-
-    "Tasks":
+{
+	//Bloon Bash Ability
+    "Type":                 "DartMonkey",    
+    "TargetRange":          100000,   
+    "CooldownTime":     	50.625,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+	"StartsOnCooldown": true,
+   
+    "Tasks" :
     [
 		{
-			"Type": "RandomFire",
-			"Range": 120,
-			"OnlyTargetPathLocations": false,
-			"FireFullRange": true,
-			"TerminateOnZeroPersists": true,
-			"FollowTarget": false,
-            "WaitTimeRange": [ 15.0, 15.0 ],
+			"Type": "AreaOfEffect",
+			"Range": 100000,
+			"MaxTargets": -1,
 			
 			"Tasks":
 			[
 				{
-					"Type":             "Collectable",
-					"GraphicName":      "bananas",
-					"Duration":	15,
-					"LivesRange": [ 2, 2 ],
-					"LivesMultiplier": 1.0,
-					"CollectionRadius": 50,
-					"COLLECT_METHOD": "AUTOMATIC",
-					
-					"Movement":
-					{
-						"Type": "Forward",
-						"Speed": 250,
-						"KeepOnScreen": true,
-						"SpeedDecay": 0.95
-					},
+					"Type": "StatusEffect",
+					"Status": "DazeEffect",
+					"Duration" : 5
+				}
+			]
+		},
+		{
+			"Type": "TimerFire",
+			"TimeDelay": 1,
+			
+			"Tasks":
+			[
+				{
+					"Type": "AreaOfEffect",
+					"Range": 100000,
+					"MaxTargets": -1,
 					
 					"Tasks":
 					[
 						{
-							"Type": "TextEffect",
-							"Text": "",
-							"Font": "oetztype_24_black_stroke",
-							"Colour": [ 1.0, 1.0, 1.0 ],
-
-							"Fade": true,
-							"FadeTime": 0.4,
-							"FadeEase": true,
-							"FadeDelay": 0.9,
-							
-							"Movement":
-							{
-								"Type": "Forward",
-								"Direction": [0, -1],
-								"Speed": 20,
-								"CutOffDistance": 30
-							}
+							"Type": "StatusEffect",
+							"Status": "DazeEffect",
+							"Duration" : 4
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "TimerFire",
+			"TimeDelay": 2,
+			
+			"Tasks":
+			[
+				{
+					"Type": "AreaOfEffect",
+					"Range": 100000,
+					"MaxTargets": -1,
+					
+					"Tasks":
+					[
+						{
+							"Type": "StatusEffect",
+							"Status": "DazeEffect",
+							"Duration" : 3
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "TimerFire",
+			"TimeDelay": 3,
+			
+			"Tasks":
+			[
+				{
+					"Type": "AreaOfEffect",
+					"Range": 100000,
+					"MaxTargets": -1,
+					
+					"Tasks":
+					[
+						{
+							"Type": "StatusEffect",
+							"Status": "DazeEffect",
+							"Duration" : 2
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "TimerFire",
+			"TimeDelay": 4,
+			
+			"Tasks":
+			[
+				{
+					"Type": "AreaOfEffect",
+					"Range": 100000,
+					"MaxTargets": -1,
+					
+					"Tasks":
+					[
+						{
+							"Type": "StatusEffect",
+							"Status": "DazeEffect",
+							"Duration" : 1
 						}
 					]
 				}
 			]
 		}
-	]
+    ]
 }

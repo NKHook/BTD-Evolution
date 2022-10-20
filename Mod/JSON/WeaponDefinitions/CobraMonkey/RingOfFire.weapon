@@ -1,12 +1,13 @@
-{
-	//Wired Funds
-    "Type": "BananaFarm",
-    "TargetRange":      0,
-	"CooldownTime":     0.0,
-    "FireDelayTime":    0.0,
-   	"RequiresTargetToFire"	: false,
+{	
+    "Type":             "RingOfFire",    
+    "TargetRange":      140.0,
+	"CooldownTime":     1,
+    "FireDelayTime":    0,
+	"RequiresTargetToFire": false,
+	"TargetsIndependently": true,
+	"RotatesToTarget": false,
 	"FiresOnRoundEnd": true,
-	
+    
     "Tasks" :
     [
 		{
@@ -24,7 +25,7 @@
 				{
 					"Type":             "Collectable",
 					"GraphicName":      "bananas",
-					"MoneyRange": [ 70, 70 ],
+					"LivesRange": [ 2, 2 ],
 					"COLLECT_METHOD": "AUTOMATIC",
 					
 					"Movement":

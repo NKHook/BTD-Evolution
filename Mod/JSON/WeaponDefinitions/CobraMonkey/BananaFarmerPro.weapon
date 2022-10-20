@@ -1,0 +1,26 @@
+{
+	//Main weapon
+    "Type":             "BananaFarmerPro",
+    "TargetRange":      140.0,
+	"CooldownTime":     1.234567,
+    "FireDelayTime":    0.0,
+	"StartsOnCooldown": true,
+    
+    "Tasks" :
+    [
+        {
+            "Type": "Damage",
+            "DamageType": "Piercing",
+            "Amount": 2
+        },
+        {
+            "Type": "StatusEffect",
+            "Status": "MultiLayerDamage"
+        },
+		{
+			"Type": "Effect",
+			"SpriteFile": "Cobra_Muzzle_Flash_Right.json",
+            "AppliedToTower": true
+		}
+    ]
+}

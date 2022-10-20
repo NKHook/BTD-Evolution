@@ -1,0 +1,145 @@
+{
+	//Bloon Adjustment
+    "Type":             	"SabotageSupplyLines",    
+    "TargetRange":      	140,
+	"CooldownTime":     	0,
+    "FireDelayTime":    	0,
+	"RequiresTargetToFire":	true,
+	"TotalAmmo" : 1,
+	"RemainingAmmo" : 1,
+	"CanSelfTargetCamo": true,
+	"DisabledTasks": [ 2, 3 ],
+	"TargetsIndependently": true,
+	"RotatesToTarget": false,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "AreaOfEffect",
+			"Range": 150,
+			"MaxTargets": 10,
+			"UseRangeModifier" : true,
+			"DisabledTasks": [ 1, 2 ],
+			
+			"Tasks" :
+			[
+				{
+					"Type": "RemoveStatusEffect",
+					"Status": "Camo"
+				},
+				{
+					"Type": "RemoveStatusEffect",
+					"Status": "Regen"
+				},
+				{
+					"TargetingFilter":
+					{
+						"Include" :
+						{
+							"BloonType" : [
+								"Blue",
+								"Green",
+								"Yellow",
+								"Pink",
+								"Black",
+								"White",
+								"Lead",
+								"Zebra",
+								"Rainbow",
+								"Ceramic",
+								"TestBloon"
+							]
+						}
+					},
+					"Type": "Damage",
+					"DamageType": "Plasma",
+					"Amount": 1000000
+				}
+			]
+		},
+		{
+			"Type": "TowerModifier",
+			"Range": 1,
+			"PriorityLevel": 2,
+			"ApplyToUserTower": true,
+			"ModifyNewlySpawnedTowers": false,
+			"TerminateOnUserUpgrade": false,
+			"RequiresEmptyPriorityLevel": false,
+			"TerminateOnTowerRemoved" : true,
+			"ReplacesPriorityLevel": true,
+			"NumPersists": 1,
+			"Modifier" :
+			{
+				"EnabledSubtasks" :
+				[
+					[ 6, [ 0, 0 ], false ],
+					[ 6, [ 0, 1 ], true ],
+					[ 6, [ 0, 2 ], false ],
+					[ 6, [ 1 ], false ],
+					[ 6, [ 2 ], true ],
+					[ 6, [ 3 ], false ]
+				]
+			}
+		},
+		{
+			"Type": "TowerModifier",
+			"Range": 1,
+			"PriorityLevel": 2,
+			"ApplyToUserTower": true,
+			"ModifyNewlySpawnedTowers": false,
+			"TerminateOnUserUpgrade": false,
+			"RequiresEmptyPriorityLevel": false,
+			"TerminateOnTowerRemoved" : true,
+			"ReplacesPriorityLevel": true,
+			"NumPersists": 1,
+			"Modifier" :
+			{
+				"EnabledSubtasks" :
+				[
+					[ 6, [ 0, 0 ], false ],
+					[ 6, [ 0, 1 ], false ],
+					[ 6, [ 0, 2 ], true ],
+					[ 6, [ 1 ], false ],
+					[ 6, [ 2 ], false ],
+					[ 6, [ 3 ], true ]
+				]
+			}
+		},
+		{
+			"Type": "TowerModifier",
+			"Range": 1,
+			"PriorityLevel": 2,
+			"ApplyToUserTower": true,
+			"ModifyNewlySpawnedTowers": false,
+			"TerminateOnUserUpgrade": false,
+			"RequiresEmptyPriorityLevel": false,
+			"TerminateOnTowerRemoved" : true,
+			"ReplacesPriorityLevel": true,
+			"NumPersists": 1,
+			"Modifier" :
+			{
+				"EnabledSubtasks" :
+				[
+					[ 6, [ 0, 0 ], true ],
+					[ 6, [ 0, 1 ], false ],
+					[ 6, [ 0, 2 ], false ],
+					[ 6, [ 1 ], true ],
+					[ 6, [ 2 ], false ],
+					[ 6, [ 3 ], false ]
+				]
+			}
+		},
+		{
+			"Type": "TimerFire",
+			"TimeDelay": 2,
+			"Tasks":
+			[
+				{
+					"Type" : "RestoreAmmo",
+					"SlotIndex" : 6,
+					"Amount" : 1
+				}
+			]
+		}
+	]
+}
