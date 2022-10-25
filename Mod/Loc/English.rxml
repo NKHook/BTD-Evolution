@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Reflect>
+    <Select node="LocData">
+        <Select node="Language">
+            <Insert node="T" id="LOC_FlameThrower_TOWER" l="0">Flame Thrower</Insert>
+            <Insert node="T" id="LOC_FlameThrower_TOWER_PLURAL" l="0">Flame Throwers</Insert>
+        </Select>
+    </Select>
+</Reflect>
