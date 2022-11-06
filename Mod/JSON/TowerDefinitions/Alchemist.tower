@@ -14,8 +14,8 @@
     ],
     "ActiveWeaponSlots": [
         true,
-        false,
-        false
+        true,
+        true
     ],
     "Icon": "dart_monkey_avatar_small",
     "PlacementH": 0.0,

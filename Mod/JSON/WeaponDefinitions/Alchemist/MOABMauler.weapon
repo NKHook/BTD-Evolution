@@ -1,0 +1,78 @@
+{
+	"Type": "MOABMauler",
+	"TargetRange": 125.0,
+	"CooldownTime": 1.2,
+	"FireDelayTime": 0.2,
+	"Tasks": [
+		{
+			"Type": "Projectile",
+			"SpriteFile": "BombTowerMaulerProjectile.json",
+			"NumPersists": 1,
+			"ForcePersists": true,
+			"TerminateOnZeroPersists": true,
+			"CollisionType": "Once",
+			"Movement": {
+				"Type": "Forward",
+				"Speed": 445.0,
+				"CutOffDistance": 234
+			},
+			"Tasks": [
+				{
+					"Type": "AreaOfEffect",
+					"Range": 50,
+					"MaxTargets": 23,
+					"Tasks": [
+						{
+							"Type": "Damage",
+							"DamageType": "Explosive",
+							"Amount": 1
+						},
+						{
+							"Type": "Damage",
+							"DamageType": "MOABMauler",
+							"Amount": 9
+						}
+					]
+				},
+				{
+					"Type": "MultiFire",
+					"InitialOffset": 0.0,
+					"AngleIncrement": 45.0,
+					"FireCount": 0,
+					"MarkIDForProjectiles": true,
+					"Tasks": [
+						{
+							"Type": "Projectile",
+							"GraphicName": "frag_shrapnel",
+							"Speed": 350.0,
+							"CutOffDistance": 120,
+							"NumPersists": 1,
+							"TerminateOnZeroPersists": true,
+							"FollowTarget": false,
+							"StopAtEndOfCurves": false,
+							"TerminatePastCutoff": true,
+							"CollisionType": "Once",
+							"Movement": {
+								"Type": "Forward",
+								"Speed": 500,
+								"CutOffDistance": 100
+							},
+							"Tasks": [
+								{
+									"Type": "Damage",
+									"DamageType": "Piercing",
+									"Amount": 1
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "Explosion.json",
+					"Scale": 0.735
+				}
+			]
+		}
+	]
+}

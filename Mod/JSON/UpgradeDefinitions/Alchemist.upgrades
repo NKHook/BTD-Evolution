@@ -1,24 +1,26 @@
 {
     "Upgrades": [
         {
-            "Name": "Forest Fire",
+            "Name": "Acidic Mixture Dip",
+            "TowerUpgrade": {
+                "Weapons": {
+                    "1": "MonkeyVillage.weapon"
+                }
+            },
             "WeaponUpgrade": {
-                "SlotIndices": [
-                    1
-                ],
-                "Replace": {
-                    "TargetRange": 100
-                },
                 "TaskUpgrade": [
                     {
                         "Operation": "SelectByType",
-                        "Type": "Projectile"
+                        "Type": "TowerModifier"
                     },
                     {
                         "Operation": "Replace",
-                        "Movement": {
-                            "Type": "Forward",
-                            "CutOffDistance": 100
+                        "Range": 105,
+                        "Modifier": {
+                            "CanPopAllBloons": [
+                                true,
+                                true
+                            ]
                         }
                     }
                 ]
@@ -68,7 +70,6 @@
                     }
                 ]
             }
-            
         },
         {
             "Name": "Bad Influence",
