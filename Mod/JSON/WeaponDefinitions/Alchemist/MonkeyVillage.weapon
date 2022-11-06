@@ -1,21 +1,35 @@
-{	
-    "Type":             "MonkeyVillage",    
-    "TargetRange":      105.0,
-	"CooldownTime":     0,
-    "FireDelayTime":    0.0,
- 	"TargetsIndependently": true,
-	"SelfTargetMode": "None",
-
-    "Tasks" :
-    [
+{
+    "Type": "MonkeyVillage",
+    "TargetRange": 105.0,
+    "CooldownTime": 20.0,
+    "FireDelayTime": 10.0,
+    "Tasks": [
         {
-            "Type" : "TowerModifier",
-            "Range":  105,
-            "PriorityLevel" : 0,
-            "RequiresEmptyPriorityLevel" : true,
-            "TerminateOnUserUpgrade" : true,
-		
-            "Modifier" : {}
+            "Type": "TowerModifier",
+            "Range": 105,
+            "PriorityLevel": 0,
+            "RequiresEmptyPriorityLevel": true,
+            "TerminateOnUserUpgrade": true,
+            "Modifier": {},
+
+            "Tasks": [
+                {
+                    "Type": "RandomFire",
+                    "Range": 120,
+                    "OnlyTargetPathLocations": false,
+                    "FireFullRange": true,
+                    "TerminateOnZeroPersists": true,
+                    "FollowTarget": false,
+                    "WaitTimeRange": [ 0.0, 0.0 ],
+
+                    "Tasks": [
+                        {
+                            "Type": "Effect",
+                            "SpriteFile": "potion_splash.json"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
