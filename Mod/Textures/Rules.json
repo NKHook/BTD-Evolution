@@ -14,6 +14,16 @@
             ]
         },
         {
+            "SourceDir": "btd6_sprites",
+            "Quality": "Ultra",
+            "Results": [
+                {
+                    "Texture": "btd6_sprites.png",
+                    "InfoXml": "btd6_sprites.xml"
+                }
+            ]
+        },
+        {
             "SourceDir": "btdb_ported",
             "Quality": "High",
             "Results": [

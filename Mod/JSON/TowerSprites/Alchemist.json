@@ -118,35 +118,35 @@
        "SpriteInfo" : [
           {
              "SpriteInfo" : "glue_gunner_brown_arm",
-             "Texture" : "InGame"
+             "Texture" : "btd6_sprites"
           },
           {
              "SpriteInfo" : "glue_gunner_basic_01",
-             "Texture" : "InGame"
+             "Texture" : "btd6_sprites"
           },
           {
              "SpriteInfo" : "glue_gunner_basic_02",
-             "Texture" : "InGame"
+             "Texture" : "btd6_sprites"
           },
           {
              "SpriteInfo" : "glue_gunner_basic_03",
-             "Texture" : "InGame"
+             "Texture" : "btd6_sprites"
           },
           {
              "SpriteInfo" : "glue_gunner_basic_04",
-             "Texture" : "InGame"
+             "Texture" : "btd6_sprites"
           },
           {
              "SpriteInfo" : "glue_gunner_basic_05",
-             "Texture" : "InGame"
+             "Texture" : "btd6_sprites"
           },
           {
              "SpriteInfo" : "boomerang_body",
-             "Texture" : "InGame"
+             "Texture" : "btd6_sprites"
           },
           {
              "SpriteInfo" : "glue_gunner_grey_tank",
-             "Texture" : "InGame"
+             "Texture" : "btd6_sprites"
           }
        ],
        "StageLength" : 0.25,
