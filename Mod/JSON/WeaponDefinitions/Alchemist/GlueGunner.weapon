@@ -1,87 +1,36 @@
-{	
-    "Type":             "GlueGunner",    
-    "TargetRange":      140.0,
-	"CooldownTime":     0.8,
-    "FireDelayTime":    0.2,
-    
-    "TargetingFilter":
-    {
-        "Exclude" :
-        { 
-			"StatusEffect": [ "Glue" ]
-		},
-		"Include" :
+{
+	"Type": "GlueGunner",
+	"TargetRange": 105.0,
+	"CooldownTime": 0.8,
+	"FireDelayTime": 0.2,
+	"Tasks": [
 		{
-			"BloonType" : [
-				"Red",
-				"Blue",
-				"Green",
-				"Yellow",
-				"Pink",
-				"Black",
-				"White",
-				"Lead",
-				"Zebra",
-				"Rainbow",
-				"Ceramic",
-                "Golden"
-			]
-		}
-    },
-    
-    "Tasks" :
-    [
-		{
-			"Type":             "Projectile",
-			"SpriteFile":      "alchemist_potion.json",
-			"NumPersists":      1,
+			"Type": "Projectile",
+			"SpriteFile": "alchemist_potion.json",
+			"NumPersists": 1,
 			"TerminateOnZeroPersists": true,
-			
 			"CollisionType": "Once",
-			"IgnoreStatusEffect" : [ "Glue" ],
-			
-			"Movement":
-			{
+			"Movement": {
 				"Type": "Forward",
-				"Speed": 630.0,
-				"CutOffDistance": 270
+				"Speed": 400.0,
+				"CutOffDistance": 140
 			},
-            
-            "DisabledTasks" : [ 2 ],
-			
-			"Tasks" :
-			[
-				{
-					"Type": "StatusEffect",
-					"Status": "Glue",
-					"NumPersists" : 1,
-					"Duration" : 11.428,
-					"DamageRate" : -1,
-					"SpeedScale" : 0.5
-				},
+			"Tasks": [
 				{
 					"Type": "AreaOfEffect",
-					"Range": 0,
-					"MaxTargets": 0,
-					"Tasks" :
-					[
+					"Range": 60,
+					"MaxTargets": 40,
+					"Tasks": [
 						{
-							"Type": "StatusEffect",
-							"Status": "Glue",
-							"NumPersists" : 1,
-							"Duration" : 11.428,
-							"DamageRate" : -1,
-							"SpeedScale" : 0.5
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
 						},
 						{
 							"Type": "Effect",
-							"SpriteFile": "GlueSplatterEffect.json"
+							"SpriteFile": "potion_splash.json"
 						}
 					]
-				},
-                {
-					"Type": "StatusEffect",
-					"Status": "GlueOnTrack"
 				}
 			]
 		}
