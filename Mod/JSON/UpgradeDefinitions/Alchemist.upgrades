@@ -2,8 +2,48 @@
     "Upgrades": [
         {
             "Name": "Acidic Mixture Dip",
-            "WeaponUpgrade" :
-            {
+            "WeaponUpgrades": [
+                {
+                    "SlotIndices": [
+                        0
+                    ],
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" :    "Damage"
+                        },
+                        {
+                            "Operation" : "Replace",
+                            "DamageType": "MOABMauler",
+							"Amount": 9
+                        }
+                    ]
+                },
+                {
+                    "SlotIndices": [
+                        1
+                    ],
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" :    "TowerModifier"
+                        },
+                        {
+                            "Operation" : "Adjust",
+                            "Modifier" :
+                            {
+                                "CanPopAllBloons" : [ true, true ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Berserker Brew",
+            "WeaponUpgrade": {
                 "SlotIndex" : 1,
                 "TaskUpgrade" :
                 [
@@ -16,53 +56,34 @@
                         "Operation" : "Adjust",
                         "Modifier" :
                         {
-                            "CanPopAllBloons" : [ true, true ]
+                            "TargetRange" : [ 1.10, 0 ],
+                            "FireDelay" : [ 0.90, 0 ],
+                            "Cooldown" : [ 0.90, 0 ],
+                            "PoppingPower" : [ 1, 1 ]
                         }
                     }
                 ]
             }
-
         },
         {
-            "Name": "Wild Fire",
+            "Name": "Stronger Stimulant",
             "WeaponUpgrade": {
-                "SlotIndices": [
-                    1
-                ],
-                "TaskUpgrade": [
+                "SlotIndex" : 1,
+                "TaskUpgrade" :
+                [
                     {
-                        "Operation": "SelectByType",
-                        "Type": "Projectile"
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
                     },
+                    
                     {
-                        "Operation": "SelectByType",
-                        "Type": "Damage"
-                    },
-                    {
-                        "Operation": "Replace",
-                        "Amount": 5
-                    }
-                ]
-            }
-        },
-        {
-            "Name": "Make It Bun Dem",
-            "WeaponUpgrade": {
-                "SlotIndices": [
-                    1
-                ],
-                "Replace": {
-                    "CooldownTime": 0.03
-                },
-                "TaskUpgrade": [
-                    {
-                        "Operation": "SelectByType",
-                        "Type": "Projectile"
-                    },
-                    {
-                        "Operation": "Adjust",
-                        "Movement": {
-                            "Speed": 150.0
+                        "Operation" : "Adjust",
+                        "Modifier" :
+                        {
+                            "TargetRange" : [ 1.15, 0 ],
+                            "FireDelay" : [ 0.80, 0 ],
+                            "Cooldown" : [ 0.80, 0 ],
+                            "PoppingPower" : [ 2, 2 ]
                         }
                     }
                 ]
