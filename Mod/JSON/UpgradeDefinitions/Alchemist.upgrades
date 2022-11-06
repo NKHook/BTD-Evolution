@@ -2,29 +2,26 @@
     "Upgrades": [
         {
             "Name": "Acidic Mixture Dip",
-            "TowerUpgrade": {
-                "Weapons": {
-                    "1": "MonkeyVillage.weapon"
-                }
-            },
-            "WeaponUpgrade": {
-                "TaskUpgrade": [
+            "WeaponUpgrade" :
+            {
+                "SlotIndex" : 1,
+                "TaskUpgrade" :
+                [
                     {
-                        "Operation": "SelectByType",
-                        "Type": "TowerModifier"
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
                     },
+                    
                     {
-                        "Operation": "Replace",
-                        "Range": 105,
-                        "Modifier": {
-                            "CanPopAllBloons": [
-                                true,
-                                true
-                            ]
+                        "Operation" : "Adjust",
+                        "Modifier" :
+                        {
+                            "CanPopAllBloons" : [ true, true ]
                         }
                     }
                 ]
             }
+
         },
         {
             "Name": "Wild Fire",
