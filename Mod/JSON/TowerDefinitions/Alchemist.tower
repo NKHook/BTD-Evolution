@@ -8,11 +8,13 @@
     "CanBePlacedOnPath": false,
     "CanTargetCamo": false,
     "DefaultWeapons": [
-        "GlueGunner.weapon"
+        "GlueGunner.weapon",
+        "",
+        ""
     ],
     "ActiveWeaponSlots": [
-        false,
         true,
+        false,
         false
     ],
     "Icon": "dart_monkey_avatar_small",

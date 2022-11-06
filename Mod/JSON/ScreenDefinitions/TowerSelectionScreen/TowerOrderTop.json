@@ -7,6 +7,12 @@
 			"FactoryName": "CobraMonkey",
 			"ObjectType": 0,
 			"KeyboardShortcut": ""
+		},
+		{
+			"Icon": "monkeysub_icon",
+			"FactoryName": "Alchemist",
+			"ObjectType": 0,
+			"KeyboardShortcut": ""
 		}
     ]
 }

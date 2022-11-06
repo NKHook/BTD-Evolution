@@ -1,0 +1,143 @@
+{
+    "Upgrades": [
+        {
+            "Name": "Forest Fire",
+            "WeaponUpgrade": {
+                "SlotIndices": [
+                    1
+                ],
+                "Replace": {
+                    "TargetRange": 100
+                },
+                "TaskUpgrade": [
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "Projectile"
+                    },
+                    {
+                        "Operation": "Replace",
+                        "Movement": {
+                            "Type": "Forward",
+                            "CutOffDistance": 100
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Name": "Wild Fire",
+            "WeaponUpgrade": {
+                "SlotIndices": [
+                    1
+                ],
+                "TaskUpgrade": [
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "Projectile"
+                    },
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "Damage"
+                    },
+                    {
+                        "Operation": "Replace",
+                        "Amount": 5
+                    }
+                ]
+            }
+        },
+        {
+            "Name": "Make It Bun Dem",
+            "WeaponUpgrade": {
+                "SlotIndices": [
+                    1
+                ],
+                "Replace": {
+                    "CooldownTime": 0.03
+                },
+                "TaskUpgrade": [
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "Projectile"
+                    },
+                    {
+                        "Operation": "Adjust",
+                        "Movement": {
+                            "Speed": 150.0
+                        }
+                    }
+                ]
+            }
+            
+        },
+        {
+            "Name": "Bad Influence",
+            "TowerUpgrade": {
+                "EnableSlots": [
+                    2
+                ]
+            }
+        },
+        {
+            "Name": "More Fuel",
+            "WeaponUpgrade": {
+                "SlotIndices": [
+                    1
+                ],
+                "Replace": {
+                    "CooldownTime": 0.07
+                }
+            }
+        },
+        {
+            "Name": "Flint and Steel",
+            "WeaponUpgrade": {
+                "SlotIndices": [
+                    1
+                ],
+                "TaskUpgrade": [
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "StatusEffect"
+                    },
+                    {
+                        "Operation": "Replace",
+                        "Duration": 5,
+                        "DamageRate": 1
+                    }
+                ]
+            }
+        },
+        {
+            "Name": "Gas Prices",
+            "TowerUpgrade": {
+                "EnableSlots": [
+                    0
+                ]
+            }
+        },
+        {
+            "Name": "Manifest Destiny",
+            "WeaponUpgrade": {
+                "SlotIndices": [
+                    0,
+                    1,
+                    2
+                ],
+                "TaskUpgrade": [
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "Projectile"
+                    },
+                    {
+                        "Operation": "Adjust",
+                        "Movement": {
+                            "CutOffDistance": 2000,
+                            "TerminateOnCutOffEnd": true
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
