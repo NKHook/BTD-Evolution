@@ -59,7 +59,7 @@
                             "TargetRange" : [ 1.10, 0 ],
                             "FireDelay" : [ 0.90, 0 ],
                             "Cooldown" : [ 0.90, 0 ],
-                            "PoppingPower" : [ 1, 1 ]
+                            "Damage" : [ 1, 1 ]
                         }
                     }
                 ]
@@ -83,17 +83,27 @@
                             "TargetRange" : [ 1.15, 0 ],
                             "FireDelay" : [ 0.80, 0 ],
                             "Cooldown" : [ 0.80, 0 ],
-                            "PoppingPower" : [ 2, 2 ]
+                            "Damage" : [ 2, 2 ]
                         }
                     }
                 ]
             }
         },
         {
-            "Name": "Bad Influence",
-            "TowerUpgrade": {
-                "EnableSlots": [
-                    2
+            "Name": "Permanent Brew",
+            "WeaponUpgrade": {
+                "SlotIndex" : 1,
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Duration": 100
+                    }
                 ]
             }
         },
