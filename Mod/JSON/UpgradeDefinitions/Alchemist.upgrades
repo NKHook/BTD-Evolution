@@ -2,6 +2,11 @@
     "Upgrades": [
         {
             "Name": "Acidic Mixture Dip",
+            "TowerUpgrade": {
+                "EnableSlots": [
+                    1
+                ]
+            },
             "WeaponUpgrades": [
                 {
                     "SlotIndices": [
