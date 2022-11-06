@@ -1,6 +1,6 @@
 {
     "name": "BTD_Evolution",
-    "description": "A super awesome mod that adds 69 new towers and bloons",
+    "description": "A mod that ports/backports content from other BTD games.",
     "version": "1.0.0",
     "authors": [
         "DisabledMallis",
@@ -8,5 +8,5 @@
     ],
     "website": "https://nkhook.github.io/",
     "github": "https://github.com/NKHook/NKHook5",
-    "discord": "No link yet!"
+    "discord": "https://discord.gg/VHTRtahdvw"
 }
