@@ -114,14 +114,11 @@
             }
         },
         {
-            "Name": "More Fuel",
-            "WeaponUpgrade": {
-                "SlotIndices": [
-                    1
-                ],
-                "Replace": {
-                    "CooldownTime": 0.07
-                }
+            "Name": "Stronger Acid",
+            "TowerUpgrade": {
+                "Weapons" : {
+					"0" : "GlueOnTrack.weapon"
+				}
             }
         },
         {

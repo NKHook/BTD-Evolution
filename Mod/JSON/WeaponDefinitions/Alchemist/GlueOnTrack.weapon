@@ -1,13 +1,13 @@
-//Red potion
+//Purple potion
 {
-	"Type": "GlueGunner",
+	"Type": "GlueOnTrack",
 	"TargetRange": 105.0,
 	"CooldownTime": 0.8,
 	"FireDelayTime": 0.2,
 	"Tasks": [
 		{
 			"Type": "Projectile",
-			"SpriteFile": "alchemist_potion.json",
+			"SpriteFile": "alchemist_potion_purple.json",
 			"NumPersists": 1,
 			"TerminateOnZeroPersists": true,
 			"CollisionType": "Once",
@@ -19,17 +19,17 @@
 			"Tasks": [
 				{
 					"Type": "AreaOfEffect",
-					"Range": 60,
+					"Range": 120,
 					"MaxTargets": 40,
 					"Tasks": [
 						{
 							"Type": "Damage",
 							"DamageType": "Piercing",
-							"Amount": 1
+							"Amount": 4
 						},
 						{
 							"Type": "Effect",
-							"SpriteFile": "potion_splash.json"
+							"SpriteFile": "potion_splash_purple.json"
 						}
 					]
 				}
