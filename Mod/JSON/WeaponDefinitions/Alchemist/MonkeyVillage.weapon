@@ -10,7 +10,7 @@
             "PriorityLevel": 0,
             "RequiresEmptyPriorityLevel": true,
             "TerminateOnUserUpgrade": true,
-            "Duration": 10,
+            "Duration": 3,
             "Modifier": {},
 
             "Tasks": [

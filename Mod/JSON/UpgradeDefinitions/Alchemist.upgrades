@@ -54,6 +54,7 @@
                     
                     {
                         "Operation" : "Adjust",
+                        "Duration": 3,
                         "Modifier" :
                         {
                             "TargetRange" : [ 1.10, 0 ],
@@ -78,6 +79,7 @@
                     
                     {
                         "Operation" : "Adjust",
+                        "Duration": 3,
                         "Modifier" :
                         {
                             "TargetRange" : [ 1.15, 0 ],
@@ -99,7 +101,6 @@
                         "Operation" : "SelectByType",
                         "Type" :    "TowerModifier"
                     },
-                    
                     {
                         "Operation" : "Replace",
                         "Duration": 100
