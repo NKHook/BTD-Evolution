@@ -9,11 +9,9 @@
     "CanTargetCamo": false,
     "DefaultWeapons": [
         "GlueGunner.weapon",
-        "",
-        ""
+        "MonkeyVillage.weapon"
     ],
     "ActiveWeaponSlots": [
-        true,
         true,
         true
     ],
@@ -122,5 +120,6 @@
         ]
     ],
     "UseRadiusPlacement": true,
-    "SpriteUpgradeDefinition": "Alchemist.json"
+    "SpriteUpgradeDefinition": "Alchemist.json",
+    "PlacementFiringSequence" : [ 1 ]
 }
