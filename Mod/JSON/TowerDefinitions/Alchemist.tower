@@ -21,7 +21,7 @@
     "PlacementH": 0.0,
     "PlacementRadius": 6.0,
     "PlacementW": 0.0,
-    "RankToUnlock": 23,
+    "RankToUnlock": 16,
     "RotatesToTarget": true,
     "TargetIsWeaponOrigin": false,
     "TargetingMode": "First",
