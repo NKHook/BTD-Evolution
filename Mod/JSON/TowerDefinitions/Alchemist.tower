@@ -1,0 +1,124 @@
+//This fully implements the tower
+//it has every property needed for a valid tower
+{
+    "AircraftList": [],
+    "BaseCost": 550,
+    "CanBePlacedInWater": false,
+    "CanBePlacedOnLand": true,
+    "CanBePlacedOnPath": false,
+    "CanTargetCamo": false,
+    "DefaultWeapons": [
+        "GlueGunner.weapon"
+    ],
+    "ActiveWeaponSlots": [
+        false,
+        true,
+        false
+    ],
+    "Icon": "dart_monkey_avatar_small",
+    "PlacementH": 0.0,
+    "PlacementRadius": 6.0,
+    "PlacementW": 0.0,
+    "RankToUnlock": 23,
+    "RotatesToTarget": true,
+    "TargetIsWeaponOrigin": false,
+    "TargetingMode": "First",
+    "TargetsManually": false,
+    "TypeName": "Alchemist",
+    "Upgrades": [
+        [
+            "Acidic Mixture Dip",
+            "Berserker Brew",
+            "Stronger Stimulant",
+            "Permanent Brew"
+        ],
+        [
+            "Stronger Acid",
+            "Unstable Concoction",
+            "Transforming Tonic",
+            "Total Transformation"
+        ]
+    ],
+    "UpgradeGateway": [
+        [
+            {
+                "Rank": 0,
+                "XP": 550
+            },
+            {
+                "Rank": 0,
+                "XP": 2250
+            },
+            {
+                "Rank": 0,
+                "XP": 10000
+            },
+            {
+                "Rank": 20,
+                "XP": 30000
+            }
+        ],
+        [
+            {
+                "Rank": 0,
+                "XP": 140
+            },
+            {
+                "Rank": 0,
+                "XP": 2500
+            },
+            {
+                "Rank": 0,
+                "XP": 10000
+            },
+            {
+                "Rank": 20,
+                "XP": 28000
+            }
+        ]
+    ],
+    "UpgradePrices": [
+        [
+            350,
+            1250,
+            3000,
+            60000
+        ],
+        [
+            250,
+            3000,
+            4500,
+            45000
+        ]
+    ],
+    "UpgradeIcons": [
+        [
+            "dart_monkey_longer_range_icon",
+            "dart_monkey_enhanced_eyesight_icon",
+            "dart_monkey_spikeopult_icon",
+            "dart_monkey_juggernaut_icon"
+        ],
+        [
+            "dart_monkey_sharp_shots_icon",
+            "dart_monkey_razor_icon",
+            "dart_monkey_triple_icon",
+            "dart_monkey_fanclub_icon"
+        ]
+    ],
+    "UpgradeAvatars": [
+        [
+            "dart_monkey_avatar_increased_range_small",
+            "dart_monkey_avatar_enhanced_eyesight_small",
+            "dart_monkey_avatar_spikeopult_small",
+            "dart_monkey_avatar_juggernaut_small"
+        ],
+        [
+            "dart_monkey_avatar_sharp_shots_small",
+            "dart_monkey_avatar_razor_sharp_small",
+            "dart_monkey_avatar_triple_shot_small",
+            "dart_monkey_avatar_supermonkey_fanclub_small"
+        ]
+    ],
+    "UseRadiusPlacement": true,
+    "SpriteUpgradeDefinition": "Alchemist.json"
+}
