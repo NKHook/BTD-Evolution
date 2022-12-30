@@ -1,0 +1,6 @@
+{
+    "Type": "AcidEffect",
+    "SpriteInfo": "ice_shard",
+    "Texture": "InGame",
+    "ExceptMOAB": false
+}

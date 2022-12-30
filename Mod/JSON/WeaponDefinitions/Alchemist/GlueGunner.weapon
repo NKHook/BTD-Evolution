@@ -18,15 +18,18 @@
 			},
 			"Tasks": [
 				{
+					"Type": "StatusEffect",
+					"Status": "AcidEffect",
+					"NumPersists" : 1,
+					"Duration" : 11.428,
+					"DamageRate" : -1,
+					"SpeedScale" : 0.5
+				},
+				{
 					"Type": "AreaOfEffect",
 					"Range": 60,
 					"MaxTargets": 40,
 					"Tasks": [
-						{
-							"Type": "Damage",
-							"DamageType": "Piercing",
-							"Amount": 1
-						},
 						{
 							"Type": "Effect",
 							"SpriteFile": "potion_splash.json"
