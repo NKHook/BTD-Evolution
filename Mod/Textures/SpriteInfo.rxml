@@ -3,6 +3,5 @@
         <Insert node="SpriteInfoXml" name="btdr_sprites" type="png"/>
         <Insert node="SpriteInfoXml" name="btdb_ingame" type="png"/>
         <Insert node="SpriteInfoXml" name="btdb_menu" type="png"/>
-        <Insert node="SpriteInfoXml" name="btdb_towericons" type="png"/>
     </Select>
 </Reflect>

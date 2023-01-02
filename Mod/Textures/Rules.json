@@ -14,16 +14,6 @@
             ]
         },
         {
-            "SourceDir": "btdb_towericons",
-            "Quality": "Ultra",
-            "Results": [
-                {
-                    "Texture": "btdb_towericons.png",
-                    "InfoXml": "btdb_towericons.xml"
-                }
-            ]
-        },
-        {
             "SourceDir": "btdb_ingame",
             "Quality": "High",
             "Results": [
