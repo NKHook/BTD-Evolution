@@ -1,0 +1,6 @@
+{
+	"MERGE_MODE": "INSERTIVE",
+	"Items" : [
+		{ "Type" : "Whirlwind", "Icon" : "blade_maelstrom_icon" }
+	]
+}

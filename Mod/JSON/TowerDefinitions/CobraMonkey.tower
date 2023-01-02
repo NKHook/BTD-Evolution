@@ -72,22 +72,22 @@
 	],
     "UpgradePrices" : 
     [
-        [ 400, 550, 600, 2400 ],
-        [ 325, 600, 1250, 3500 ]
+        [ 400, 550, 600, 4000 ],
+        [ 325, 600, 5500, 5000 ]
     ],
     "UpgradeAvatars" : [
         [
             "cobra_avatar_wired_funds_small",
             "cobra_avatar_bloon_adjustment_small",
             "cobra_avatar_monkey_stim_small",
-            "cobra_avatar_offensive_push"
+            "cobra_avatar_mib_aid"
         ],
         [
 		
             "cobra_avatar_double_tap_small",
             "cobra_avatar_attrition_small",
-            "cobra_avatar_finish_him_small",
-            "cobra_avatar_misdirection_small"
+            "cobra_avatar_misdirection_small",
+            "cobra_avatar_finish_him_small"
         ]
     ],
     
@@ -96,11 +96,11 @@
             "cobra_wired_funds_icon",
             "cobra_bloon_adjustment_icon",
             "cobra_monkey_stim_icon",
-            "cobra_attrition_icon"
+            "cobra_mib_aid_icon"
         ],
         [
             "cobra_double_tap_icon",
-            "cobra_mib_aid_icon",
+            "cobra_attrition_icon",
             "cobra_finish_him",
             "cobra_misdirection_icon"
         ]

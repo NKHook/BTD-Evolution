@@ -1,9 +1,10 @@
 {
-	//Finish Him!
-    "Type":             "BossWeaken",
-    "TargetRange":      0.0,
-	"CooldownTime":     2147483647,
-    "FireDelayTime":    0.0,
+	//(was) Finish Him!
+    "Type": "BossWeaken",
+    "TargetRange": 0.0,
+	"CooldownTime": 2147483647,
+    "FireDelayTime": 0.0,
+	"ManuallyFired": true,
 	"RequiresTargetToFire": false,
     "MaxShots" : 1,
     

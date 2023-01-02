@@ -2,6 +2,11 @@
 	//We want to insert to the list
     "MERGE_MODE": "INSERTIVE",
 	"Items" : [
-		//Towers will be added to the list here
+		{
+			"Icon": "monkeysub_icon",
+			"FactoryName": "CobraMonkey",
+			"ObjectType": 0,
+			"KeyboardShortcut": ""
+		}
 	]
 }

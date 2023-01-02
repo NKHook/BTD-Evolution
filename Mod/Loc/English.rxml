@@ -45,7 +45,7 @@
             <Insert node="T" id="LOC_CobraMonkey_UPGRADE_DESC_A4" l="0">Drops 2 lives every 20 seconds.</Insert>
             <Insert node="T" id="LOC_CobraMonkey_UPGRADE_DESC_B1" l="0">Dual wield pistols for double attack speed.</Insert>
             <Insert node="T" id="LOC_CobraMonkey_UPGRADE_DESC_B2" l="0">Gives 2 lives each round.</Insert>
-            <Insert node="T" id="LOC_CobraMonkey_UPGRADE_DESC_B3" l="0">Increased damage. Unlocks the Bloon Bash ability: dazes all bloons on screen for 2 seconds. Additional Finish 'Em!s reduce the ability cooldown (min 15 sec)</Insert>
+            <Insert node="T" id="LOC_CobraMonkey_UPGRADE_DESC_B3" l="0">Deals +10 damage with every shot.</Insert>
             <Insert node="T" id="LOC_CobraMonkey_UPGRADE_DESC_B4" l="0">Ability: Returns the strongest bloon in range back to the start of the map, locking them there for a few seconds (Max BFB).</Insert>
         </Select>
     </Select>

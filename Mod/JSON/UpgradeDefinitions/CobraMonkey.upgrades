@@ -580,32 +580,7 @@
 
         {
             "Name" : "Finish Him!",
-			"TowerUpgrade" : {
-				"Weapons" : {
-					"1" : "",
-					"3" : "BossWeaken.weapon"
-				},
-				"Replace" : {
-					"FiresWeaponsInSequence" : false
-				}
-			},
             "WeaponUpgrades" : [
-				{
-					"SlotIndices" : [
-						3
-					],
-					"TaskUpgrade" : [
-						{
-							"Operation" : "SelectByType",
-							"Type" : "BoostReducer"
-						},
-						{
-							"Operation" : "Replace",
-							"Boost" : "Bloon",
-							"Amount" : 10
-						}
-					]
-				},
 				{
 					"SlotIndices" : [ 
 						0
@@ -617,19 +592,11 @@
 					[
 						{
 							"Operation": "SelectByType",
-							"Type": "Effect"
-						},
-						{
-							"Operation": "Replace",
-							"SpriteFile": "null.json"
-						},
-						{
-							"Operation": "SelectByType",
 							"Type": "Damage"
 						},
 						{
 							"Operation": "Adjust",
-							"Amount": 1
+							"Amount": 10
 						}
 					]
 				},
@@ -648,7 +615,7 @@
 						},
 						{
 							"Operation": "Adjust",
-							"Amount": 1
+							"Amount": 10
 						}
 					]
 				}
