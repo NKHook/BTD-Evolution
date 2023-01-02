@@ -158,47 +158,47 @@
       "SpriteInfo" : [
          {
             "SpriteInfo" : "cobra_shadow",
-            "Texture" : "btdb_ported"
+            "Texture" : "btdb_ingame"
          },
          {
             "SpriteInfo" : "cobra_jacket_bab",
-            "Texture" : "btdb_ported"
+            "Texture" : "btdb_ingame"
          },
          {
             "SpriteInfo" : "cobra_arm_bab_01",
-            "Texture" : "btdb_ported"
+            "Texture" : "btdb_ingame"
          },
          {
             "SpriteInfo" : "cobra_arm_bab_02",
-            "Texture" : "btdb_ported"
+            "Texture" : "btdb_ingame"
          },
          {
             "SpriteInfo" : "cobra_muzzle_flash_arm_02",
-            "Texture" : "btdb_ported"
+            "Texture" : "btdb_ingame"
          },
          {
             "SpriteInfo" : "cobra_muzzle_flash_arm_01",
-            "Texture" : "btdb_ported"
+            "Texture" : "btdb_ingame"
          },
          {
             "SpriteInfo" : "cobra_head_03",
-            "Texture" : "btdb_ported"
+            "Texture" : "btdb_ingame"
          },
          {
             "SpriteInfo" : "cobra_gun_04",
-            "Texture" : "btdb_ported"
+            "Texture" : "btdb_ingame"
          },
          {
             "SpriteInfo" : "cobra_muzzle_flash",
-            "Texture" : "btdb_ported"
+            "Texture" : "btdb_ingame"
          },
          {
             "SpriteInfo" : "cobra_muzzle_flash_face_03",
-            "Texture" : "btdb_ported"
+            "Texture" : "btdb_ingame"
          },
          {
             "SpriteInfo" : "cobra_light_green",
-            "Texture" : "btdb_ported"
+            "Texture" : "btdb_ingame"
          }
       ],
       "StageLength" : 0.3862847089767456,

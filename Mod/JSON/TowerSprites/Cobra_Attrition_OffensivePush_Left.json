@@ -49,15 +49,15 @@
       "SpriteInfo" : [
          {
             "SpriteInfo" : "cobra_arm_offensive_01",
-            "Texture" : "btdb_ported"
+            "Texture" : "btdb_ingame"
          },
          {
             "SpriteInfo" : "cobra_gun_02",
-            "Texture" : "btdb_ported"
+            "Texture" : "btdb_ingame"
          },
          {
             "SpriteInfo" : "cobra_light_green",
-            "Texture" : "btdb_ported"
+            "Texture" : "btdb_ingame"
          }
       ],
       "StageLength" : 0.33,

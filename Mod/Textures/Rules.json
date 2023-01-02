@@ -14,12 +14,32 @@
             ]
         },
         {
-            "SourceDir": "btdb_ported",
+            "SourceDir": "btdb_towericons",
+            "Quality": "Ultra",
+            "Results": [
+                {
+                    "Texture": "btdb_towericons.png",
+                    "InfoXml": "btdb_towericons.xml"
+                }
+            ]
+        },
+        {
+            "SourceDir": "btdb_ingame",
             "Quality": "High",
             "Results": [
                 {
-                    "Texture": "btdb_ported.png",
-                    "InfoXml": "btdb_ported.xml"
+                    "Texture": "btdb_ingame.png",
+                    "InfoXml": "btdb_ingame.xml"
+                }
+            ]
+        },
+        {
+            "SourceDir": "btdb_menu",
+            "Quality": "High",
+            "Results": [
+                {
+                    "Texture": "btdb_menu.png",
+                    "InfoXml": "btdb_menu.xml"
                 }
             ]
         }
