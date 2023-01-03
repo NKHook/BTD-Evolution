@@ -1,7 +1,7 @@
 {
 	//Actual misdirection
     "Type": "BossWeaken",
-    "TargetRange": 140.0,
+    "TargetRange": 10000.0,
 	"CooldownTime": 30.0,
     "FireDelayTime": 0.0,
 	"ManuallyFired": true,
