@@ -1,38 +1,47 @@
 {
-	//(was) Finish Him!
+	//Actual misdirection
     "Type": "BossWeaken",
-    "TargetRange": 0.0,
-	"CooldownTime": 2147483647,
+    "TargetRange": 140.0,
+	"CooldownTime": 30.0,
     "FireDelayTime": 0.0,
 	"ManuallyFired": true,
-	"RequiresTargetToFire": false,
-    "MaxShots" : 1,
+	"CanSelfTargetCamo": true,
+    "TargetsIndependently": true,
+	"RequiresTargetToFire":	true,
+    "SelfTargetMode": "Strong",
     
-	"Tasks" :
-	[
-		{
-			"Type": "Effect",
-			"SpriteFile": "null.json",
-			"Duration": 0.001,
-			"Position": [ -1018, 0 ],
-			
-			"Tasks":
-			[
-				{
-					"Type" : "TowerModifier",
-					"Range":  1,
-					"PriorityLevel" : 11,
-					"TerminateOnUserUpgrade" : false,
-					"ModifyNewlySpawnedTowers": true,
-					"ReplacesPriorityLevel": false,
-                    "TargetIsWeaponTaskOrigin": true,
-					"Modifier" :
-					{
-						"AbilityCooldown" : [ 0.75, 3.75 ],
-						"ActiveWeapon": [ [ 9, true ], [ 10, false ] ]
-					}
-				}
+	"TargetingFilter": {
+        "Exclude" : {
+			"BloonType" : [
+				"ZOMG",
+				"Bloonarius",
+				"Vortex",
+				"Dreadbloon",
+				"Blastapopoulos"
+			],
+			"StatusEffect" : [
+				"CrippleMOAB",
+				"Stun",
+				"MoveToPath",
+				"Ice",
+				"AbsoluteZero"
 			]
 		}
-	]
+    },
+
+    "Tasks" :
+	[
+		{
+			"Type": "StatusEffect",
+			"Status": "Slow",
+			"Duration" :  5,
+			"SpeedScale" : -500,
+			"IgnoreImmunity": true
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "SupplyDropAbility.json",
+			"DrawLayer": "FullScreen"
+		}
+    ]
 }

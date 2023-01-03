@@ -580,6 +580,14 @@
 
         {
             "Name" : "Finish Him!",
+			"TowerUpgrade" : {
+				"Weapons" : {
+					"1" : ""
+				},
+				"Replace" : {
+					"FiresWeaponsInSequence" : false
+				}
+			},
             "WeaponUpgrades" : [
 				{
 					"SlotIndices" : [ 
@@ -621,16 +629,17 @@
 				}
 			]
         },
-        
         {
             "Name" : "Misdirection",
 			"TowerUpgrade" : {
 				"Weapons" : {
-					"7" : "Whirlwind.weapon"
+					"7" : "BossWeaken.weapon"
+				},
+				"Replace" : {
+					"FiresWeaponsInSequence" : false
 				}
 			}
         },
-        
         {
             "Name" : "Finish Him! Left"
         },

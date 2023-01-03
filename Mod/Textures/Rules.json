@@ -14,12 +14,22 @@
             ]
         },
         {
-            "SourceDir": "btdb_ported",
-            "Quality": "High",
+            "SourceDir": "btdb_ingame",
+            "Quality": "Ultra",
             "Results": [
                 {
-                    "Texture": "btdb_ported.png",
-                    "InfoXml": "btdb_ported.xml"
+                    "Texture": "btdb_ingame.png",
+                    "InfoXml": "btdb_ingame.xml"
+                }
+            ]
+        },
+        {
+            "SourceDir": "btdb_menu",
+            "Quality": "Ultra",
+            "Results": [
+                {
+                    "Texture": "btdb_menu.png",
+                    "InfoXml": "btdb_menu.xml"
                 }
             ]
         }
