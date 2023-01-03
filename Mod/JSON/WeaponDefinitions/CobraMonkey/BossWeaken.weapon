@@ -2,7 +2,7 @@
 	//Actual misdirection
     "Type": "BossWeaken",
     "TargetRange": 10000.0,
-	"CooldownTime": 30.0,
+	"CooldownTime": 10.0,
     "FireDelayTime": 0.0,
 	"ManuallyFired": true,
 	"CanSelfTargetCamo": true,
