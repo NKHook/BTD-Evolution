@@ -161,11 +161,6 @@
 
         {
             "Name" : "Monkey Stim",
-			"TowerUpgrade" : {
-				"Weapons" : {
-					"3" : "Overclock.weapon"
-				}
-			},
             "WeaponUpgrades" : [
 				{
 					"SlotIndex" : 0,
