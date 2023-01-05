@@ -1,6 +1,9 @@
 {
 	"MERGE_MODE": "INSERTIVE",
-	"Items" : [
-		{ "Type" : "Whirlwind", "Icon" : "blade_maelstrom_icon" }
+	"Items": [
+		{
+			"Type": "BossWeaken",
+			"Icon": "blade_maelstrom_icon"
+		}
 	]
 }
