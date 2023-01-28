@@ -1,0 +1,69 @@
+{	
+    "Type":             "SpikeOPult",    
+    "TargetRange":      125.0,
+	"CooldownTime":     0.7,
+    "FireDelayTime":    0.2,
+        
+    "Tasks"	:
+    [
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "thorn",
+			"NumPersists":      2,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			
+			"Movement" :
+			{
+				"Type": "Forward",
+				"Speed": 805.0,
+				"CutOffDistance": 186
+			},
+			
+			"TasksToProcessOnCollision" : [ 0 ],
+            
+			"Tasks" :
+			[
+				{ 
+					"Type": "Damage",
+					"DamageType": "Plasma",
+					"Amount": 1 
+				}
+			]
+		},
+    	{
+    		"Type": "MultiFire",
+    		"InitialOffset": -15.0,
+    		"AngleIncrement": 30.0,
+    		"FireCount": 2,
+    		"Tasks":
+    		[
+				{
+					"Type": "Projectile",
+					"GraphicName": "thorn",
+					"NumPersists": 2,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 805.0,
+						"CutOffDistance": 161
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Plasma",
+							"Amount": 1
+						}
+					]
+				}
+			]
+    	}
+    ]
+}

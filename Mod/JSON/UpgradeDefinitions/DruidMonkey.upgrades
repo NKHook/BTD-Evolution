@@ -26,6 +26,16 @@
                     }
                 ]
             }
+        },
+        {
+            "Name": "Hard Thorns",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0": "SpikeOPult.weapon"
+                }
+            }
         }
     ]
 }
