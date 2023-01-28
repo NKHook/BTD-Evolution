@@ -1,0 +1,31 @@
+{
+    "Upgrades": [
+        {
+            "Name": "Druidic Reach",
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0 ],
+                "Adjust" :
+                {
+                    "TargetRange": 25
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+						"Movement":
+						{
+							"Type" : "Forward",
+                        	"CutOffDistance" : 25
+						}
+                    }
+                ]
+            }
+        }
+    ]
+}
