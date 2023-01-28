@@ -2,20 +2,16 @@
 //it has every property needed for a valid tower
 {
     "AircraftList": [],
-    "BaseCost": 1500,
+    "BaseCost": 400,
     "CanBePlacedInWater": false,
     "CanBePlacedOnLand": true,
     "CanBePlacedOnPath": false,
     "CanTargetCamo": false,
     "DefaultWeapons": [
-        "TripleDarts.weapon",
-        "Dragonbreath.weapon",
-        "SpawnTurret.weapon"
+        "TripleDarts.weapon"
     ],
     "ActiveWeaponSlots": [
-        false,
-        true,
-        false
+        true
     ],
     "Icon": "dart_monkey_avatar_small",
     "PlacementH": 0.0,
@@ -26,71 +22,71 @@
     "TargetIsWeaponOrigin": false,
     "TargetingMode": "First",
     "TargetsManually": false,
-    "TypeName": "FlameThrower",
+    "TypeName": "DruidMonkey",
     "Upgrades": [
         [
-            "Forest Fire",
-            "Wild Fire",
-            "Make It Bun Dem",
-            "Bad Influence"
+            "Druidic Reach",
+            "Hard Thorns",
+            "Heart of Thunder",
+            "Poplust"
         ],
         [
-            "More Fuel",
-            "Flint and Steel",
-            "Gas Prices",
-            "Manifest Destiny"
+            "Thorn Swarm",
+            "Heart of Oak",
+            "Druid of the Jungle",
+            "Jungle's Bounty"
         ]
     ],
     "UpgradeGateway": [
         [
             {
                 "Rank": 0,
-                "XP": 500
+                "XP": 75
             },
             {
                 "Rank": 0,
-                "XP": 4000
+                "XP": 150
             },
             {
                 "Rank": 0,
-                "XP": 20000
+                "XP": 2500
             },
             {
                 "Rank": 20,
-                "XP": 80000
+                "XP": 14000
             }
         ],
         [
             {
                 "Rank": 0,
-                "XP": 500
+                "XP": 75
             },
             {
                 "Rank": 0,
-                "XP": 6000
+                "XP": 150
             },
             {
                 "Rank": 0,
-                "XP": 23000
+                "XP": 2000
             },
             {
                 "Rank": 20,
-                "XP": 90000
+                "XP": 11000
             }
         ]
     ],
     "UpgradePrices": [
         [
-            600,
-            2200,
-            6000,
-            18000
+            100,
+            250,
+            1000,
+            2500
         ],
         [
-            500,
-            3000,
-            15000,
-            22000
+            250,
+            350,
+            950,
+            3000
         ]
     ],
     "UpgradeIcons": [
@@ -122,5 +118,5 @@
         ]
     ],
     "UseRadiusPlacement": true,
-    "SpriteUpgradeDefinition": "FlameThrower.json"
+    "SpriteUpgradeDefinition": "DruidMonkey.json"
 }

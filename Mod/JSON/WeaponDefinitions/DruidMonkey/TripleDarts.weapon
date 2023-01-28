@@ -1,0 +1,92 @@
+{	
+    "Type":             "TripleDarts",    
+    "TargetRange":      100.0,
+	"CooldownTime":     0.7,
+    "FireDelayTime":    0.2,
+        
+    "Tasks"	:
+    [
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "thorn",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			
+			"Movement" :
+			{
+				"Type": "Forward",
+				"Speed": 805.0,
+				"CutOffDistance": 161
+			},
+			
+            "DisabledTasks" : [ 1, 2 ],
+			
+			"TasksToProcessOnCollision" : [ 0 ],
+			"TasksToProcessOnTerminate" : [ 1, 2 ],
+            
+			"Tasks" :
+			[
+				{ 
+					"Type": "Damage",
+					"DamageType": "Piercing",
+					"Amount": 1 
+				},
+                
+                {
+					"Type": "AreaOfEffect",
+					"Range": 36,
+					"MaxTargets": 2,
+					"Tasks" :
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Explosive",
+							"Amount": 1
+						}
+					]
+                },
+                
+                {
+					"Type": "Effect",
+					"SpriteFile": "Explosion.json",
+					"Scale": 0.32
+				}
+			]
+		},
+    	{
+    		"Type": "MultiFire",
+    		"InitialOffset": -15.0,
+    		"AngleIncrement": 30.0,
+    		"FireCount": 2,
+    		"Tasks":
+    		[
+				{
+					"Type": "Projectile",
+					"GraphicName": "thorn",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 805.0,
+						"CutOffDistance": 161
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
+						}
+					]
+				}
+			]
+    	}
+    ]
+}
