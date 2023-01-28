@@ -103,6 +103,10 @@
          {
             "SpriteInfo": "druid_monkey_cloak",
             "Texture": "btdr_sprites"
+         },
+         {
+            "SpriteInfo": "druid_monkey_staff",
+            "Texture": "btdr_sprites"
          }
       ],
       "StageLength" : 0.2
