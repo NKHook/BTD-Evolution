@@ -1,0 +1,21 @@
+{	
+    "Type":             "ChainLightning",    
+    "TargetRange":      120.0,
+	"CooldownTime":     1.6857142857,
+    "FireDelayTime":    0.2,
+    
+    "Tasks" :
+    [{
+        "Type":             "ChainTasks",
+        "NumPersists":      4,
+        "NumJumps":         3,
+        "CutOffDistance":   240,
+        
+        "Tasks" :
+        [ { 
+            "Type": "Damage",
+            "DamageType": "Plasma",
+            "Amount": 1
+        } ]
+    }]
+}

@@ -59,7 +59,7 @@
     		"Type": "MultiFire",
     		"InitialOffset": -15.0,
     		"AngleIncrement": 30.0,
-    		"FireCount": 2,
+    		"FireCount": 4,
     		"Tasks":
     		[
 				{

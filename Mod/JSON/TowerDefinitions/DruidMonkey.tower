@@ -8,9 +8,11 @@
     "CanBePlacedOnPath": false,
     "CanTargetCamo": false,
     "DefaultWeapons": [
-        "TripleDarts.weapon"
+        "TripleDarts.weapon",
+        ""
     ],
     "ActiveWeaponSlots": [
+        true,
         true
     ],
     "Icon": "dart_monkey_avatar_small",

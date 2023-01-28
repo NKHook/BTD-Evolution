@@ -36,6 +36,16 @@
                     "0": "SpikeOPult.weapon"
                 }
             }
+        },
+        {
+            "Name": "Heart of Thunder",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "1": "ChainLightning.weapon"
+                }
+            }
         }
     ]
 }
