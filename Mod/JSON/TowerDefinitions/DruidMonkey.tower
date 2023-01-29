@@ -18,7 +18,7 @@
         true,
         true,
         true,
-        false,
+        true,
         false
     ],
     "Icon": "dart_monkey_avatar_small",
@@ -42,7 +42,7 @@
             "Thorn Swarm",
             "Heart of Oak",
             "Druid of the Jungle",
-            "Jungle's Bounty"
+            "Spirit of the Forest"
         ]
     ],
     "UpgradeGateway": [
