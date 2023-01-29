@@ -29,12 +29,20 @@
         },
         {
             "Name": "Hard Thorns",
-            "TowerUpgrade" :
+            "WeaponUpgrade" :
             {
-                "Weapons" :
-                {
-                    "0": "SpikeOPult.weapon"
-                }
+                "SlotIndices" : [ 0 ],
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Damage"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "DamageType": "Plasma"
+                    }
+                ]
             }
         },
         {
@@ -55,6 +63,42 @@
                 {
                     "2": "MonkeyVillage.weapon"
                 }
+            }
+        },
+        {
+            "Name": "Thorn Swarm",
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0 ],
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "MultiFire"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "FireCount": 3
+                    }
+                ]
+            }
+        },
+        {
+            "Name": "Heart of Oak",
+            "WeaponUpgrade":
+            {
+                "SlotIndices": [ 0 ],
+                "TaskUpgrade":
+                [
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "Projectile"
+                    },
+                    {
+                        "Operation": "Replace",
+                        "DisabledTasks": []
+                    }
+                ]
             }
         }
     ]

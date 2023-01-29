@@ -11,7 +11,7 @@
             "PriorityLevel": 0,
             "RequiresEmptyPriorityLevel": true,
             "ApplyToUserTower": true,
-            "ModifyNewlySpawnedTowers": false,
+            "ModifyNewlySpawnedTowers": true,
 			"TerminateOnUserUpgrade": false,
             "Duration": 30.0,
 
