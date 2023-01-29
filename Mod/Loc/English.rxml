@@ -51,7 +51,7 @@
             <Insert node="T" id="LOC_DruidMonkey_TOWER" l="0">Druid</Insert>
             <Insert node="T" id="LOC_DruidMonkey_TOWER_PLURAL" l="0">Druids</Insert>
             <Insert node="T" id="LOC_DruidMonkey_TOWER_CAPS" l="0">Druid</Insert>
-            <Insert node="T" id="LOC_TOWER_DESC_DruidMonkey" l="0">Creates a blast of thorns for each attack. Upgrades can call forth powers of the Jungle, Storm, or Wrath.</Insert>
+            <Insert node="T" id="LOC_TOWER_DESC_DruidMonkey" l="0">Creates a blast of thorns for each attack. Upgrades can call forth powers of the Jungle or Storm.</Insert>
 
             <Insert node="T" id="LOC_UPGRADE_A1_DruidMonkey" l="0">Druidic Reach</Insert>
             <Insert node="T" id="LOC_UPGRADE_A2_DruidMonkey" l="0">Hard Thorns</Insert>
@@ -60,7 +60,7 @@
             <Insert node="T" id="LOC_UPGRADE_B1_DruidMonkey" l="0">Thorn Swarm</Insert>
             <Insert node="T" id="LOC_UPGRADE_B2_DruidMonkey" l="0">Heart of Oak</Insert>
             <Insert node="T" id="LOC_UPGRADE_B3_DruidMonkey" l="0">Druid of the Jungle</Insert>
-            <Insert node="T" id="LOC_UPGRADE_B4_DruidMonkey" l="0">Jungle's Bounty</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B4_DruidMonkey" l="0">Spirit of the Forest</Insert>
 
             <Insert node="T" id="LOC_DruidMonkey_UPGRADE_DESC_A1" l="0">Increases range by a large amount.</Insert>
             <Insert node="T" id="LOC_DruidMonkey_UPGRADE_DESC_A2" l="0">Hard thorns can pop 2 bloons each and pop Lead and Frozen bloons.</Insert>
@@ -68,8 +68,8 @@
             <Insert node="T" id="LOC_DruidMonkey_UPGRADE_DESC_A4" l="0">Boosts attack speed and pierce for all Druids in the radius. Can stack up to 5 times on a single Druid.</Insert>
             <Insert node="T" id="LOC_DruidMonkey_UPGRADE_DESC_B1" l="0">Shoots 8 thorns per shot instead of 5.</Insert>
             <Insert node="T" id="LOC_DruidMonkey_UPGRADE_DESC_B2" l="0">Attacks convert Regrow Bloons into normal Bloons.</Insert>
-            <Insert node="T" id="LOC_DruidMonkey_UPGRADE_DESC_B3" l="0">Calls a vine from the ground to entangle and crush Bloons one at a time.</Insert>
-            <Insert node="T" id="LOC_DruidMonkey_UPGRADE_DESC_B4" l="0">Jungle's Bounty Ability: Generates cash each use.</Insert>
+            <Insert node="T" id="LOC_DruidMonkey_UPGRADE_DESC_B3" l="0">Calls a Bloonberry Bush from the ground to entangle and crush Bloons one at a time.</Insert>
+            <Insert node="T" id="LOC_DruidMonkey_UPGRADE_DESC_B4" l="0">Grows many thorned Bloonberry Bushes with 50x as many thorns. Activated ability generates lives and more cash.</Insert>
         </Select>
     </Select>
 </Reflect>

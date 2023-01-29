@@ -19,13 +19,13 @@
         true,
         true,
         true,
-        false
+        true
     ],
     "Icon": "dart_monkey_avatar_small",
     "PlacementH": 0.0,
     "PlacementRadius": 8.0,
     "PlacementW": 0.0,
-    "RankToUnlock": 23,
+    "RankToUnlock": 14,
     "RotatesToTarget": true,
     "TargetIsWeaponOrigin": false,
     "TargetingMode": "First",
@@ -60,7 +60,7 @@
                 "XP": 2500
             },
             {
-                "Rank": 20,
+                "Rank": 18,
                 "XP": 14000
             }
         ],
@@ -78,8 +78,8 @@
                 "XP": 2000
             },
             {
-                "Rank": 20,
-                "XP": 11000
+                "Rank": 18,
+                "XP": 40000
             }
         ]
     ],
@@ -94,7 +94,7 @@
             250,
             350,
             950,
-            3000
+            35000
         ]
     ],
     "UpgradeIcons": [

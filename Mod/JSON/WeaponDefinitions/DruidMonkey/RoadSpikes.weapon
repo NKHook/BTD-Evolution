@@ -1,0 +1,60 @@
+//Spirit of the Forest ability weapon
+{
+	"Type": "RoadSpikes",
+	"TargetRange": 120,
+	"CooldownTime": 60.0,
+	"FireDelayTime": 0.0,
+	"RequiresTargetToFire": false,
+	"ManuallyFired": true,
+
+	"Tasks": [
+		{
+			"Type": "Collectable",
+			"GraphicName": "bananas",
+			"Duration": 15,
+			"COLLECT_METHOD": "AUTOMATIC",
+			"MoneyRange": [
+				1000,
+				2000
+			],
+			"MoneyMultiplier": 1.0,
+			"LivesRange": [
+				15,
+				50
+			],
+			"LivesMultiplier": 1.0,
+			"CollectionRadius": 50,
+			"Movement": {
+				"Type": "Forward",
+				"Speed": 250,
+				"KeepOnScreen": true,
+				"SpeedDecay": 0.95
+			},
+			"Tasks": [
+				{
+					"Type": "TextEffect",
+					"Text": "",
+					"Font": "oetztype_24_black_stroke",
+					"Colour": [
+						1.0,
+						1.0,
+						1.0
+					],
+					"Fade": true,
+					"FadeTime": 0.4,
+					"FadeEase": true,
+					"FadeDelay": 0.9,
+					"Movement": {
+						"Type": "Forward",
+						"Direction": [
+							0,
+							-1
+						],
+						"Speed": 20,
+						"CutOffDistance": 30
+					}
+				}
+			]
+		}
+	]
+}

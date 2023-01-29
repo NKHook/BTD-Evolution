@@ -110,6 +110,39 @@
                     "3": "SpikeFactory.weapon"
                 }
             }
+        },
+        {
+            "Name": "Spirit of the Forest",
+            "TowerUpgrade" :
+            {
+                "Weapons":
+                {
+                    "4": "RoadSpikes.weapon"
+                }
+            },
+            "WeaponUpgrade":
+            {
+                "SlotIndices": [ 3 ],
+                "TaskUpgrade":
+                [
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "Projectile"
+                    },
+                    {
+                        "Operation": "Replace",
+                        "NumPersists": 1000,
+                        "GraphicsAtPierceLevels" : [
+                            [ 0, 0],
+                            [ 0.05, 250],
+                            [ 0.1, 500],
+                            [ 0.15, 750],
+                            [ 0.2, 1000]
+                        ],
+                        "LimitedDuration" : 60
+                    }
+                ]
+            }
         }
     ]
 }

@@ -4,6 +4,10 @@
 		{
 			"Type": "BossWeaken",
 			"Icon": "cobra_misdirection_icon"
+		},
+		{
+			"Type": "RoadSpikes",
+			"Icon": "druid_monkey_icon"
 		}
 	]
 }

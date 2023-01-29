@@ -14,7 +14,9 @@
 		"10": "DruidMonkeyPoplustThornSwarm",
 		"11": "DruidMonkeyPoplustHeartOfOak",
 		"12": "DruidMonkeyOfTheJungle",
-		"13": "DruidMonkeyHardThornsOfTheJungle"
+		"13": "DruidMonkeyHardThornsOfTheJungle",
+		"14": "DruidMonkeySpiritOfTheForest",
+		"15": "DruidMonkeyHardThornsSpiritOfTheForest"
 	},
 	
 	"UpgradeLevels":
@@ -23,17 +25,17 @@
 		"01"		: 4,
 		"02"		: 6,
 		"03"		: 12,
-		"04"		: 0,
+		"04"		: 14,
 		"10"		: 0,
 		"11"		: 4,
 		"12"		: 6,
 		"13"		: 12,
-		"14"		: 0,
+		"14"		: 14,
 		"20"		: 1,
 		"21"		: 5,
 		"22"		: 7,
 		"23"		: 13,
-		"24"		: 1,
+		"24"		: 15,
 		"30"		: 2,
 		"31"		: 8,
 		"32"		: 9,
