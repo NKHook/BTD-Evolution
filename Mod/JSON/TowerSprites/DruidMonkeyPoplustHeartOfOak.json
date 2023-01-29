@@ -44,7 +44,7 @@
          "Position" : [ 1.0, 10.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "druid_monkey_cloak",
+         "sprite" : "druid_monkey_poplust_cloak",
          "type" : 1,
          "uid" : 5
       },
@@ -56,7 +56,7 @@
          "Position" : [ -10.0, 1.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "druid_monkey_staff",
+         "sprite" : "druid_monkey_heart_of_thunder_staff",
          "type" : 1,
          "uid" : 6
       },
@@ -83,6 +83,18 @@
          "sprite" : "druid_monkey_body",
          "type" : 1,
          "uid" : 4
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 0,
+         "Position" : [ 1.0, 3.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "druid_monkey_poplust_headpiece",
+         "type" : 1,
+         "uid" : 8
       }
    ],
     "customvariables" : [
@@ -113,11 +125,15 @@
             "Texture" : "btdr_sprites"
          },
          {
-            "SpriteInfo": "druid_monkey_cloak",
+            "SpriteInfo": "druid_monkey_poplust_cloak",
             "Texture": "btdr_sprites"
          },
          {
-            "SpriteInfo": "druid_monkey_staff",
+            "SpriteInfo": "druid_monkey_heart_of_thunder_staff",
+            "Texture": "btdr_sprites"
+         },
+         {
+            "SpriteInfo": "druid_monkey_poplust_headpiece",
             "Texture": "btdr_sprites"
          },
          {

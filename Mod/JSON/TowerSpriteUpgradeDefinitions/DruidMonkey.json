@@ -8,7 +8,11 @@
 		"4": "DruidMonkeyThornSwarm",
 		"5": "DruidMonkeyHardThornsThornSwarm",
 		"6": "DruidMonkeyHeartOfOak",
-		"7": "DruidMonkeyHardThornsHeartOfOak"
+		"7": "DruidMonkeyHardThornsHeartOfOak",
+		"8": "DruidMonkeyHeartOfThunderThornSwarm",
+		"9": "DruidMonkeyHeartOfThunderHeartOfOak",
+		"10": "DruidMonkeyPoplustThornSwarm",
+		"11": "DruidMonkeyPoplustHeartOfOak"
 	},
 	
 	"UpgradeLevels":
@@ -29,10 +33,10 @@
 		"23"		: 1,
 		"24"		: 1,
 		"30"		: 2,
-		"31"		: 2,
-		"32"		: 2,
+		"31"		: 8,
+		"32"		: 9,
 		"40"		: 3,
-		"41"		: 3,
-		"42"		: 3
+		"41"		: 10,
+		"42"		: 11
 	}
 }

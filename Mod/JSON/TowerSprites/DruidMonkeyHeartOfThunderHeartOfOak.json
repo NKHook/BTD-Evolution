@@ -8,7 +8,7 @@
          "Position" : [ 10.0, 0.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "druid_monkey_thorn_arm_01",
+         "sprite" : "druid_monkey_arm_01",
          "type" : 1,
          "uid" : 3
       },
@@ -20,7 +20,7 @@
          "Position" : [ 10.0, 0.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : false,
-         "sprite" : "druid_monkey_thorn_arm_02",
+         "sprite" : "druid_monkey_arm_02",
          "type" : 1,
          "uid" : 2
       },
@@ -32,7 +32,7 @@
          "Position" : [ 10.0, 0.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : false,
-         "sprite" : "druid_monkey_thorn_arm_03",
+         "sprite" : "druid_monkey_arm_03",
          "type" : 1,
          "uid" : 1
       },
@@ -56,7 +56,7 @@
          "Position" : [ -10.0, 1.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "druid_monkey_staff",
+         "sprite" : "druid_monkey_heart_of_thunder_staff",
          "type" : 1,
          "uid" : 6
       },
@@ -70,7 +70,7 @@
          "Shown" : true,
          "sprite" : "druid_monkey_shield",
          "type" : 1,
-         "uid" : 7
+         "uid" : 9
       },
       {
          "Alignment" : [ 0, 0 ],
@@ -83,6 +83,30 @@
          "sprite" : "druid_monkey_body",
          "type" : 1,
          "uid" : 4
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : -2.0,
+         "Flip" : 0,
+         "Position" : [ -6.0, 4.5 ],
+         "Scale" : [ 0.8, 0.8 ],
+         "Shown" : true,
+         "sprite" : "druid_monkey_hot_headpiece",
+         "type" : 1,
+         "uid" : 7
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 2.0,
+         "Flip" : 1,
+         "Position" : [ 7.5, 4.5 ],
+         "Scale" : [ 0.8, 0.8 ],
+         "Shown" : true,
+         "sprite" : "druid_monkey_hot_headpiece",
+         "type" : 1,
+         "uid" : 8
       }
    ],
     "customvariables" : [
@@ -97,15 +121,15 @@
    "stageOptions" : {
       "SpriteInfo" : [
          {
-            "SpriteInfo" : "druid_monkey_thorn_arm_01",
+            "SpriteInfo" : "druid_monkey_arm_01",
             "Texture" : "btdr_sprites"
          },
          {
-            "SpriteInfo" : "druid_monkey_thorn_arm_02",
+            "SpriteInfo" : "druid_monkey_arm_02",
             "Texture" : "btdr_sprites"
          },
          {
-            "SpriteInfo" : "druid_monkey_thorn_arm_03",
+            "SpriteInfo" : "druid_monkey_arm_03",
             "Texture" : "btdr_sprites"
          },
          {
@@ -117,7 +141,11 @@
             "Texture": "btdr_sprites"
          },
          {
-            "SpriteInfo": "druid_monkey_staff",
+            "SpriteInfo": "druid_monkey_heart_of_thunder_staff",
+            "Texture": "btdr_sprites"
+         },
+         {
+            "SpriteInfo": "druid_monkey_hot_headpiece",
             "Texture": "btdr_sprites"
          },
          {
@@ -129,7 +157,7 @@
    },
    "timelines" : [
       {
-         "spriteuid": 7,
+         "spriteuid": 9,
          "stage":
          [
             {
