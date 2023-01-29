@@ -1,0 +1,148 @@
+{
+    "Upgrades": [
+        {
+            "Name": "Druidic Reach",
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0 ],
+                "Adjust" :
+                {
+                    "TargetRange": 25
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+						"Movement":
+						{
+							"Type" : "Forward",
+                        	"CutOffDistance" : 25
+						}
+                    }
+                ]
+            }
+        },
+        {
+            "Name": "Hard Thorns",
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0 ],
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Damage"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "DamageType": "Plasma"
+                    }
+                ]
+            }
+        },
+        {
+            "Name": "Heart of Thunder",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "1": "ChainLightning.weapon"
+                }
+            }
+        },
+        {
+            "Name": "Poplust",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2": "MonkeyVillage.weapon"
+                }
+            }
+        },
+        {
+            "Name": "Thorn Swarm",
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0 ],
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "MultiFire"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "FireCount": 3
+                    }
+                ]
+            }
+        },
+        {
+            "Name": "Heart of Oak",
+            "WeaponUpgrade":
+            {
+                "SlotIndices": [ 0 ],
+                "TaskUpgrade":
+                [
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "Projectile"
+                    },
+                    {
+                        "Operation": "Replace",
+                        "DisabledTasks": []
+                    }
+                ]
+            }
+        },
+        {
+            "Name": "Druid of the Jungle",
+            "TowerUpgrade" :
+            {
+                "Weapons":
+                {
+                    "3": "SpikeFactory.weapon"
+                }
+            }
+        },
+        {
+            "Name": "Spirit of the Forest",
+            "TowerUpgrade" :
+            {
+                "Weapons":
+                {
+                    "4": "RoadSpikes.weapon"
+                }
+            },
+            "WeaponUpgrade":
+            {
+                "SlotIndices": [ 3 ],
+                "TaskUpgrade":
+                [
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "Projectile"
+                    },
+                    {
+                        "Operation": "Replace",
+                        "NumPersists": 1000,
+                        "GraphicsAtPierceLevels" : [
+                            [ 0, 0],
+                            [ 0.05, 250],
+                            [ 0.1, 500],
+                            [ 0.15, 750],
+                            [ 0.2, 1000]
+                        ],
+                        "LimitedDuration" : 60
+                    }
+                ]
+            }
+        }
+    ]
+}

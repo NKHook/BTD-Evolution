@@ -3,8 +3,9 @@
     "description": "A mod that ports/backports content from other BTD games.",
     "version": "1.0.0",
     "authors": [
-        "DisabledMallis",
-        "EnabledMallis"
+        "DisabledMallis - Lead",
+        "5h3i1ah - Cobra Monkey Tower",
+        "DavidTheSuperior - Druid & Alchemist Sprites"
     ],
     "website": "https://nkhook.github.io/",
     "github": "https://github.com/NKHook/NKHook5",

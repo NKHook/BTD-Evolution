@@ -1,0 +1,130 @@
+//This fully implements the tower
+//it has every property needed for a valid tower
+{
+    "AircraftList": [],
+    "BaseCost": 400,
+    "CanBePlacedInWater": false,
+    "CanBePlacedOnLand": true,
+    "CanBePlacedOnPath": false,
+    "CanTargetCamo": false,
+    "DefaultWeapons": [
+        "TripleDarts.weapon",
+        "",
+        "",
+        "",
+        ""
+    ],
+    "ActiveWeaponSlots": [
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "Icon": "dart_monkey_avatar_small",
+    "PlacementH": 0.0,
+    "PlacementRadius": 8.0,
+    "PlacementW": 0.0,
+    "RankToUnlock": 14,
+    "RotatesToTarget": true,
+    "TargetIsWeaponOrigin": false,
+    "TargetingMode": "First",
+    "TargetsManually": false,
+    "TypeName": "DruidMonkey",
+    "Upgrades": [
+        [
+            "Druidic Reach",
+            "Hard Thorns",
+            "Heart of Thunder",
+            "Poplust"
+        ],
+        [
+            "Thorn Swarm",
+            "Heart of Oak",
+            "Druid of the Jungle",
+            "Spirit of the Forest"
+        ]
+    ],
+    "UpgradeGateway": [
+        [
+            {
+                "Rank": 0,
+                "XP": 75
+            },
+            {
+                "Rank": 0,
+                "XP": 150
+            },
+            {
+                "Rank": 0,
+                "XP": 2500
+            },
+            {
+                "Rank": 18,
+                "XP": 14000
+            }
+        ],
+        [
+            {
+                "Rank": 0,
+                "XP": 75
+            },
+            {
+                "Rank": 0,
+                "XP": 150
+            },
+            {
+                "Rank": 0,
+                "XP": 2000
+            },
+            {
+                "Rank": 18,
+                "XP": 40000
+            }
+        ]
+    ],
+    "UpgradePrices": [
+        [
+            100,
+            250,
+            1000,
+            2500
+        ],
+        [
+            250,
+            350,
+            950,
+            35000
+        ]
+    ],
+    "UpgradeIcons": [
+        [
+            "dart_monkey_longer_range_icon",
+            "dart_monkey_enhanced_eyesight_icon",
+            "dart_monkey_spikeopult_icon",
+            "dart_monkey_juggernaut_icon"
+        ],
+        [
+            "dart_monkey_sharp_shots_icon",
+            "dart_monkey_razor_icon",
+            "dart_monkey_triple_icon",
+            "dart_monkey_fanclub_icon"
+        ]
+    ],
+    "UpgradeAvatars": [
+        [
+            "dart_monkey_avatar_increased_range_small",
+            "dart_monkey_avatar_enhanced_eyesight_small",
+            "dart_monkey_avatar_spikeopult_small",
+            "dart_monkey_avatar_juggernaut_small"
+        ],
+        [
+            "dart_monkey_avatar_sharp_shots_small",
+            "dart_monkey_avatar_razor_sharp_small",
+            "dart_monkey_avatar_triple_shot_small",
+            "dart_monkey_avatar_supermonkey_fanclub_small"
+        ]
+    ],
+    "UseRadiusPlacement": true,
+    "SpriteUpgradeDefinition": "DruidMonkey.json"
+}

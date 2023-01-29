@@ -1,0 +1,95 @@
+//Base druid weapon
+{	
+    "Type":             "TripleDarts",    
+    "TargetRange":      100.0,
+	"CooldownTime":     0.7,
+    "FireDelayTime":    0.2,
+        
+    "Tasks"	:
+    [
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "thorn",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			
+			"Movement" :
+			{
+				"Type": "Forward",
+				"Speed": 805.0,
+				"CutOffDistance": 161
+			},
+			
+            "DisabledTasks" : [ 1, 2 ],
+			
+			"TasksToProcessOnCollision" : [ 0 ],
+			"TasksToProcessOnTerminate" : [ 1, 2 ],
+            
+			"Tasks" :
+			[
+				{ 
+					"Type": "Damage",
+					"DamageType": "Piercing",
+					"Amount": 1 
+				},
+				{
+					"Type": "StatusEffect",
+					"Status": "Foam",
+					"NumPersists": -1
+				},
+				{ 
+					"Type": "Damage",
+					"DamageType": "Foam",
+					"Amount": 1
+				}
+			]
+		},
+    	{
+    		"Type": "MultiFire",
+    		"InitialOffset": -10.0,
+    		"AngleIncrement": 5.0,
+    		"FireCount": 4,
+    		"Tasks":
+    		[
+				{
+					"Type": "Projectile",
+					"GraphicName": "thorn",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 805.0,
+						"CutOffDistance": 161
+					},
+					
+					"DisabledTasks" : [ 1, 2 ],
+
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
+						},
+						{
+							"Type": "StatusEffect",
+							"Status": "Foam",
+							"NumPersists": -1
+						},
+						{ 
+							"Type": "Damage",
+							"DamageType": "Foam",
+							"Amount": 1
+						}
+					]
+				}
+			]
+    	}
+    ]
+}

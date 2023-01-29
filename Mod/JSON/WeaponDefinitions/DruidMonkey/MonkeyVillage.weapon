@@ -1,0 +1,40 @@
+//Poplust
+{
+    "Type": "MonkeyVillage",
+    "TargetRange": 125.0,
+    "CooldownTime": 20.0,
+    "FireDelayTime": 10.0,
+    "Tasks": [
+        {
+            "Type": "TowerModifier",
+            "Range": 125,
+            "PriorityLevel": 0,
+            "RequiresEmptyPriorityLevel": true,
+            "ApplyToUserTower": true,
+            "ModifyNewlySpawnedTowers": true,
+			"TerminateOnUserUpgrade": false,
+            "Duration": 30.0,
+
+            "TargetingFilter": {
+                "Include": {
+                    "TowerType": [
+                        "DruidMonkey"
+                    ]
+                }
+            },
+            "Modifier":
+			{
+				"Cooldown": [ 0.5, 0 ],
+                "FireDelay": [ 0.5, 0 ],
+				"PoppingPower": [ 2, 0 ]
+			},
+            "Tasks": [
+                {
+                    "Type": "Effect",
+                    "SpriteFile": "SuperMonkeyFanclubSmallLightning.json",
+                    "DrawLayer": "FullScreen"
+                }
+            ]
+        }
+    ]
+}

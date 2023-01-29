@@ -3,7 +3,11 @@
 	"Items": [
 		{
 			"Type": "BossWeaken",
-			"Icon": "blade_maelstrom_icon"
+			"Icon": "cobra_misdirection_icon"
+		},
+		{
+			"Type": "RoadSpikes",
+			"Icon": "druid_monkey_icon"
 		}
 	]
 }
