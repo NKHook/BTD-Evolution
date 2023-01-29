@@ -3,7 +3,8 @@
 	{
         "0" : "DruidMonkey",
 		"1": "DruidMonkeyHardThorns",
-		"2": "DruidMonkeyHeartOfThunder"
+		"2": "DruidMonkeyHeartOfThunder",
+		"3": "DruidMonkeyPoplust"
 	},
 	
 	"UpgradeLevels":
@@ -26,8 +27,8 @@
 		"30"		: 2,
 		"31"		: 2,
 		"32"		: 2,
-		"40"		: 2,
-		"41"		: 2,
-		"42"		: 2
+		"40"		: 3,
+		"41"		: 3,
+		"42"		: 3
 	}
 }

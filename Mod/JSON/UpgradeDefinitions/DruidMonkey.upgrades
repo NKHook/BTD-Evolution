@@ -46,6 +46,16 @@
                     "1": "ChainLightning.weapon"
                 }
             }
+        },
+        {
+            "Name": "Poplust",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2": "MonkeyVillage.weapon"
+                }
+            }
         }
     ]
 }

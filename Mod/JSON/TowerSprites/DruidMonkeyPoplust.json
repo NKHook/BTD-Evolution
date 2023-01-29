@@ -44,7 +44,7 @@
          "Position" : [ 1.0, 10.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "druid_monkey_cloak",
+         "sprite" : "druid_monkey_poplust_cloak",
          "type" : 1,
          "uid" : 5
       },
@@ -75,26 +75,14 @@
       {
          "Alignment" : [ 0, 0 ],
          "Alpha" : 1.0,
-         "Angle" : -2.0,
+         "Angle" : 0.0,
          "Flip" : 0,
-         "Position" : [ -6.0, 4.5 ],
-         "Scale" : [ 0.8, 0.8 ],
+         "Position" : [ 1.0, 3.0 ],
+         "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "druid_monkey_hot_headpiece",
+         "sprite" : "druid_monkey_poplust_headpiece",
          "type" : 1,
          "uid" : 7
-      },
-      {
-         "Alignment" : [ 0, 0 ],
-         "Alpha" : 1.0,
-         "Angle" : 2.0,
-         "Flip" : 1,
-         "Position" : [ 7.5, 4.5 ],
-         "Scale" : [ 0.8, 0.8 ],
-         "Shown" : true,
-         "sprite" : "druid_monkey_hot_headpiece",
-         "type" : 1,
-         "uid" : 8
       }
    ],
     "customvariables" : [
@@ -125,7 +113,7 @@
             "Texture" : "btdr_sprites"
          },
          {
-            "SpriteInfo": "druid_monkey_cloak",
+            "SpriteInfo": "druid_monkey_poplust_cloak",
             "Texture": "btdr_sprites"
          },
          {
@@ -133,7 +121,7 @@
             "Texture": "btdr_sprites"
          },
          {
-            "SpriteInfo": "druid_monkey_hot_headpiece",
+            "SpriteInfo": "druid_monkey_poplust_headpiece",
             "Texture": "btdr_sprites"
          }
       ],

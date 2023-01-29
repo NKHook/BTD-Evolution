@@ -1,3 +1,4 @@
+//Hard thorns weapon
 {	
     "Type":             "SpikeOPult",    
     "TargetRange":      125.0,

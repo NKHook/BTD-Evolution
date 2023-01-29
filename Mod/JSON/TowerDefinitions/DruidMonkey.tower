@@ -9,11 +9,17 @@
     "CanTargetCamo": false,
     "DefaultWeapons": [
         "TripleDarts.weapon",
+        "",
+        "",
+        "",
         ""
     ],
     "ActiveWeaponSlots": [
         true,
-        true
+        true,
+        true,
+        false,
+        false
     ],
     "Icon": "dart_monkey_avatar_small",
     "PlacementH": 0.0,

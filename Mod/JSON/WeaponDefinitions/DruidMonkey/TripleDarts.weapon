@@ -1,3 +1,4 @@
+//Base druid weapon
 {	
     "Type":             "TripleDarts",    
     "TargetRange":      100.0,
