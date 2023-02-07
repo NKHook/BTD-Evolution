@@ -1,0 +1,2321 @@
+{
+    "Rounds": [
+        {
+            "Hint": "Round 0",
+            "Waves": []
+        },
+        {
+            "Hint": "Round 1",
+            "Waves": [
+                {
+                    "Bloon": "Red",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "StartTime": 0,
+                    "Duration": 17.5125,
+                    "Count": 20
+                }
+            ]
+        },
+        {
+            "Hint": "Round 2",
+            "Waves": [
+                {
+                    "Bloon": "Red",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "StartTime": 0,
+                    "Duration": 16.558999,
+                    "Count": 30
+                }
+            ]
+        },
+        {
+            "Hint": "Round 3",
+            "Waves": [
+                {
+                    "Bloon": "Red",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "StartTime": 0,
+                    "Duration": 5.138999,
+                    "Count": 10
+                },
+                {
+                    "Bloon": "Red",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "StartTime": 8.564999,
+                    "Duration": 5.138999,
+                    "Count": 10
+                },
+                {
+                    "Bloon": "Blue",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "StartTime": 5.709999,
+                    "Duration": 2.284,
+                    "Count": 5
+                }
+            ]
+        },
+        {
+            "Hint": "Round 4",
+            "Waves": [
+                {
+                    "Bloon": "Red",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "StartTime": 0,
+                    "Duration": 10.848999,
+                    "Count": 20
+                },
+                {
+                    "Bloon": "Red",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "StartTime": 19.985,
+                    "Duration": 2.887499,
+                    "Count": 10
+                },
+                {
+                    "Bloon": "Blue",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "StartTime": 11.419999,
+                    "Duration": 7.994,
+                    "Count": 15
+                }
+            ]
+        },
+        {
+            "Hint": "Round 5",
+            "Waves": [
+                {
+                    "Bloon": "Blue",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "StartTime": 0,
+                    "Duration": 5.138999,
+                    "Count": 10
+                },
+                {
+                    "Bloon": "Blue",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "StartTime": 8.564999,
+                    "Duration": 7.994,
+                    "Count": 15
+                },
+                {
+                    "Bloon": "Red",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "StartTime": 5.709999,
+                    "Duration": 2.284,
+                    "Count": 5
+                }
+            ]
+        },
+        {
+            "Hint": "Round 6",
+            "Waves": [
+                {
+                    "Bloon": "Green",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 4,
+                    "StartTime": 0,
+                    "Duration": 1.713
+                },
+                {
+                    "Bloon": "Red",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 15,
+                    "StartTime": 2.284,
+                    "Duration": 7.994
+                },
+                {
+                    "Bloon": "Blue",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 15,
+                    "StartTime": 10.849,
+                    "Duration": 9.994
+                }
+            ]
+        },
+        {
+            "Hint": "Round 7",
+            "Waves": [
+                {
+                    "Bloon": "Blue",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 0,
+                    "Duration": 5.14
+                },
+                {
+                    "Bloon": "Blue",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 15,
+                    "StartTime": 22.82,
+                    "Duration": 3.992
+                },
+                {
+                    "Bloon": "Green",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 5,
+                    "StartTime": 5.71,
+                    "Duration": 4.95
+                },
+                {
+                    "Bloon": "Red",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 20,
+                    "StartTime": 11.8125,
+                    "Duration": 10.85
+                }
+            ]
+        },
+        {
+            "Hint": "Round 8",
+            "Waves": [
+                {
+                    "Bloon": "Blue",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 20,
+                    "StartTime": 0,
+                    "Duration": 10.85
+                },
+                {
+                    "Bloon": "Green",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 2,
+                    "StartTime": 11.42,
+                    "Duration": 0.57
+                },
+                {
+                    "Bloon": "Green",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 12,
+                    "StartTime": 18.272,
+                    "Duration": 10.65
+                },
+                {
+                    "Bloon": "Red",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 12.562,
+                    "Duration": 1.97
+                }
+            ]
+        },
+        {
+            "Hint": "Round 9",
+            "Waves": [
+                {
+                    "Bloon": "Green",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 30,
+                    "StartTime": 0,
+                    "Duration": 18.957
+                }
+            ]
+        },
+        {
+            "Hint": "Round 10",
+            "Waves": [
+                {
+                    "Bloon": "Blue",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 60,
+                    "StartTime": 0,
+                    "Duration": 35
+                },
+                {
+                    "Bloon": "Blue",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 20,
+                    "StartTime": 35,
+                    "Duration": 9
+                },
+                {
+                    "Bloon": "Blue",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 22,
+                    "StartTime": 44,
+                    "Duration": 4
+                }
+            ]
+        },
+        {
+            "Hint": "Round 11",
+            "Waves": [
+                {
+                    "Bloon": "Yellow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 2,
+                    "StartTime": 0,
+                    "Duration": 0.571
+                },
+                {
+                    "Bloon": "Green",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 12,
+                    "StartTime": 3.8,
+                    "Duration": 6.281
+                },
+                {
+                    "Bloon": "Blue",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 10.24,
+                    "Duration": 3.804
+                },
+                {
+                    "Bloon": "Red",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 13.62,
+                    "Duration": 4.575
+                }
+            ]
+        },
+        {
+            "Hint": "Round 12",
+            "Waves": [
+                {
+                    "Bloon": "Green",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 0,
+                    "Duration": 5.14
+                },
+                {
+                    "Bloon": "Blue",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 15,
+                    "StartTime": 5.71,
+                    "Duration": 6.075
+                },
+                {
+                    "Bloon": "Yellow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 5,
+                    "StartTime": 14.275,
+                    "Duration": 3.12
+                }
+            ]
+        },
+        {
+            "Hint": "Round 13",
+            "Waves": [
+                {
+                    "Bloon": "Red",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 100,
+                    "StartTime": 0,
+                    "Duration": 27.42
+                },
+                {
+                    "Bloon": "Yellow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 4,
+                    "StartTime": 11.42,
+                    "Duration": 1.354
+                },
+                {
+                    "Bloon": "Green",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 23,
+                    "StartTime": 17.13,
+                    "Duration": 13.704
+                }
+            ]
+        },
+        {
+            "Hint": "Round 14",
+            "Waves": [
+                {
+                    "Bloon": "Red",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 18,
+                    "StartTime": 0,
+                    "Duration": 9.707
+                },
+                {
+                    "Bloon": "Red",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 31,
+                    "StartTime": 9.5,
+                    "Duration": 17.13
+                },
+                {
+                    "Bloon": "Blue",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 5,
+                    "StartTime": 2.855,
+                    "Duration": 1.12
+                },
+                {
+                    "Bloon": "Blue",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 15.9625,
+                    "Duration": 1.3875
+                },
+                {
+                    "Bloon": "Green",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 5,
+                    "StartTime": 5.71,
+                    "Duration": 1.12
+                },
+                {
+                    "Bloon": "Green",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 5,
+                    "StartTime": 19.8375,
+                    "Duration": 1.3875
+                },
+                {
+                    "Bloon": "Yellow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 4,
+                    "StartTime": 8.565,
+                    "Duration": 0.95
+                },
+                {
+                    "Bloon": "Yellow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 5,
+                    "StartTime": 23.708,
+                    "Duration": 1.554
+                }
+            ]
+        },
+        {
+            "Hint": "Round 15",
+            "Waves": [
+                {
+                    "Bloon": "Red",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 20,
+                    "StartTime": 0,
+                    "Duration": 10.85
+                },
+                {
+                    "Bloon": "Pink",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 3,
+                    "StartTime": 12.42,
+                    "Duration": 0.83
+                },
+                {
+                    "Bloon": "Green",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 12,
+                    "StartTime": 15.13,
+                    "Duration": 8.0
+                },
+                {
+                    "Bloon": "Yellow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 5,
+                    "StartTime": 23.195,
+                    "Duration": 2.65
+                }
+            ]
+        },
+        {
+            "Hint": "Round 16",
+            "Waves": [
+                {
+                    "Bloon": "Green",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 20,
+                    "StartTime": 0,
+                    "Duration": 10.85
+                },
+                {
+                    "Bloon": "Yellow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 8,
+                    "StartTime": 13.58,
+                    "Duration": 1.43
+                },
+                {
+                    "Bloon": "Pink",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 4,
+                    "StartTime": 1.675,
+                    "Duration": 14.5875
+                }
+            ]
+        },
+        {
+            "Hint": "Round 17",
+            "Waves": [
+                {
+                    "Bloon": "Yellow",
+                    "IsCamo": false,
+                    "IsRegen": true,
+                    "Count": 8,
+                    "StartTime": 0,
+                    "Duration": 3.997
+                }
+            ]
+        },
+        {
+            "Hint": "Round 18",
+            "Waves": [
+                {
+                    "Bloon": "Green",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 60,
+                    "StartTime": 0,
+                    "Duration": 25
+                },
+                {
+                    "Bloon": "Green",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 20,
+                    "StartTime": 25,
+                    "Duration": 1.82
+                }
+            ]
+        },
+        {
+            "Hint": "Round 19",
+            "Waves": [
+                {
+                    "Bloon": "Green",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 0,
+                    "Duration": 2.887
+                },
+                {
+                    "Bloon": "Yellow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 4,
+                    "StartTime": 13.5,
+                    "Duration": 2.284
+                },
+                {
+                    "Bloon": "Pink",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 7,
+                    "StartTime": 5.95,
+                    "Duration": 7.62
+                },
+                {
+                    "Bloon": "Yellow",
+                    "IsCamo": false,
+                    "IsRegen": true,
+                    "Count": 5,
+                    "StartTime": 2.33,
+                    "Duration": 2.855
+                }
+            ]
+        },
+        {
+            "Hint": "Round 20",
+            "Waves": [
+                {
+                    "Bloon": "Black",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 6,
+                    "StartTime": 0,
+                    "Duration": 5.245
+                }
+            ]
+        },
+        {
+            "Hint": "Round 21",
+            "Waves": [
+                {
+                    "Bloon": "Pink",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 0,
+                    "Duration": 5.14
+                },
+                {
+                    "Bloon": "Pink",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 4,
+                    "StartTime": 5.71,
+                    "Duration": 1.4375
+                }
+            ]
+        },
+        {
+            "Hint": "Round 22",
+            "Waves": [
+                {
+                    "Bloon": "White",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 8,
+                    "StartTime": 0,
+                    "Duration": 4.568
+                }
+            ]
+        },
+        {
+            "Hint": "Round 23",
+            "Waves": [
+                {
+                    "Bloon": "Black",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 5,
+                    "StartTime": 0,
+                    "Duration": 1.9375
+                },
+                {
+                    "Bloon": "White",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 4,
+                    "StartTime": 5.758,
+                    "Duration": 1.854
+                }
+            ]
+        },
+        {
+            "Hint": "Round 24",
+            "Waves": [
+                {
+                    "Bloon": "Green",
+                    "IsCamo": true,
+                    "IsRegen": false,
+                    "Count": 1,
+                    "StartTime": 0,
+                    "Duration": 1.142
+                }
+            ]
+        },
+        {
+            "Hint": "Round 25",
+            "Waves": [
+                {
+                    "Bloon": "Yellow",
+                    "IsCamo": false,
+                    "IsRegen": true,
+                    "Count": 31,
+                    "StartTime": 0,
+                    "Duration": 17.13
+                },
+                {
+                    "Bloon": "Purple",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 10,
+                    "Duration": 15
+                }
+            ]
+        },
+        {
+            "Hint": "Round 26",
+            "Waves": [
+                {
+                    "Bloon": "Pink",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 23,
+                    "StartTime": 0,
+                    "Duration": 8.7
+                },
+                {
+                    "Bloon": "Zebra",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 4,
+                    "StartTime": 11,
+                    "Duration": 3.425
+                }
+            ]
+        },
+        {
+            "Hint": "Round 27",
+            "Waves": [
+                {
+                    "Bloon": "Yellow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 45,
+                    "StartTime": 0,
+                    "Duration": 7.725
+                },
+                {
+                    "Bloon": "Green",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 45,
+                    "StartTime": 9.42,
+                    "Duration": 7.345
+                },
+                {
+                    "Bloon": "Blue",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 55,
+                    "StartTime": 19,
+                    "Duration": 5.53
+                },
+                {
+                    "Bloon": "Red",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 120,
+                    "StartTime": 24.58,
+                    "Duration": 6.4375
+                }
+            ]
+        },
+        {
+            "Hint": "Round 28",
+            "Waves": [
+                {
+                    "Bloon": "Lead",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 4,
+                    "StartTime": 0,
+                    "Duration": 4
+                }
+            ]
+        },
+        {
+            "Hint": "Round 29",
+            "Waves": [
+                {
+                    "Bloon": "Yellow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 25,
+                    "StartTime": 0,
+                    "Duration": 9
+                },
+                {
+                    "Bloon": "Pink",
+                    "IsCamo": false,
+                    "IsRegen": true,
+                    "Count": 12,
+                    "StartTime": 13.5,
+                    "Duration": 2.112
+                }
+            ]
+        },
+        {
+            "Hint": "Round 30",
+            "Waves": [
+                {
+                    "Bloon": "Lead",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 9,
+                    "StartTime": 0,
+                    "Duration": 13
+                }
+            ]
+        },
+        {
+            "Hint": "Round 31",
+            "Waves": [
+                {
+                    "Bloon": "Zebra",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 8,
+                    "StartTime": 0,
+                    "Duration": 5.085
+                },
+                {
+                    "Bloon": "Zebra",
+                    "IsCamo": false,
+                    "IsRegen": true,
+                    "Count": 2,
+                    "StartTime": 5.92,
+                    "Duration": 1.713
+                }
+            ]
+        },
+        {
+            "Hint": "Round 32",
+            "Waves": [
+                {
+                    "Bloon": "Black",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 25,
+                    "StartTime": 0,
+                    "Duration": 13.7
+                },
+                {
+                    "Bloon": "White",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 28,
+                    "StartTime": 14.275,
+                    "Duration": 16.5
+                },
+                {
+                    "Bloon": "Lead",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 8,
+                    "StartTime": 31.405,
+                    "Duration": 3.997
+                },
+                {
+                    "Bloon": "Purple",
+                    "IsCamo": false,
+                    "IsRegen": true,
+                    "Count": 10,
+                    "StartTime": 10,
+                    "Duration": 15
+                }
+            ]
+        },
+        {
+            "Hint": "Round 33",
+            "Waves": [
+                {
+                    "Bloon": "Yellow",
+                    "IsCamo": true,
+                    "IsRegen": false,
+                    "Count": 20,
+                    "StartTime": 0,
+                    "Duration": 25.5
+                }
+            ]
+        },
+        {
+            "Hint": "Round 34",
+            "Waves": [
+                {
+                    "Bloon": "Zebra",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 5,
+                    "StartTime": 7.5,
+                    "Duration": 18.1
+                },
+                {
+                    "Bloon": "Yellow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 140,
+                    "StartTime": 0,
+                    "Duration": 34.113
+                }
+            ]
+        },
+        {
+            "Hint": "Round 35",
+            "Waves": [
+                {
+                    "Bloon": "White",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 25,
+                    "StartTime": 0,
+                    "Duration": 10
+                },
+                {
+                    "Bloon": "Rainbow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 5,
+                    "StartTime": 14.35,
+                    "Duration": 2.284
+                },
+                {
+                    "Bloon": "Pink",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 35,
+                    "StartTime": 19.2125,
+                    "Duration": 6.995
+                }
+            ]
+        },
+        {
+            "Hint": "Round 36",
+            "Waves": [
+                {
+                    "Bloon": "Pink",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 20,
+                    "StartTime": 3.5,
+                    "Duration": 1.5125
+                },
+                {
+                    "Bloon": "Pink",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 20,
+                    "StartTime": 11.92,
+                    "Duration": 1.345
+                },
+                {
+                    "Bloon": "Pink",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 41,
+                    "StartTime": 20.42,
+                    "Duration": 2.833
+                }
+            ]
+        },
+        {
+            "Hint": "Round 37",
+            "Waves": [
+                {
+                    "Bloon": "Black",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 20,
+                    "StartTime": 0,
+                    "Duration": 10.85
+                },
+                {
+                    "Bloon": "White",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 20,
+                    "StartTime": 11.42,
+                    "Duration": 10.85
+                },
+                {
+                    "Bloon": "Lead",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 15,
+                    "StartTime": 22.84,
+                    "Duration": 7.994
+                },
+                {
+                    "Bloon": "Zebra",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 31.405,
+                    "Duration": 5.14
+                },
+                {
+                    "Bloon": "White",
+                    "IsCamo": true,
+                    "IsRegen": false,
+                    "Count": 7,
+                    "StartTime": 41.92,
+                    "Duration": 1.59
+                }
+            ]
+        },
+        {
+            "Hint": "Round 38",
+            "Waves": [
+                {
+                    "Bloon": "White",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 17,
+                    "StartTime": 0,
+                    "Duration": 3.6
+                },
+                {
+                    "Bloon": "Lead",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 14,
+                    "StartTime": 4.83,
+                    "Duration": 8.565
+                },
+                {
+                    "Bloon": "Zebra",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 12.0875,
+                    "Duration": 6.28
+                },
+                {
+                    "Bloon": "Rainbow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 4,
+                    "StartTime": 25.725,
+                    "Duration": 2.855
+                },
+                {
+                    "Bloon": "Pink",
+                    "IsCamo": false,
+                    "IsRegen": true,
+                    "Count": 42,
+                    "StartTime": 2,
+                    "Duration": 23.411
+                }
+            ]
+        },
+        {
+            "Hint": "Round 39",
+            "Waves": [
+                {
+                    "Bloon": "Black",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 0,
+                    "Duration": 5.14
+                },
+                {
+                    "Bloon": "White",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 5.71,
+                    "Duration": 5.14
+                },
+                {
+                    "Bloon": "Lead",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 20,
+                    "StartTime": 11.42,
+                    "Duration": 7.2625
+                },
+                {
+                    "Bloon": "Zebra",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 20,
+                    "StartTime": 22.84,
+                    "Duration": 10.85
+                },
+                {
+                    "Bloon": "Rainbow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 18,
+                    "StartTime": 34.26,
+                    "Duration": 9.707
+                }
+            ]
+        },
+        {
+            "Hint": "Round 40",
+            "Waves": [
+                {
+                    "Bloon": "Rainbow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 0,
+                    "Duration": 5.14
+                },
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 4,
+                    "StartTime": 7.9625,
+                    "Duration": 1.713
+                }
+            ]
+        },
+        {
+            "Hint": "Round 41",
+            "Waves": [
+                {
+                    "Bloon": "Black",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 60,
+                    "StartTime": 0,
+                    "Duration": 18.77
+                },
+                {
+                    "Bloon": "Zebra",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 60,
+                    "StartTime": 18.85,
+                    "Duration": 27.358
+                }
+            ]
+        },
+        {
+            "Hint": "Round 42",
+            "Waves": [
+                {
+                    "Bloon": "Rainbow",
+                    "IsCamo": false,
+                    "IsRegen": true,
+                    "Count": 6,
+                    "StartTime": 0,
+                    "Duration": 5
+                },
+                {
+                    "Bloon": "Rainbow",
+                    "IsCamo": true,
+                    "IsRegen": false,
+                    "Count": 6,
+                    "StartTime": 6,
+                    "Duration": 5
+                }
+            ]
+        },
+        {
+            "Hint": "Round 43",
+            "Waves": [
+                {
+                    "Bloon": "Rainbow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 0,
+                    "Duration": 5.14
+                },
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 7,
+                    "StartTime": 5.71,
+                    "Duration": 3.55
+                }
+            ]
+        },
+        {
+            "Hint": "Round 44",
+            "Waves": [
+                {
+                    "Bloon": "Zebra",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 0,
+                    "Duration": 10
+                },
+                {
+                    "Bloon": "Zebra",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 9.92,
+                    "Duration": 7
+                },
+                {
+                    "Bloon": "Zebra",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 20.75,
+                    "Duration": 2
+                },
+                {
+                    "Bloon": "Zebra",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 22.67,
+                    "Duration": 1
+                }
+            ]
+        },
+        {
+            "Hint": "Round 45",
+            "Waves": [
+                {
+                    "Bloon": "Rainbow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 25,
+                    "StartTime": 0,
+                    "Duration": 13.704
+                },
+                {
+                    "Bloon": "Pink",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 200,
+                    "StartTime": 14.275,
+                    "Duration": 60.73
+                },
+                {
+                    "Bloon": "Lead",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 8,
+                    "StartTime": 75,
+                    "Duration": 4
+                },
+                {
+                    "Bloon": "Purple",
+                    "IsCamo": true,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 100,
+                    "Duration": 15
+                }
+            ]
+        },
+        {
+            "Hint": "Round 46",
+            "Waves": [
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 1,
+                    "StartTime": 0,
+                    "Duration": 0
+                }
+            ]
+        },
+        {
+            "Hint": "Round 47",
+            "Waves": [
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 12,
+                    "StartTime": 0,
+                    "Duration": 6.281
+                },
+                {
+                    "Bloon": "Pink",
+                    "IsCamo": true,
+                    "IsRegen": false,
+                    "Count": 70,
+                    "StartTime": 6.5,
+                    "Duration": 18.145
+                }
+            ]
+        },
+        {
+            "Hint": "Round 48",
+            "Waves": [
+                {
+                    "Bloon": "Pink",
+                    "IsCamo": false,
+                    "IsRegen": true,
+                    "Count": 120,
+                    "StartTime": 0,
+                    "Duration": 39.7
+                },
+                {
+                    "Bloon": "Rainbow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 50,
+                    "StartTime": 39.68,
+                    "Duration": 23.392
+                },
+                {
+                    "Bloon": "Purple",
+                    "IsCamo": true,
+                    "IsRegen": true,
+                    "Count": 30,
+                    "StartTime": 50,
+                    "Duration": 30
+                }
+            ]
+        },
+        {
+            "Hint": "Round 49",
+            "Waves": [
+                {
+                    "Bloon": "Rainbow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 4,
+                    "Duration": 5.14
+                },
+                {
+                    "Bloon": "Rainbow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 43,
+                    "Duration": 5.14
+                },
+                {
+                    "Bloon": "Rainbow",
+                    "IsCamo": false,
+                    "IsRegen": true,
+                    "Count": 10,
+                    "StartTime": 43,
+                    "Duration": 5.14
+                },
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 18,
+                    "StartTime": 15.5,
+                    "Duration": 6.54
+                },
+                {
+                    "Bloon": "Zebra",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 20,
+                    "StartTime": 29.275,
+                    "Duration": 3.513
+                },
+                {
+                    "Bloon": "Green",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 343,
+                    "StartTime": 0,
+                    "Duration": 55.344
+                }
+            ]
+        },
+        {
+            "Hint": "Round 50",
+            "Waves": [
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 1,
+                    "StartTime": 0,
+                    "Duration": 0
+                },
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 1,
+                    "StartTime": 28,
+                    "Duration": 0
+                },
+                {
+                    "Bloon": "Lead",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 8,
+                    "StartTime": 0.571,
+                    "Duration": 3.997
+                },
+                {
+                    "Bloon": "Red",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 20,
+                    "StartTime": 9.8875,
+                    "Duration": 1.345
+                },
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 20,
+                    "StartTime": 16.56,
+                    "Duration": 10.85
+                }
+            ]
+        },
+        {
+            "Hint": "Round 51",
+            "Waves": [
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 20,
+                    "StartTime": 0,
+                    "Duration": 15.42
+                },
+                {
+                    "Bloon": "Rainbow",
+                    "IsCamo": false,
+                    "IsRegen": true,
+                    "Count": 18,
+                    "StartTime": 15.988,
+                    "Duration": 5.14
+                }
+            ]
+        },
+        {
+            "Hint": "Round 52",
+            "Waves": [
+                {
+                    "Bloon": "Rainbow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 25,
+                    "StartTime": 0,
+                    "Duration": 13.7
+                },
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 1,
+                    "StartTime": 14.275,
+                    "Duration": 0
+                },
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 1,
+                    "StartTime": 17.7,
+                    "Duration": 0
+                },
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 5,
+                    "StartTime": 14.85,
+                    "Duration": 2.284
+                },
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 5,
+                    "StartTime": 18.272,
+                    "Duration": 2.284
+                }
+            ]
+        },
+        {
+            "Hint": "Round 53",
+            "Waves": [
+                {
+                    "Bloon": "Pink",
+                    "IsCamo": true,
+                    "IsRegen": false,
+                    "Count": 80,
+                    "StartTime": 0,
+                    "Duration": 45.11
+                },
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 1,
+                    "StartTime": 27.9625,
+                    "Duration": 0
+                },
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 1,
+                    "StartTime": 31.976,
+                    "Duration": 0
+                },
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 1,
+                    "StartTime": 35.733,
+                    "Duration": 0
+                }
+            ]
+        },
+        {
+            "Hint": "Round 54",
+            "Waves": [
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 35,
+                    "StartTime": 0,
+                    "Duration": 19.414
+                },
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 1,
+                    "StartTime": 6.23,
+                    "Duration": 0
+                },
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 1,
+                    "StartTime": 11.991,
+                    "Duration": 0
+                }
+            ]
+        },
+        {
+            "Hint": "Round 55",
+            "Waves": [
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 1,
+                    "StartTime": 28.78,
+                    "Duration": 0
+                },
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 1.17,
+                    "Duration": 1.6375
+                },
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 7.83,
+                    "Duration": 1.47
+                },
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 14.42,
+                    "Duration": 1.47
+                },
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 22.17,
+                    "Duration": 0.91
+                }
+            ]
+        },
+        {
+            "Hint": "Round 56",
+            "Waves": [
+                {
+                    "Bloon": "Rainbow",
+                    "IsCamo": false,
+                    "IsRegen": true,
+                    "Count": 40,
+                    "StartTime": 0,
+                    "Duration": 12
+                },
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 1,
+                    "StartTime": 15.18,
+                    "Duration": 0
+                }
+            ]
+        },
+        {
+            "Hint": "Round 57",
+            "Waves": [
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 2,
+                    "StartTime": 0,
+                    "Duration": 0.571
+                },
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 2,
+                    "StartTime": 12.56,
+                    "Duration": 0.571
+                },
+                {
+                    "Bloon": "Rainbow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 40,
+                    "StartTime": 0.975,
+                    "Duration": 25.25
+                }
+            ]
+        },
+        {
+            "Hint": "Round 58",
+            "Waves": [
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 5,
+                    "StartTime": 0,
+                    "Duration": 43.98
+                },
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 29,
+                    "StartTime": 0,
+                    "Duration": 44.15
+                }
+            ]
+        },
+        {
+            "Hint": "Round 59",
+            "Waves": [
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 50,
+                    "StartTime": 0,
+                    "Duration": 27.979
+                },
+                {
+                    "Bloon": "Lead",
+                    "IsCamo": true,
+                    "IsRegen": false,
+                    "Count": 28,
+                    "StartTime": 10.2,
+                    "Duration": 7.45
+                }
+            ]
+        },
+        {
+            "Hint": "Round 60",
+            "Waves": [
+                {
+                    "Bloon": "BFB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 1,
+                    "StartTime": 0,
+                    "Duration": 0
+                }
+            ]
+        },
+        {
+            "Hint": "Round 61",
+            "Waves": [
+                {
+                    "Bloon": "Zebra",
+                    "IsCamo": false,
+                    "IsRegen": true,
+                    "Count": 150,
+                    "StartTime": 0,
+                    "Duration": 20
+                },
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 5,
+                    "StartTime": 1.92,
+                    "Duration": 14
+                }
+            ]
+        },
+        {
+            "Hint": "Round 62",
+            "Waves": [
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 6,
+                    "StartTime": 1.08,
+                    "Duration": 25
+                },
+                {
+                    "Bloon": "Pink",
+                    "IsCamo": true,
+                    "IsRegen": false,
+                    "Count": 300,
+                    "StartTime": 1.142,
+                    "Duration": 56.52
+                },
+                {
+                    "Bloon": "Rainbow",
+                    "IsCamo": true,
+                    "IsRegen": true,
+                    "Count": 15,
+                    "StartTime": 57.5,
+                    "Duration": 7.994
+                },
+                {
+                    "Bloon": "Purple",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 250,
+                    "StartTime": 20,
+                    "Duration": 60
+                }
+            ]
+        },
+        {
+            "Hint": "Round 63",
+            "Waves": [
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 40,
+                    "StartTime": 3.88,
+                    "Duration": 0.2
+                },
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 40,
+                    "StartTime": 20.08,
+                    "Duration": 0.2
+                },
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 42,
+                    "StartTime": 36.42,
+                    "Duration": 0.2
+                },
+                {
+                    "Bloon": "Lead",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 75,
+                    "StartTime": 0,
+                    "Duration": 42.254
+                }
+            ]
+        },
+        {
+            "Hint": "Round 64",
+            "Waves": [
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 9,
+                    "StartTime": 0,
+                    "Duration": 5.75
+                }
+            ]
+        },
+        {
+            "Hint": "Round 65",
+            "Waves": [
+                {
+                    "Bloon": "Zebra",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 100,
+                    "StartTime": 0,
+                    "Duration": 32.35
+                },
+                {
+                    "Bloon": "Rainbow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 70,
+                    "StartTime": 32.59,
+                    "Duration": 14.31
+                },
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 50,
+                    "StartTime": 47.32,
+                    "Duration": 10.85
+                },
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 3,
+                    "StartTime": 58.57,
+                    "Duration": 0.57
+                },
+                {
+                    "Bloon": "BFB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 2,
+                    "StartTime": 60,
+                    "Duration": 2.0
+                }
+            ]
+        },
+        {
+            "Hint": "Round 66",
+            "Waves": [
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 2,
+                    "StartTime": 0,
+                    "Duration": 0.5
+                },
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 2,
+                    "StartTime": 7,
+                    "Duration": 0.5
+                },
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 4,
+                    "StartTime": 13.92,
+                    "Duration": 1
+                },
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 4,
+                    "StartTime": 20.75,
+                    "Duration": 0.75
+                }
+            ]
+        },
+        {
+            "Hint": "Round 67",
+            "Waves": [
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 5,
+                    "StartTime": 0,
+                    "Duration": 2.284
+                },
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 5,
+                    "StartTime": 24.15,
+                    "Duration": 2.284
+                },
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 15,
+                    "StartTime": 9.1,
+                    "Duration": 7.994
+                }
+            ]
+        },
+        {
+            "Hint": "Round 68",
+            "Waves": [
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 4,
+                    "StartTime": 0,
+                    "Duration": 1.713
+                },
+                {
+                    "Bloon": "BFB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 1,
+                    "StartTime": 7.442,
+                    "Duration": 0
+                }
+            ]
+        },
+        {
+            "Hint": "Round 69",
+            "Waves": [
+                {
+                    "Bloon": "Lead",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 60,
+                    "StartTime": 0,
+                    "Duration": 16.55
+                },
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": true,
+                    "Count": 70,
+                    "StartTime": 17.13,
+                    "Duration": 41.94
+                }
+            ]
+        },
+        {
+            "Hint": "Round 70",
+            "Waves": [
+                {
+                    "Bloon": "Rainbow",
+                    "IsCamo": true,
+                    "IsRegen": false,
+                    "Count": 200,
+                    "StartTime": 0,
+                    "Duration": 40
+                },
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 4,
+                    "StartTime": 40,
+                    "Duration": 1.142
+                }
+            ]
+        },
+        {
+            "Hint": "Round 71",
+            "Waves": [
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 4.42,
+                    "Duration": 5
+                },
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 30,
+                    "StartTime": 0,
+                    "Duration": 16.55
+                }
+            ]
+        },
+        {
+            "Hint": "Round 72",
+            "Waves": [
+                {
+                    "Bloon": "BFB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 1,
+                    "StartTime": 3.42,
+                    "Duration": 0
+                },
+                {
+                    "Bloon": "BFB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 1,
+                    "StartTime": 16.12,
+                    "Duration": 0
+                },
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": true,
+                    "Count": 38,
+                    "StartTime": 0,
+                    "Duration": 21.68
+                }
+            ]
+        },
+        {
+            "Hint": "Round 73",
+            "Waves": [
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 7,
+                    "StartTime": 0,
+                    "Duration": 2.284
+                },
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 2,
+                    "StartTime": 26.38,
+                    "Duration": 0.571
+                },
+                {
+                    "Bloon": "BFB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 2,
+                    "StartTime": 13.4,
+                    "Duration": 3
+                }
+            ]
+        },
+        {
+            "Hint": "Round 74",
+            "Waves": [
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 100,
+                    "StartTime": 0,
+                    "Duration": 56.53
+                },
+                {
+                    "Bloon": "BFB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 1,
+                    "StartTime": 41.43,
+                    "Duration": 9.707
+                }
+            ]
+        },
+        {
+            "Hint": "Round 75",
+            "Waves": [
+                {
+                    "Bloon": "BFB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 1,
+                    "StartTime": 0,
+                    "Duration": 0
+                },
+                {
+                    "Bloon": "BFB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 1,
+                    "StartTime": 9.71,
+                    "Duration": 0
+                },
+                {
+                    "Bloon": "BFB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 1,
+                    "StartTime": 22.4875,
+                    "Duration": 0
+                },
+                {
+                    "Bloon": "Lead",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 14,
+                    "StartTime": 0.571,
+                    "Duration": 7.43
+                },
+                {
+                    "Bloon": "Lead",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 14,
+                    "StartTime": 10.278,
+                    "Duration": 7.43
+                },
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 2,
+                    "StartTime": 8.565,
+                    "Duration": 0.571
+                },
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 2,
+                    "StartTime": 18.272,
+                    "Duration": 0.571
+                }
+            ]
+        },
+        {
+            "Hint": "Round 76",
+            "Waves": [
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": true,
+                    "Count": 60,
+                    "StartTime": 0,
+                    "Duration": 1.77
+                }
+            ]
+        },
+        {
+            "Hint": "Round 77",
+            "Waves": [
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 14,
+                    "StartTime": 0,
+                    "Duration": 58.92
+                },
+                {
+                    "Bloon": "BFB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 5,
+                    "StartTime": 26.67,
+                    "Duration": 4.554
+                }
+            ]
+        },
+        {
+            "Hint": "Round 78",
+            "Waves": [
+                {
+                    "Bloon": "Rainbow",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 150,
+                    "StartTime": 0,
+                    "Duration": 90
+                },
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 75,
+                    "StartTime": 10,
+                    "Duration": 1.17
+                },
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": true,
+                    "IsRegen": false,
+                    "Count": 72,
+                    "StartTime": 77.92,
+                    "Duration": 1.2
+                },
+                {
+                    "Bloon": "BFB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 1,
+                    "StartTime": 44.08,
+                    "Duration": 1.713
+                },
+                {
+                    "Bloon": "Purple",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 80,
+                    "StartTime": 10,
+                    "Duration": 40
+                }
+            ]
+        },
+        {
+            "Hint": "Round 79",
+            "Waves": [
+                {
+                    "Bloon": "Rainbow",
+                    "IsCamo": false,
+                    "IsRegen": true,
+                    "Count": 500,
+                    "StartTime": 0,
+                    "Duration": 60
+                },
+                {
+                    "Bloon": "BFB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 7,
+                    "StartTime": 3.2,
+                    "Duration": 52.95
+                }
+            ]
+        },
+        {
+            "Hint": "Round 80",
+            "Waves": [
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 31,
+                    "StartTime": 0,
+                    "Duration": 20
+                }
+            ]
+        },
+        {
+            "Hint": "Round 81",
+            "Waves": [
+                {
+                    "Bloon": "BFB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 9,
+                    "StartTime": 0,
+                    "Duration": 20
+                }
+            ]
+        },
+        {
+            "Hint": "Round 82",
+            "Waves": [
+                {
+                    "Bloon": "Rainbow",
+                    "IsCamo": true,
+                    "IsRegen": true,
+                    "Count": 400,
+                    "StartTime": 0,
+                    "Duration": 60
+                },
+                {
+                    "Bloon": "BFB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 0,
+                    "Duration": 20
+                }
+            ]
+        },
+        {
+            "Hint": "Round 83",
+            "Waves": [
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 50,
+                    "StartTime": 0,
+                    "Duration": 60
+                },
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 50,
+                    "StartTime": 0.1,
+                    "Duration": 60
+                },
+                {
+                    "Bloon": "Ceramic",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 50,
+                    "StartTime": 0.2,
+                    "Duration": 60
+                },
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 30,
+                    "StartTime": 10,
+                    "Duration": 10
+                }
+            ]
+        },
+        {
+            "Hint": "Round 84",
+            "Waves": [
+                {
+                    "Bloon": "MOAB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 50,
+                    "StartTime": 0,
+                    "Duration": 25
+                },
+                {
+                    "Bloon": "BFB",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 10,
+                    "StartTime": 5,
+                    "Duration": 20
+                }
+            ]
+        },
+        {
+            "Hint": "Round 85",
+            "Waves": [
+                {
+                    "Bloon": "ZOMG",
+                    "IsCamo": false,
+                    "IsRegen": false,
+                    "Count": 1,
+                    "StartTime": 0,
+                    "Duration": 0
+                }
+            ]
+        }
+    ]
+}
