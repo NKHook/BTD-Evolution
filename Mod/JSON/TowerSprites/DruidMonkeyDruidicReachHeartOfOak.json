@@ -44,21 +44,9 @@
          "Position" : [ 1.0, 10.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "druid_monkey_poplust_cloak",
+         "sprite" : "druid_monkey_cloak",
          "type" : 1,
          "uid" : 5
-      },
-      {
-         "Alignment" : [ 0, 0 ],
-         "Alpha" : 1.0,
-         "Angle" : 0.0,
-         "Flip" : 0,
-         "Position" : [ -10.0, 1.0 ],
-         "Scale" : [ 1.0, 1.0 ],
-         "Shown" : true,
-         "sprite" : "druid_monkey_heart_of_thunder_staff",
-         "type" : 1,
-         "uid" : 6
       },
       {
          "Alignment" : [ 0, 0 ],
@@ -77,24 +65,12 @@
          "Alpha" : 1.0,
          "Angle" : 0.0,
          "Flip" : 0,
-         "Position" : [ 1.0, 3.0 ],
-         "Scale" : [ 1.0, 1.0 ],
-         "Shown" : true,
-         "sprite" : "druid_monkey_poplust_headpiece",
-         "type" : 1,
-         "uid" : 7
-      },
-      {
-         "Alignment" : [ 0, 0 ],
-         "Alpha" : 1.0,
-         "Angle" : 0.0,
-         "Flip" : 0,
          "Position" : [ 1.0, 1.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "druid_monkey_red_diamond",
+         "sprite" : "druid_monkey_green_diamond",
          "type" : 1,
-         "uid" : 8
+         "uid" : 6
       }
    ],
     "customvariables" : [
@@ -109,15 +85,15 @@
    "stageOptions" : {
       "SpriteInfo" : [
          {
-            "SpriteInfo" : "druid_monkey_thorn_arm_01",
+            "SpriteInfo" : "druid_monkey_arm_01",
             "Texture" : "btdr_sprites"
          },
          {
-            "SpriteInfo" : "druid_monkey_thorn_arm_02",
+            "SpriteInfo" : "druid_monkey_arm_02",
             "Texture" : "btdr_sprites"
          },
          {
-            "SpriteInfo" : "druid_monkey_thorn_arm_03",
+            "SpriteInfo" : "druid_monkey_arm_03",
             "Texture" : "btdr_sprites"
          },
          {
@@ -125,20 +101,12 @@
             "Texture" : "btdr_sprites"
          },
          {
-            "SpriteInfo": "druid_monkey_poplust_cloak",
+            "SpriteInfo": "druid_monkey_cloak",
             "Texture": "btdr_sprites"
          },
          {
-            "SpriteInfo": "druid_monkey_heart_of_thunder_staff",
-            "Texture": "btdr_sprites"
-         },
-         {
-            "SpriteInfo": "druid_monkey_poplust_headpiece",
-            "Texture": "btdr_sprites"
-         },
-         {
-            "SpriteInfo": "druid_monkey_red_diamond",
-            "Texture": "btdr_sprites"
+            "SpriteInfo" : "druid_monkey_green_diamond",
+            "Texture" : "btdr_sprites"
          }
       ],
       "StageLength" : 0.2

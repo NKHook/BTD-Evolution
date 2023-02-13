@@ -44,19 +44,19 @@
          "Position" : [ 1.0, 10.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "druid_monkey_poplust_cloak",
+         "sprite" : "druid_monkey_cloak",
          "type" : 1,
          "uid" : 5
       },
       {
          "Alignment" : [ 0, 0 ],
          "Alpha" : 1.0,
-         "Angle" : 0.0,
+         "Angle" : -45.0,
          "Flip" : 0,
-         "Position" : [ -10.0, 1.0 ],
+         "Position" : [ -10.0, -3.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "druid_monkey_heart_of_thunder_staff",
+         "sprite" : "druid_monkey_shield",
          "type" : 1,
          "uid" : 6
       },
@@ -68,21 +68,9 @@
          "Position" : [ 1.0, 3.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "druid_monkey_body",
+         "sprite" : "druid_monkey_druid_of_the_jungle",
          "type" : 1,
          "uid" : 4
-      },
-      {
-         "Alignment" : [ 0, 0 ],
-         "Alpha" : 1.0,
-         "Angle" : 0.0,
-         "Flip" : 0,
-         "Position" : [ 1.0, 3.0 ],
-         "Scale" : [ 1.0, 1.0 ],
-         "Shown" : true,
-         "sprite" : "druid_monkey_poplust_headpiece",
-         "type" : 1,
-         "uid" : 7
       },
       {
          "Alignment" : [ 0, 0 ],
@@ -92,9 +80,9 @@
          "Position" : [ 1.0, 1.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "druid_monkey_red_diamond",
+         "sprite" : "druid_monkey_green_diamond",
          "type" : 1,
-         "uid" : 8
+         "uid" : 7
       }
    ],
     "customvariables" : [
@@ -121,23 +109,19 @@
             "Texture" : "btdr_sprites"
          },
          {
-            "SpriteInfo" : "druid_monkey_body",
+            "SpriteInfo" : "druid_monkey_druid_of_the_jungle",
             "Texture" : "btdr_sprites"
          },
          {
-            "SpriteInfo": "druid_monkey_poplust_cloak",
+            "SpriteInfo": "druid_monkey_cloak",
             "Texture": "btdr_sprites"
          },
          {
-            "SpriteInfo": "druid_monkey_heart_of_thunder_staff",
+            "SpriteInfo": "druid_monkey_shield",
             "Texture": "btdr_sprites"
          },
          {
-            "SpriteInfo": "druid_monkey_poplust_headpiece",
-            "Texture": "btdr_sprites"
-         },
-         {
-            "SpriteInfo": "druid_monkey_red_diamond",
+            "SpriteInfo": "druid_monkey_green_diamond",
             "Texture": "btdr_sprites"
          }
       ],
