@@ -1,7 +1,6 @@
 {
-	"Sprites":
-	{
-        "0" : "DruidMonkey",
+	"Sprites": {
+		"0": "DruidMonkey",
 		"1": "DruidMonkeyHardThorns",
 		"2": "DruidMonkeyHeartOfThunder",
 		"3": "DruidMonkeyPoplust",
@@ -16,31 +15,34 @@
 		"12": "DruidMonkeyOfTheJungle",
 		"13": "DruidMonkeyHardThornsOfTheJungle",
 		"14": "DruidMonkeySpiritOfTheForest",
-		"15": "DruidMonkeyHardThornsSpiritOfTheForest"
+		"15": "DruidMonkeyHardThornsSpiritOfTheForest",
+		"16": "DruidMonkeyDruidicReach",
+		"17": "DruidMonkeyDruidicReachThornSwarm",
+		"18": "DruidMonkeyDruidicReachHeartOfOak",
+		"19": "DruidMonkeyDruidicReachOfTheJungle",
+		"20": "DruidMonkeyDruidicReachSpiritOfTheForest"
 	},
-	
-	"UpgradeLevels":
-	{
-		"00"		: 0,
-		"01"		: 4,
-		"02"		: 6,
-		"03"		: 12,
-		"04"		: 14,
-		"10"		: 0,
-		"11"		: 4,
-		"12"		: 6,
-		"13"		: 12,
-		"14"		: 14,
-		"20"		: 1,
-		"21"		: 5,
-		"22"		: 7,
-		"23"		: 13,
-		"24"		: 15,
-		"30"		: 2,
-		"31"		: 8,
-		"32"		: 9,
-		"40"		: 3,
-		"41"		: 10,
-		"42"		: 11
+	"UpgradeLevels": {
+		"00": 0,
+		"01": 4,
+		"02": 6,
+		"03": 12,
+		"04": 14,
+		"10": 16,
+		"11": 17,
+		"12": 18,
+		"13": 19,
+		"14": 20,
+		"20": 1,
+		"21": 5,
+		"22": 7,
+		"23": 13,
+		"24": 15,
+		"30": 2,
+		"31": 8,
+		"32": 9,
+		"40": 3,
+		"41": 10,
+		"42": 11
 	}
 }

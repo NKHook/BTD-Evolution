@@ -95,6 +95,18 @@
          "sprite" : "druid_monkey_hot_headpiece",
          "type" : 1,
          "uid" : 8
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Flip" : 0,
+         "Position" : [ 1.0, 1.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "druid_monkey_green_diamond",
+         "type" : 1,
+         "uid" : 9
       }
    ],
     "customvariables" : [
@@ -134,6 +146,10 @@
          },
          {
             "SpriteInfo": "druid_monkey_hot_headpiece",
+            "Texture": "btdr_sprites"
+         },
+         {
+            "SpriteInfo": "druid_monkey_green_diamond",
             "Texture": "btdr_sprites"
          }
       ],
