@@ -85,15 +85,15 @@
    "stageOptions" : {
       "SpriteInfo" : [
          {
-            "SpriteInfo" : "druid_monkey_arm_01",
+            "SpriteInfo" : "druid_monkey_thorn_arm_01",
             "Texture" : "btdr_sprites"
          },
          {
-            "SpriteInfo" : "druid_monkey_arm_02",
+            "SpriteInfo" : "druid_monkey_thorn_arm_02",
             "Texture" : "btdr_sprites"
          },
          {
-            "SpriteInfo" : "druid_monkey_arm_03",
+            "SpriteInfo" : "druid_monkey_thorn_arm_03",
             "Texture" : "btdr_sprites"
          },
          {
