@@ -1,6 +1,6 @@
 {
 	//MIB Aid
-    "Type": "VitalSupplies",
+    "Type": "MIBAid",
     "TargetRange":      0,
 	"CooldownTime":     15.0,
     "FireDelayTime":    0.0,

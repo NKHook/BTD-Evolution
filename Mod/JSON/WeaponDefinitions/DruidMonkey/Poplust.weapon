@@ -1,6 +1,6 @@
 //Poplust
 {
-    "Type": "MonkeyVillage",
+    "Type": "Poplust",
     "TargetRange": 125.0,
     "CooldownTime": 20.0,
     "FireDelayTime": 10.0,

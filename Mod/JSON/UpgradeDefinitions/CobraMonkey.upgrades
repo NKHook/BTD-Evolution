@@ -44,7 +44,7 @@
             "Name" : "Wired Funds",
 			"TowerUpgrade" : {
 				"Weapons" : {
-					"2" : "BananaFarm.weapon"
+					"2" : "WiredFunds.weapon"
 				}
 			},
 			"WeaponUpgrades" : [
@@ -80,7 +80,7 @@
 			"TowerUpgrade" :
 			{
 				"Weapons" : {
-					"6" : "SabotageSupplyLines.weapon"
+					"6" : "BloonAdjustment.weapon"
 				}
 			},
             "WeaponUpgrades" : [
@@ -238,9 +238,9 @@
             "Name" : "Attrition",
 			"TowerUpgrade" : {
 				"Weapons" : {
-					"0" : "BananaSkinCannon.weapon",
-					"1" : "BananaFarmerPro.weapon",
-					"4" : "RingOfFire.weapon"
+					"0" : "CobraMonkey.weapon",
+					"1" : "AttritionEffects.weapon",
+					"4" : "Attrition.weapon"
 				},
 				"Replace" : {
 					"FiresWeaponsInSequence" : true
@@ -329,7 +329,7 @@
 			"TowerUpgrade" :
 			{
 				"Weapons" : {
-					"1" : "BananaFarmerPro.weapon"
+					"1" : "DoubleTap.weapon"
 				},
 				"Replace" : {
 					"FiresWeaponsInSequence" : true
@@ -478,7 +478,7 @@
             "Name" : "MIB Aid",
 			"TowerUpgrade" : {
 				"Weapons" : {
-					"5" : "VitalSupplies.weapon"
+					"5" : "MIBAid.weapon"
 				}
 			},
             "WeaponUpgrades" : [
@@ -628,7 +628,7 @@
             "Name" : "Misdirection",
 			"TowerUpgrade" : {
 				"Weapons" : {
-					"7" : "BossWeaken.weapon"
+					"7" : "CobraMisdirection.weapon"
 				},
 				"Replace" : {
 					"FiresWeaponsInSequence" : false

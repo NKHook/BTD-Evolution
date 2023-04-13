@@ -1,6 +1,6 @@
 //Base druid weapon
 {	
-    "Type":             "TripleDarts",    
+    "Type":             "DruidMonkey",    
     "TargetRange":      100.0,
 	"CooldownTime":     0.7,
     "FireDelayTime":    0.2,

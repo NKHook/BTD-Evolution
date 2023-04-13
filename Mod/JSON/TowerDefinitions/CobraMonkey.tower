@@ -7,7 +7,7 @@
     "CanTargetCamo" : false,
     "DefaultSprite" : "monkey_farmer.json",
     "DefaultWeapons" : [
-        "BananaFarmer.weapon",
+        "CobraMonkey.weapon",
 		"",
 		"",
 		"",

@@ -1,6 +1,6 @@
 {
 	//Bloon Adjustment
-    "Type":             	"SabotageSupplyLines",    
+    "Type":             	"BloonAdjustment",    
     "TargetRange":      	140,
 	"CooldownTime":     	0,
     "FireDelayTime":    	0,

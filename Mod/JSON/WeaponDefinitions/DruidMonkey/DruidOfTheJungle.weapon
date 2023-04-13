@@ -1,6 +1,6 @@
 //Druid of the jungle
 {	
-    "Type":             "SpikeFactory",    
+    "Type":             "DruidOfTheJungle",    
     "TargetRange":      100.0,
 	"CooldownTime":     10.0,
     "FireDelayTime":    0.0,

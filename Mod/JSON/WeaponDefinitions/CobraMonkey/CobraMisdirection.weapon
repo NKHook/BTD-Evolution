@@ -1,6 +1,6 @@
 {
 	//Actual misdirection
-    "Type": "BossWeaken",
+    "Type": "CobraMisdirection",
     "TargetRange": 10000.0,
 	"CooldownTime": 10.0,
     "FireDelayTime": 0.0,

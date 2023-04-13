@@ -1,9 +1,10 @@
 {
 	//Main weapon
-    "Type":             "BananaFarmer",
+    "Type":             "DoubleTap",
     "TargetRange":      140.0,
 	"CooldownTime":     1.234567,
     "FireDelayTime":    0.0,
+	"StartsOnCooldown": true,
     
     "Tasks" :
     [
@@ -18,7 +19,7 @@
         },
 		{
 			"Type": "Effect",
-			"SpriteFile": "null.json",
+			"SpriteFile": "Cobra_Muzzle_Flash_Right.json",
             "AppliedToTower": true
 		}
     ]

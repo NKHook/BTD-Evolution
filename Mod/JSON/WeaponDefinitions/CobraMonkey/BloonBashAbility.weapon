@@ -1,6 +1,6 @@
 {
 	//Bloon Bash Ability
-    "Type":                 "DartMonkey",    
+    "Type":                 "BloonBashAbility",    
     "TargetRange":          100000,   
     "CooldownTime":     	50.625,
     "FireDelayTime":    	0.0,

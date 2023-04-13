@@ -51,7 +51,7 @@
             {
                 "Weapons" :
                 {
-                    "1": "ChainLightning.weapon"
+                    "1": "HeartOfThunder.weapon"
                 }
             }
         },
@@ -61,7 +61,7 @@
             {
                 "Weapons" :
                 {
-                    "2": "MonkeyVillage.weapon"
+                    "2": "Poplust.weapon"
                 }
             }
         },
@@ -107,7 +107,7 @@
             {
                 "Weapons":
                 {
-                    "3": "SpikeFactory.weapon"
+                    "3": "DruidOfTheJungle.weapon"
                 }
             }
         },
@@ -117,7 +117,7 @@
             {
                 "Weapons":
                 {
-                    "4": "RoadSpikes.weapon"
+                    "4": "SpiritOfTheForest.weapon"
                 }
             },
             "WeaponUpgrade":

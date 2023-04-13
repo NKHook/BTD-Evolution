@@ -1,5 +1,5 @@
 {	
-    "Type":             "RingOfFire",    
+    "Type":             "Attrition",    
     "TargetRange":      140.0,
 	"CooldownTime":     1,
     "FireDelayTime":    0,
