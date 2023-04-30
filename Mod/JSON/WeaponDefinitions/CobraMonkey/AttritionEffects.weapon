@@ -1,13 +1,14 @@
 {
-	//Main weapon
-    "Type":             "AttritionEffects",
-    "TargetRange":      140.0,
-	"CooldownTime":     1.234567,
-    "FireDelayTime":    0.0,
-    
-    "Tasks" :
-    [
-		{"Type": "Effect","SpriteFile": "null.json"},
+    //Main weapon
+    "Type": "AttritionEffects",
+    "TargetRange": 140.0,
+    "CooldownTime": 1.234567,
+    "FireDelayTime": 0.0,
+    "Tasks": [
+        {
+            "Type": "Effect",
+            "SpriteFile": "null.json"
+        },
         {
             "Type": "Damage",
             "DamageType": "Piercing",
@@ -17,10 +18,10 @@
             "Type": "StatusEffect",
             "Status": "MultiLayerDamage"
         },
-		{
-			"Type": "Effect",
-			"SpriteFile": "null.json",
+        {
+            "Type": "Effect",
+            "SpriteFile": "null.json",
             "AppliedToTower": true
-		}
+        }
     ]
 }
