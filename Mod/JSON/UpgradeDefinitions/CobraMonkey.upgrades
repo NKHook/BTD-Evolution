@@ -233,95 +233,17 @@
 				}
 			]
         },
-        
         {
             "Name" : "Attrition",
 			"TowerUpgrade" : {
 				"Weapons" : {
 					"0" : "CobraMonkey.weapon",
-					"1" : "AttritionEffects.weapon",
 					"4" : "Attrition.weapon"
 				},
 				"Replace" : {
 					"FiresWeaponsInSequence" : true
 				}
-			},
-            "WeaponUpgrades" : [
-				{
-					"SlotIndices" : [ 
-						0
-					],
-					"Replace" : {
-						"DefaultSprite" : "Cobra_OffensivePush_Right.json"
-					},
-					"TaskUpgrade":
-					[
-						{
-							"Operation": "SelectByLocation",
-							"Location": [ 3 ]
-						},
-						{
-							"Operation": "Replace",
-							"SpriteFile": "Cobra_Muzzle_Flash_Far_Left.json"
-						}
-					]
-				},
-				{
-					"SlotIndices" : [ 
-						1
-					],
-					"Replace" : {
-						"DefaultSprite" : "Cobra_OffensivePush_Left.json"
-					},
-					"TaskUpgrade":
-					[
-						{
-							"Operation": "SelectByType",
-							"Type": "Effect"
-						},
-						{
-							"Operation": "Replace",
-							"SpriteFile": "Cobra_Muzzle_Flash_Far_Right.json"
-						}
-					]
-				},
-				{
-					"SlotIndices" : [ 
-						0
-					],
-					"Replace" : {
-						"RequiresMinUpgradeCounters" : [0,1],
-						"DefaultSprite" : "Cobra_DoubleTap_OffensivePush_Right.json"
-					}
-				},
-				{
-					"SlotIndices" : [ 
-						1
-					],
-					"Replace" : {
-						"RequiresMinUpgradeCounters" : [0,1],
-						"DefaultSprite" : "Cobra_DoubleTap_OffensivePush_Left.json"
-					}
-				},
-				{
-					"SlotIndices" : [ 
-						0
-					],
-					"Replace" : {
-						"RequiresMinUpgradeCounters" : [0,2],
-						"DefaultSprite" : "Cobra_Attrition_OffensivePush_Right.json"
-					}
-				},
-				{
-					"SlotIndices" : [ 
-						1
-					],
-					"Replace" : {
-						"RequiresMinUpgradeCounters" : [0,2],
-						"DefaultSprite" : "Cobra_Attrition_OffensivePush_Left.json"
-					}
-				}
-			]
+			}
         },
 
         {
