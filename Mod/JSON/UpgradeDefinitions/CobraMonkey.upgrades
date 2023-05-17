@@ -1,78 +1,12 @@
 {
     "Upgrades": [
         {
-            "Name" : "Tower Boost Ability",
-			"TowerUpgrade" : {
-				"Weapons" : {
-					"0" : "",
-					"1" : "",
-					"2" : "",
-					"3" : "",
-					"4" : "",
-					"5" : "",
-					"6" : "",
-					"7" : "",
-					"8" : "TestWeapon.weapon",
-					"9" : "EnergyBeacon.weapon",
-					"10" : "IceTower.weapon",
-					"11" : ""
-				}
-			}
-        },
-        {
-            "Name" : "Bloon Bash Ability",
-			"TowerUpgrade" :
-			{
-				"Weapons" : {
-					"0" : "",
-					"1" : "",
-					"2" : "",
-					"3" : "",
-					"4" : "",
-					"5" : "",
-					"6" : "",
-					"7" : "",
-					"8" : "DartMonkey.weapon",
-					"9" : "EnergyBeacon.weapon",
-					"10" : "IceTower.weapon",
-					"11" : ""
-				}
-			}
-        },
-		
-        {
             "Name" : "Wired Funds",
 			"TowerUpgrade" : {
 				"Weapons" : {
 					"2" : "WiredFunds.weapon"
 				}
-			},
-			"WeaponUpgrades" : [
-				{
-					"SlotIndices" : [ 
-						0
-					],
-					"Replace" : {
-                        "RequiresMinUpgradeCounters" : [
-							0,
-							2
-						],
-						"DefaultSprite" : "Cobra_Attrition_Right.json"
-					}
-				},
-				{
-					"SlotIndices" : [ 
-						1
-					],
-					"Replace" : {
-                        "RequiresMinUpgradeCounters" : [
-							0,
-							2
-						],
-						"DefaultSprite" : "Cobra_Attrition_Left.json"
-					}
-				}
-			]
+			}
         },
 
         {
@@ -82,81 +16,7 @@
 				"Weapons" : {
 					"6" : "BloonAdjustment.weapon"
 				}
-			},
-            "WeaponUpgrades" : [
-				{
-					"SlotIndices" : [ 
-						0
-					],
-					"Replace" : {
-                        "RequiresMinUpgradeCounters" : [
-							0,
-							1
-						],
-						"DefaultSprite" : "Cobra_DoubleTap_BloonAdjustment_Right.json"
-					}
-				},
-				{
-					"SlotIndices" : [ 
-						1
-					],
-					"Replace" : {
-                        "RequiresMinUpgradeCounters" : [
-							0,
-							1
-						],
-						"DefaultSprite" : "Cobra_DoubleTap_BloonAdjustment_Left.json"
-					}
-				},
-				{
-					"SlotIndices" : [ 
-						0
-					],
-					"Replace" : {
-                        "RequiresMinUpgradeCounters" : [
-							0,
-							2
-						],
-						"DefaultSprite" : "Cobra_Attrition_BloonAdjustment_Right.json"
-					}
-				},
-				{
-					"SlotIndices" : [ 
-						1
-					],
-					"Replace" : {
-                        "RequiresMinUpgradeCounters" : [
-							0,
-							2
-						],
-						"DefaultSprite" : "Cobra_Attrition_BloonAdjustment_Left.json"
-					}
-				},
-				{
-					"SlotIndices" : [ 
-						0
-					],
-					"Replace" : {
-                        "RequiresMinUpgradeCounters" : [
-							0,
-							3
-						],
-						"DefaultSprite" : ""
-					}
-				},
-				{
-					"SlotIndices" : [ 
-						1
-					],
-					"Replace" : {
-                        "RequiresMinUpgradeCounters" : [
-							0,
-							3
-						],
-						"DefaultSprite" : ""
-					}
-				}
-			]
+			}
         },
 
         {
@@ -171,13 +31,6 @@
 				},
 				{
 					"SlotIndex" : 1,
-					"Adjust" :
-					{
-						"CooldownTime": -0.111111
-					}
-				},
-				{
-					"SlotIndex" : 11,
 					"Adjust" :
 					{
 						"CooldownTime": -0.111111
@@ -312,14 +165,6 @@
 							"SpriteFile": "Cobra_Muzzle_Flash_Far_Right.json"
 						}
 					]
-				},
-				{
-					"SlotIndices" : [ 
-						11
-					],
-					"Adjust" : {
-						"CooldownTime" : -0.679012
-					}
 				},
 				{
 					"SlotIndices" : [ 
@@ -494,24 +339,21 @@
 				}
 			]
         },
-
         {
             "Name" : "Finish Him!",
 			"TowerUpgrade" : {
-				"Weapons" : {
-					"1" : ""
-				},
 				"Replace" : {
-					"FiresWeaponsInSequence" : false
+					"Weapons" : {
+						"1" : ""
+					},
+					"FiresWeaponsInSequence" : true
 				}
 			},
             "WeaponUpgrades" : [
 				{
-					"SlotIndices" : [ 
-						0
-					],
+					"SlotIndex" : 0,
 					"Replace" : {
-						"DefaultSprite" : ""
+						"DefaultSprite" : "Cobra_DoubleTap_FinishHim_Right.json"
 					},
 					"TaskUpgrade":
 					[
@@ -530,7 +372,7 @@
 						1
 					],
 					"Replace" : {
-						"DefaultSprite" : ""
+						"DefaultSprite" : "Cobra_DoubleTap_FinishHim_Left.json"
 					},
 					"TaskUpgrade":
 					[
@@ -553,21 +395,9 @@
 					"7" : "CobraMisdirection.weapon"
 				},
 				"Replace" : {
-					"FiresWeaponsInSequence" : false
+					"FiresWeaponsInSequence" : true
 				}
 			}
-        },
-        {
-            "Name" : "Finish Him! Left"
-        },
-        {
-            "Name" : "Misdirection Left"
-        },
-        {
-            "Name" : "Monkey Stim Right"
-        },
-        {
-            "Name" : "Attrition Right"
         }
     ]
 }

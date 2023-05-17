@@ -36,11 +36,11 @@
       "SpriteInfo" : [
          {
             "SpriteInfo" : "cobra_muzzle_flash_arm_01",
-            "Texture" : "InGame"
+            "Texture" : "btdb_ingame"
          },
          {
             "SpriteInfo" : "cobra_muzzle_flash",
-            "Texture" : "InGame"
+            "Texture" : "btdb_ingame"
          }
       ],
       "StageLength" : 0.33,
