@@ -2,11 +2,11 @@
 	"MERGE_MODE": "INSERTIVE",
 	"Items": [
 		{
-			"Type": "BossWeaken",
+			"Type": "CobraMisdirection",
 			"Icon": "cobra_misdirection_icon"
 		},
 		{
-			"Type": "RoadSpikes",
+			"Type": "SpiritOfTheForest",
 			"Icon": "druid_monkey_icon"
 		}
 	]

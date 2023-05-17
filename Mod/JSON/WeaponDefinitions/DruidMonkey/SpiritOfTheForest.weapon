@@ -1,6 +1,6 @@
 //Spirit of the Forest ability weapon
 {
-	"Type": "RoadSpikes",
+	"Type": "SpiritOfTheForest",
 	"TargetRange": 120,
 	"CooldownTime": 60.0,
 	"FireDelayTime": 0.0,

@@ -1,13 +1,12 @@
 {
 	//Main weapon
-    "Type":             "BananaSkinCannon",
+    "Type":             "CobraMonkey",
     "TargetRange":      140.0,
 	"CooldownTime":     1.234567,
     "FireDelayTime":    0.0,
     
     "Tasks" :
     [
-		{"Type": "Effect","SpriteFile": "null.json"},
         {
             "Type": "Damage",
             "DamageType": "Piercing",

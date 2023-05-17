@@ -1,6 +1,6 @@
 {
 	//Monkey Stim
-    "Type":             "Overclock",
+    "Type":             "MonkeyStim",
     "TargetRange":      0.0,
 	"CooldownTime":     2147483647,
     "FireDelayTime":    0.0,

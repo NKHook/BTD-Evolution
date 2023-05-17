@@ -1,6 +1,6 @@
 //Heart of Thunder weapon
 {	
-    "Type":             "ChainLightning",    
+    "Type":             "HeartOfThunder",    
     "TargetRange":      120.0,
 	"CooldownTime":     1.6857142857,
     "FireDelayTime":    0.2,

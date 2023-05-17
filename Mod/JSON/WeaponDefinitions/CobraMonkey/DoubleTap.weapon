@@ -1,6 +1,6 @@
 {
 	//Main weapon
-    "Type":             "BananaFarmerPro",
+    "Type":             "DoubleTap",
     "TargetRange":      140.0,
 	"CooldownTime":     1.234567,
     "FireDelayTime":    0.0,

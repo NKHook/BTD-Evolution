@@ -8,7 +8,7 @@
     "CanBePlacedOnPath": false,
     "CanTargetCamo": false,
     "DefaultWeapons": [
-        "TripleDarts.weapon",
+        "DruidMonkey.weapon",
         "",
         "",
         "",

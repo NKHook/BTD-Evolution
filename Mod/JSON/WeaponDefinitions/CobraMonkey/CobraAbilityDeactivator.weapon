@@ -1,6 +1,6 @@
 {
-	//Tower Boost and Bloon Bash 15 second minimum
-    "Type":             "EnergyBeacon",
+	//Tower Boost and Bloon Bash deactivator
+    "Type":             "CobraAbilityDeactivator",
     "TargetRange":      0.0,
 	"CooldownTime":     0,
     "FireDelayTime":    0.0,
@@ -18,11 +18,11 @@
 			"ApplyToUserTower": true,
 			"ModifyNewlySpawnedTowers": true,
 			"ReplacesPriorityLevel": true,
-			"Modifier" : { "AbilityCooldown" : [ 1.0, 15 ] }
+			"Modifier" : { "AbilityCooldown" : [ 100000000, 0 ] }
 		},
 		{
 			"Type" : "RestoreAmmo",
-			"SlotIndex" : 10,
+			"SlotIndex" : 9,
 			"Amount" : 1
 		}
 	]

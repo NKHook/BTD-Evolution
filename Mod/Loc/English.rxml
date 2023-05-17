@@ -28,7 +28,7 @@
             <Insert node="T" id="LOC_CobraMonkey_TOWER" l="0">COBRA</Insert>
             <Insert node="T" id="LOC_CobraMonkey_TOWER_PLURAL" l="0">COBRAs</Insert>
             <Insert node="T" id="LOC_CobraMonkey_TOWER_CAPS" l="0">COBRA</Insert>
-            <Insert node="T" id="LOC_TOWER_DESC_CobraMonkey" l="0">The Covert Ops Battles Response Agent provides good support in the battlefield with his unique abilities. His standard issue pistol pops 2 layers of bloon per shot.</Insert>
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_CobraMonkey" l="0">The Covert Ops Battles Response Agent provides good support in the battlefield with his unique abilities. His standard issue pistol pops 2 layers of bloon per shot.</Insert>
 
             <Insert node="T" id="LOC_UPGRADE_A1_CobraMonkey" l="0">Wired Funds</Insert>
             <Insert node="T" id="LOC_UPGRADE_A2_CobraMonkey" l="0">Bloon Adjustment</Insert>
@@ -51,7 +51,7 @@
             <Insert node="T" id="LOC_DruidMonkey_TOWER" l="0">Druid</Insert>
             <Insert node="T" id="LOC_DruidMonkey_TOWER_PLURAL" l="0">Druids</Insert>
             <Insert node="T" id="LOC_DruidMonkey_TOWER_CAPS" l="0">Druid</Insert>
-            <Insert node="T" id="LOC_TOWER_DESC_DruidMonkey" l="0">Creates a blast of thorns for each attack. Upgrades can call forth powers of the Jungle or Storm.</Insert>
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_DruidMonkey" l="0">Creates a blast of thorns for each attack. Upgrades can call forth powers of the Jungle or Storm.</Insert>
 
             <Insert node="T" id="LOC_UPGRADE_A1_DruidMonkey" l="0">Druidic Reach</Insert>
             <Insert node="T" id="LOC_UPGRADE_A2_DruidMonkey" l="0">Hard Thorns</Insert>

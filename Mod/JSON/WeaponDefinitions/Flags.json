@@ -1,0 +1,22 @@
+[
+    //Cobra weapons
+    "Attrition",
+    "AttritionEffects",
+    "BloonAdjustment",
+    "BloonBashAbility",
+    "CobraAbilityDeactivator",
+    "CobraAbilityMinimum",
+    "CobraMisdirection",
+    "CobraMonkey",
+    "DoubleTap",
+    "MIBAid",
+    "MonkeyStim",
+    "WiredFunds",
+
+    //Druid weapons
+    "DruidMonkey",
+    "DruidOfTheJungle",
+    "HeartOfThunder",
+    "Poplust",
+    "SpiritOfTheForest"
+]
