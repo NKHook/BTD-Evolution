@@ -3,8 +3,8 @@
     "MERGE_MODE": "INSERTIVE",
 	"Items": [
         {
-			"Icon": "monkeysub_icon",
-			"FactoryName": "CobraMonkey",
+			"Icon": "druid_monkey_icon",
+			"FactoryName": "DruidMonkey",
 			"ObjectType": 0,
 			"KeyboardShortcut": ""
 		},

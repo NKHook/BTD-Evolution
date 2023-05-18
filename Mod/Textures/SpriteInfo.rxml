@@ -2,6 +2,7 @@
     <Select node="SpriteInformation">
         <Insert node="SpriteInfoXml" name="btdr_sprites" type="png"/>
         <Insert node="SpriteInfoXml" name="btd6_sprites" type="png"/>
-        <Insert node="SpriteInfoXml" name="btdb_ported" type="png"/>
+        <Insert node="SpriteInfoXml" name="btdb_ingame" type="png"/>
+        <Insert node="SpriteInfoXml" name="btdb_menu" type="png"/>
     </Select>
 </Reflect>

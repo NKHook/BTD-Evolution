@@ -3,8 +3,8 @@
     "MERGE_MODE": "INSERTIVE",
 	"Items" : [
 		{
-			"Icon": "monkeysub_icon",
-			"FactoryName": "FlameThrower",
+			"Icon": "cobra_icon",
+			"FactoryName": "CobraMonkey",
 			"ObjectType": 0,
 			"KeyboardShortcut": ""
 		}

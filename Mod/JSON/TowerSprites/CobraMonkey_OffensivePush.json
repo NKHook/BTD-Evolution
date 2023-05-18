@@ -80,23 +80,23 @@
       "SpriteInfo" : [
          {
             "SpriteInfo" : "cobra_shadow",
-            "Texture" : "btdb_ported"
+            "Texture" : "btdb_ingame"
          },
          {
             "SpriteInfo" : "cobra_jacket_offensive",
-            "Texture" : "btdb_ported"
+            "Texture" : "btdb_ingame"
          },
          {
             "SpriteInfo" : "cobra_head_01",
-            "Texture" : "btdb_ported"
+            "Texture" : "btdb_ingame"
          },
          {
             "SpriteInfo" : "cobra_muzzle_flash_face_01",
-            "Texture" : "btdb_ported"
+            "Texture" : "btdb_ingame"
          },
          {
             "SpriteInfo" : "cobra_bluetooth",
-            "Texture" : "btdb_ported"
+            "Texture" : "btdb_ingame"
          }
       ],
       "StageLength" : 0.3862847089767456,

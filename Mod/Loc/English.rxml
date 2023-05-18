@@ -28,9 +28,9 @@
 
 
             <Insert node="T" id="LOC_CobraMonkey_TOWER" l="0">COBRA</Insert>
-            <Insert node="T" id="LOC_CobraMonkey_TOWER_PLURAL" l="0">COBRAS</Insert>
+            <Insert node="T" id="LOC_CobraMonkey_TOWER_PLURAL" l="0">COBRAs</Insert>
             <Insert node="T" id="LOC_CobraMonkey_TOWER_CAPS" l="0">COBRA</Insert>
-            <Insert node="T" id="LOC_TOWER_DESC_CobraMonkey" l="0">The Covert Ops Battles Response Agent provides good support in the battlefield with his unique abilities. His standard issue pistol pops 2 layers of bloon per shot.</Insert>
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_CobraMonkey" l="0">The Covert Ops Battles Response Agent provides good support in the battlefield with his unique abilities. His standard issue pistol pops 2 layers of bloon per shot.</Insert>
 
             <Insert node="T" id="LOC_UPGRADE_A1_CobraMonkey" l="0">Wired Funds</Insert>
             <Insert node="T" id="LOC_UPGRADE_A2_CobraMonkey" l="0">Bloon Adjustment</Insert>
@@ -43,11 +43,11 @@
 
             <Insert node="T" id="LOC_CobraMonkey_UPGRADE_DESC_A1" l="0">You gain +70 extra money per round.</Insert>
             <Insert node="T" id="LOC_CobraMonkey_UPGRADE_DESC_A2" l="0">Every two seconds, removes camo, regrow, or the top layer from up to 10 bloons in range.</Insert>
-            <Insert node="T" id="LOC_CobraMonkey_UPGRADE_DESC_A3" l="0">Increased attack speed. Unlocks the Tower Boost ability: increases all towers' attack speed by 30% for 4 seconds. Additional Monkey Stims reduce the ability cooldown (min 15 sec).</Insert>
+            <Insert node="T" id="LOC_CobraMonkey_UPGRADE_DESC_A3" l="0">Increased attack speed.</Insert>
             <Insert node="T" id="LOC_CobraMonkey_UPGRADE_DESC_A4" l="0">Drops 2 lives every 20 seconds.</Insert>
             <Insert node="T" id="LOC_CobraMonkey_UPGRADE_DESC_B1" l="0">Dual wield pistols for double attack speed.</Insert>
             <Insert node="T" id="LOC_CobraMonkey_UPGRADE_DESC_B2" l="0">Gives 2 lives each round.</Insert>
-            <Insert node="T" id="LOC_CobraMonkey_UPGRADE_DESC_B3" l="0">Increased damage. Unlocks the Bloon Bash ability: dazes all bloons on screen for 2 seconds. Additional Finish 'Em!s reduce the ability cooldown (min 15 sec)</Insert>
+            <Insert node="T" id="LOC_CobraMonkey_UPGRADE_DESC_B3" l="0">Deals +10 damage with every shot.</Insert>
             <Insert node="T" id="LOC_CobraMonkey_UPGRADE_DESC_B4" l="0">Ability: Returns the strongest bloon in range back to the start of the map, locking them there for a few seconds (Max BFB).</Insert>
 
 
@@ -74,6 +74,31 @@
             <Insert node="T" id="LOC_Alchemist_UPGRADE_DESC_B2" l="0">Coats MOAB-Class Bloons in an explosive substance that causes a large explosion when they are popped.</Insert>
             <Insert node="T" id="LOC_Alchemist_UPGRADE_DESC_B3" l="0">Transformation ability: Turns Alchemist into powerful attack Monster for 20 seconds.</Insert>
             <Insert node="T" id="LOC_Alchemist_UPGRADE_DESC_B4" l="0">Transforms five Monkeys nearby into crazy attack monsters for 20 seconds.</Insert>
+            
+
+            
+            <Insert node="T" id="LOC_DruidMonkey_TOWER" l="0">Druid</Insert>
+            <Insert node="T" id="LOC_DruidMonkey_TOWER_PLURAL" l="0">Druids</Insert>
+            <Insert node="T" id="LOC_DruidMonkey_TOWER_CAPS" l="0">Druid</Insert>
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_DruidMonkey" l="0">Creates a blast of thorns for each attack. Upgrades can call forth powers of the Jungle or Storm.</Insert>
+
+            <Insert node="T" id="LOC_UPGRADE_A1_DruidMonkey" l="0">Druidic Reach</Insert>
+            <Insert node="T" id="LOC_UPGRADE_A2_DruidMonkey" l="0">Hard Thorns</Insert>
+            <Insert node="T" id="LOC_UPGRADE_A3_DruidMonkey" l="0">Heart of Thunder</Insert>
+            <Insert node="T" id="LOC_UPGRADE_A4_DruidMonkey" l="0">Poplust</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B1_DruidMonkey" l="0">Thorn Swarm</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B2_DruidMonkey" l="0">Heart of Oak</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B3_DruidMonkey" l="0">Druid of the Jungle</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B4_DruidMonkey" l="0">Spirit of the Forest</Insert>
+
+            <Insert node="T" id="LOC_DruidMonkey_UPGRADE_DESC_A1" l="0">Increases range by a large amount.</Insert>
+            <Insert node="T" id="LOC_DruidMonkey_UPGRADE_DESC_A2" l="0">Hard thorns can pop 2 bloons each and pop Lead and Frozen bloons.</Insert>
+            <Insert node="T" id="LOC_DruidMonkey_UPGRADE_DESC_A3" l="0">Unleashes regular blasts of forked lightning that arc from bloon to bloon.</Insert>
+            <Insert node="T" id="LOC_DruidMonkey_UPGRADE_DESC_A4" l="0">Boosts attack speed and pierce for all Druids in the radius. Can stack up to 5 times on a single Druid.</Insert>
+            <Insert node="T" id="LOC_DruidMonkey_UPGRADE_DESC_B1" l="0">Shoots 8 thorns per shot instead of 5.</Insert>
+            <Insert node="T" id="LOC_DruidMonkey_UPGRADE_DESC_B2" l="0">Attacks convert Regrow Bloons into normal Bloons.</Insert>
+            <Insert node="T" id="LOC_DruidMonkey_UPGRADE_DESC_B3" l="0">Calls a Bloonberry Bush from the ground to entangle and crush Bloons one at a time.</Insert>
+            <Insert node="T" id="LOC_DruidMonkey_UPGRADE_DESC_B4" l="0">Grows many thorned Bloonberry Bushes with 50x as many thorns. Activated ability generates lives and more cash.</Insert>
         </Select>
     </Select>
 </Reflect>

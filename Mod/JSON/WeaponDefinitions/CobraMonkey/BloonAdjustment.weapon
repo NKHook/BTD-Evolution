@@ -1,0 +1,33 @@
+{
+	//Bloon Adjustment
+    "Type":             	"BloonAdjustment",    
+    "TargetRange":      	140,
+	"CooldownTime":     	2,
+    "FireDelayTime":    	0,
+	"RequiresTargetToFire":	true,
+	"CanSelfTargetCamo": true,
+	"TargetsIndependently": true,
+	"RotatesToTarget": false,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "AreaOfEffect",
+			"Range": 150,
+			"MaxTargets": 10,
+			"UseRangeModifier" : true,
+			
+			"Tasks" :
+			[
+				{
+					"Type": "RemoveStatusEffect",
+					"Status": "Camo"
+				},
+				{
+					"Type": "RemoveStatusEffect",
+					"Status": "Regen"
+				}
+			]
+		}
+	]
+}

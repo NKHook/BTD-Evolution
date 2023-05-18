@@ -1,0 +1,67 @@
+//Druid of the jungle
+{	
+    "Type":             "DruidOfTheJungle",    
+    "TargetRange":      100.0,
+	"CooldownTime":     10.0,
+    "FireDelayTime":    0.0,
+    "CanFireWithNoTargetsAndRoundInProgress" : true,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "RandomFire",
+			"Range": 200,
+			"OnlyTargetPathLocations": true,
+			"FireFullRange": true,
+			"TerminateOnZeroPersists": true,
+			"FollowTarget": false,
+			
+			"Tasks":
+			[
+				{
+					"Type": "Projectile",
+					"SpriteFile": "DruidThorns.json",
+					"NumPersists": 200,
+					"TerminateOnZeroPersists": true,
+					"RemoveOnRoundEnd" : true,
+                    "OnlyCollidePastCutOff" : true,
+                    "DrawLayer" : "UnderTowers",
+			
+					"GraphicsAtPierceLevels" : [
+						[ 0, 0],
+						[ 0.05, 50],
+						[ 0.1, 100],
+						[ 0.15, 150],
+						[ 0.2, 200]
+					],
+
+					"HasLimitedDuration" : true,
+					"LimitedDuration" : 20,
+                    "HasRandomOrientation" : true,
+					
+					"CollisionType": "Continual",
+					
+					"Movement":
+					{
+						"Type": "MotionCurve",
+						"Curves": 
+						[
+							[ [0, 0], [0.9, 0], [1, 0], [1, 0] ]
+						],
+						"Speed": 115.0,
+						"TerminateAtEndOfCurve": false
+					},
+				
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
+						}
+					]
+				}
+			]
+		}
+	]
+}

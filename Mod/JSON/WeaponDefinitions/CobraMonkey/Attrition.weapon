@@ -1,0 +1,65 @@
+{	
+    "Type":             "Attrition",    
+    "TargetRange":      140.0,
+	"CooldownTime":     1,
+    "FireDelayTime":    0,
+	"RequiresTargetToFire": false,
+	"TargetsIndependently": true,
+	"RotatesToTarget": false,
+	"FiresOnRoundEnd": true,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "RandomFire",
+			"Range": 100000,
+			"MinimumRange" : 100000,
+			"OnlyTargetPathLocations": false,
+			"FireFullRange": true,
+			"TerminateOnZeroPersists": true,
+			"FollowTarget": false,
+            "TargetIsWeaponTaskOrigin" : true,
+			
+			"Tasks":
+			[
+				{
+					"Type":             "Collectable",
+					"GraphicName":      "bananas",
+					"LivesRange": [ 2, 2 ],
+					"COLLECT_METHOD": "AUTOMATIC",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 0,
+						"KeepOnScreen": true,
+						"SpeedDecay": 0.95
+					},
+
+					"Tasks":
+					[
+						{
+							"Type": "TextEffect",
+							"Text": "",
+							"Font": "oetztype_24_black_stroke",
+							"Colour": [ 1.0, 1.0, 1.0 ],
+
+                            "Fade": true,
+                            "FadeTime": 0.4,
+                            "FadeEase": true,
+                            "FadeDelay": 0.9,
+							
+							"Movement":
+							{
+								"Type": "Forward",
+								"Direction": [0, -1],
+								"Speed": 20,
+								"CutOffDistance": 30
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

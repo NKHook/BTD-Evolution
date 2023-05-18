@@ -1,0 +1,13 @@
+{
+	"MERGE_MODE": "INSERTIVE",
+	"Items": [
+		{
+			"Type": "CobraMisdirection",
+			"Icon": "cobra_misdirection_icon"
+		},
+		{
+			"Type": "SpiritOfTheForest",
+			"Icon": "druid_monkey_icon"
+		}
+	]
+}

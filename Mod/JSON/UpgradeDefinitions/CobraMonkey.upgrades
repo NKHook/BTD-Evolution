@@ -1,78 +1,12 @@
 {
     "Upgrades": [
         {
-            "Name" : "Tower Boost Ability",
-			"TowerUpgrade" : {
-				"Weapons" : {
-					"0" : "",
-					"1" : "",
-					"2" : "",
-					"3" : "",
-					"4" : "",
-					"5" : "",
-					"6" : "",
-					"7" : "",
-					"8" : "TestWeapon.weapon",
-					"9" : "EnergyBeacon.weapon",
-					"10" : "IceTower.weapon",
-					"11" : ""
-				}
-			}
-        },
-        {
-            "Name" : "Bloon Bash Ability",
-			"TowerUpgrade" :
-			{
-				"Weapons" : {
-					"0" : "",
-					"1" : "",
-					"2" : "",
-					"3" : "",
-					"4" : "",
-					"5" : "",
-					"6" : "",
-					"7" : "",
-					"8" : "DartMonkey.weapon",
-					"9" : "EnergyBeacon.weapon",
-					"10" : "IceTower.weapon",
-					"11" : ""
-				}
-			}
-        },
-		
-        {
             "Name" : "Wired Funds",
 			"TowerUpgrade" : {
 				"Weapons" : {
-					"2" : "BananaFarm.weapon"
+					"2" : "WiredFunds.weapon"
 				}
-			},
-			"WeaponUpgrades" : [
-				{
-					"SlotIndices" : [ 
-						0
-					],
-					"Replace" : {
-                        "RequiresMinUpgradeCounters" : [
-							0,
-							2
-						],
-						"DefaultSprite" : "Cobra_Attrition_Right.json"
-					}
-				},
-				{
-					"SlotIndices" : [ 
-						1
-					],
-					"Replace" : {
-                        "RequiresMinUpgradeCounters" : [
-							0,
-							2
-						],
-						"DefaultSprite" : "Cobra_Attrition_Left.json"
-					}
-				}
-			]
+			}
         },
 
         {
@@ -80,92 +14,13 @@
 			"TowerUpgrade" :
 			{
 				"Weapons" : {
-					"6" : "SabotageSupplyLines.weapon"
+					"6" : "BloonAdjustment.weapon"
 				}
-			},
-            "WeaponUpgrades" : [
-				{
-					"SlotIndices" : [ 
-						0
-					],
-					"Replace" : {
-                        "RequiresMinUpgradeCounters" : [
-							0,
-							1
-						],
-						"DefaultSprite" : "Cobra_DoubleTap_BloonAdjustment_Right.json"
-					}
-				},
-				{
-					"SlotIndices" : [ 
-						1
-					],
-					"Replace" : {
-                        "RequiresMinUpgradeCounters" : [
-							0,
-							1
-						],
-						"DefaultSprite" : "Cobra_DoubleTap_BloonAdjustment_Left.json"
-					}
-				},
-				{
-					"SlotIndices" : [ 
-						0
-					],
-					"Replace" : {
-                        "RequiresMinUpgradeCounters" : [
-							0,
-							2
-						],
-						"DefaultSprite" : "Cobra_Attrition_BloonAdjustment_Right.json"
-					}
-				},
-				{
-					"SlotIndices" : [ 
-						1
-					],
-					"Replace" : {
-                        "RequiresMinUpgradeCounters" : [
-							0,
-							2
-						],
-						"DefaultSprite" : "Cobra_Attrition_BloonAdjustment_Left.json"
-					}
-				},
-				{
-					"SlotIndices" : [ 
-						0
-					],
-					"Replace" : {
-                        "RequiresMinUpgradeCounters" : [
-							0,
-							3
-						],
-						"DefaultSprite" : ""
-					}
-				},
-				{
-					"SlotIndices" : [ 
-						1
-					],
-					"Replace" : {
-                        "RequiresMinUpgradeCounters" : [
-							0,
-							3
-						],
-						"DefaultSprite" : ""
-					}
-				}
-			]
+			}
         },
 
         {
             "Name" : "Monkey Stim",
-			"TowerUpgrade" : {
-				"Weapons" : {
-					"3" : "Overclock.weapon"
-				}
-			},
             "WeaponUpgrades" : [
 				{
 					"SlotIndex" : 0,
@@ -176,13 +31,6 @@
 				},
 				{
 					"SlotIndex" : 1,
-					"Adjust" :
-					{
-						"CooldownTime": -0.111111
-					}
-				},
-				{
-					"SlotIndex" : 11,
 					"Adjust" :
 					{
 						"CooldownTime": -0.111111
@@ -238,95 +86,17 @@
 				}
 			]
         },
-        
         {
             "Name" : "Attrition",
 			"TowerUpgrade" : {
 				"Weapons" : {
-					"0" : "BananaSkinCannon.weapon",
-					"1" : "BananaFarmerPro.weapon",
-					"4" : "RingOfFire.weapon"
+					"0" : "CobraMonkey.weapon",
+					"4" : "Attrition.weapon"
 				},
 				"Replace" : {
 					"FiresWeaponsInSequence" : true
 				}
-			},
-            "WeaponUpgrades" : [
-				{
-					"SlotIndices" : [ 
-						0
-					],
-					"Replace" : {
-						"DefaultSprite" : "Cobra_OffensivePush_Right.json"
-					},
-					"TaskUpgrade":
-					[
-						{
-							"Operation": "SelectByLocation",
-							"Location": [ 3 ]
-						},
-						{
-							"Operation": "Replace",
-							"SpriteFile": "Cobra_Muzzle_Flash_Far_Left.json"
-						}
-					]
-				},
-				{
-					"SlotIndices" : [ 
-						1
-					],
-					"Replace" : {
-						"DefaultSprite" : "Cobra_OffensivePush_Left.json"
-					},
-					"TaskUpgrade":
-					[
-						{
-							"Operation": "SelectByType",
-							"Type": "Effect"
-						},
-						{
-							"Operation": "Replace",
-							"SpriteFile": "Cobra_Muzzle_Flash_Far_Right.json"
-						}
-					]
-				},
-				{
-					"SlotIndices" : [ 
-						0
-					],
-					"Replace" : {
-						"RequiresMinUpgradeCounters" : [0,1],
-						"DefaultSprite" : "Cobra_DoubleTap_OffensivePush_Right.json"
-					}
-				},
-				{
-					"SlotIndices" : [ 
-						1
-					],
-					"Replace" : {
-						"RequiresMinUpgradeCounters" : [0,1],
-						"DefaultSprite" : "Cobra_DoubleTap_OffensivePush_Left.json"
-					}
-				},
-				{
-					"SlotIndices" : [ 
-						0
-					],
-					"Replace" : {
-						"RequiresMinUpgradeCounters" : [0,2],
-						"DefaultSprite" : "Cobra_Attrition_OffensivePush_Right.json"
-					}
-				},
-				{
-					"SlotIndices" : [ 
-						1
-					],
-					"Replace" : {
-						"RequiresMinUpgradeCounters" : [0,2],
-						"DefaultSprite" : "Cobra_Attrition_OffensivePush_Left.json"
-					}
-				}
-			]
+			}
         },
 
         {
@@ -334,7 +104,7 @@
 			"TowerUpgrade" :
 			{
 				"Weapons" : {
-					"1" : "BananaFarmerPro.weapon"
+					"1" : "DoubleTap.weapon"
 				},
 				"Replace" : {
 					"FiresWeaponsInSequence" : true
@@ -395,14 +165,6 @@
 							"SpriteFile": "Cobra_Muzzle_Flash_Far_Right.json"
 						}
 					]
-				},
-				{
-					"SlotIndices" : [ 
-						11
-					],
-					"Adjust" : {
-						"CooldownTime" : -0.679012
-					}
 				},
 				{
 					"SlotIndices" : [ 
@@ -483,7 +245,7 @@
             "Name" : "MIB Aid",
 			"TowerUpgrade" : {
 				"Weapons" : {
-					"5" : "VitalSupplies.weapon"
+					"5" : "MIBAid.weapon"
 				}
 			},
             "WeaponUpgrades" : [
@@ -577,59 +339,31 @@
 				}
 			]
         },
-
         {
             "Name" : "Finish Him!",
 			"TowerUpgrade" : {
-				"Weapons" : {
-					"1" : "",
-					"3" : "BossWeaken.weapon"
-				},
 				"Replace" : {
-					"FiresWeaponsInSequence" : false
+					"Weapons" : {
+						"1" : ""
+					},
+					"FiresWeaponsInSequence" : true
 				}
 			},
             "WeaponUpgrades" : [
 				{
-					"SlotIndices" : [
-						3
-					],
-					"TaskUpgrade" : [
-						{
-							"Operation" : "SelectByType",
-							"Type" : "BoostReducer"
-						},
-						{
-							"Operation" : "Replace",
-							"Boost" : "Bloon",
-							"Amount" : 10
-						}
-					]
-				},
-				{
-					"SlotIndices" : [ 
-						0
-					],
+					"SlotIndex" : 0,
 					"Replace" : {
-						"DefaultSprite" : ""
+						"DefaultSprite" : "Cobra_DoubleTap_FinishHim_Right.json"
 					},
 					"TaskUpgrade":
 					[
-						{
-							"Operation": "SelectByType",
-							"Type": "Effect"
-						},
-						{
-							"Operation": "Replace",
-							"SpriteFile": "null.json"
-						},
 						{
 							"Operation": "SelectByType",
 							"Type": "Damage"
 						},
 						{
 							"Operation": "Adjust",
-							"Amount": 1
+							"Amount": 10
 						}
 					]
 				},
@@ -638,7 +372,7 @@
 						1
 					],
 					"Replace" : {
-						"DefaultSprite" : ""
+						"DefaultSprite" : "Cobra_DoubleTap_FinishHim_Left.json"
 					},
 					"TaskUpgrade":
 					[
@@ -648,33 +382,22 @@
 						},
 						{
 							"Operation": "Adjust",
-							"Amount": 1
+							"Amount": 10
 						}
 					]
 				}
 			]
         },
-        
         {
             "Name" : "Misdirection",
 			"TowerUpgrade" : {
 				"Weapons" : {
-					"7" : "Whirlwind.weapon"
+					"7" : "CobraMisdirection.weapon"
+				},
+				"Replace" : {
+					"FiresWeaponsInSequence" : true
 				}
 			}
-        },
-        
-        {
-            "Name" : "Finish Him! Left"
-        },
-        {
-            "Name" : "Misdirection Left"
-        },
-        {
-            "Name" : "Monkey Stim Right"
-        },
-        {
-            "Name" : "Attrition Right"
         }
     ]
 }

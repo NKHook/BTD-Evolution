@@ -7,7 +7,7 @@
     "CanTargetCamo" : false,
     "DefaultSprite" : "monkey_farmer.json",
     "DefaultWeapons" : [
-        "BananaFarmer.weapon",
+        "CobraMonkey.weapon",
 		"",
 		"",
 		"",
@@ -42,7 +42,7 @@
     "PlacementH" : 0.0,
     "PlacementRadius" : 8.0,
     "PlacementW" : 0.0,
-    "RankToUnlock" : 1,
+    "RankToUnlock" : 20,
     "RotatesToTarget" : true,
     "Specialities" : [
     ],
@@ -67,20 +67,20 @@
     ],
 	"UpgradeGateway" :
 	[
-		[ { "Rank" : 10, "XP" : 0 }, { "Rank" : 20, "XP" : 0 }, { "Rank" : 30, "XP" : 0 }, { "Rank" : 50, "XP" : 0 } ],
-		[ { "Rank" : 15, "XP" : 0 }, { "Rank" : 25, "XP" : 0 }, { "Rank" : 40, "XP" : 0 }, { "Rank" : 60, "XP" : 0 } ]
+		[ { "Rank" : 0, "XP" : 120 }, { "Rank" : 0, "XP" : 220 }, { "Rank" : 0, "XP" : 1200 }, { "Rank" : 0, "XP" : 25000 } ],
+		[ { "Rank" : 0, "XP" : 150 }, { "Rank" : 0, "XP" : 440 }, { "Rank" : 0, "XP" : 1900 }, { "Rank" : 0, "XP" : 38000 } ]
 	],
     "UpgradePrices" : 
     [
-        [ 400, 550, 600, 2400 ],
-        [ 325, 600, 1250, 3500 ]
+        [ 400, 550, 600, 27000 ],
+        [ 325, 2000, 5500, 10000 ]
     ],
     "UpgradeAvatars" : [
         [
             "cobra_avatar_wired_funds_small",
             "cobra_avatar_bloon_adjustment_small",
             "cobra_avatar_monkey_stim_small",
-            "cobra_avatar_offensive_push"
+            "cobra_avatar_attrition_small"
         ],
         [
 		
@@ -96,11 +96,11 @@
             "cobra_wired_funds_icon",
             "cobra_bloon_adjustment_icon",
             "cobra_monkey_stim_icon",
-            "cobra_attrition_icon"
+            "cobra_mib_aid_icon"
         ],
         [
             "cobra_double_tap_icon",
-            "cobra_mib_aid_icon",
+            "cobra_attrition_icon",
             "cobra_finish_him",
             "cobra_misdirection_icon"
         ]
