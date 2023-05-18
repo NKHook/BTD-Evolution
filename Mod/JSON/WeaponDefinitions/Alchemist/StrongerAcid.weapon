@@ -1,6 +1,6 @@
 //Purple potion
 {
-	"Type": "GlueOnTrack",
+	"Type": "StrongerAcid",
 	"TargetRange": 105.0,
 	"CooldownTime": 0.8,
 	"FireDelayTime": 0.2,

@@ -117,7 +117,7 @@
             "Name": "Stronger Acid",
             "TowerUpgrade": {
                 "Weapons" : {
-					"0" : "GlueOnTrack.weapon"
+					"0" : "StrongerAcid.weapon"
 				}
             }
         },

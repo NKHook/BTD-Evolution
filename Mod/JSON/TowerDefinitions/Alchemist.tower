@@ -8,8 +8,8 @@
     "CanBePlacedOnPath": false,
     "CanTargetCamo": false,
     "DefaultWeapons": [
-        "GlueGunner.weapon",
-        "MonkeyVillage.weapon"
+        "Alchemist.weapon",
+        "AcidicMixtureDip.weapon"
     ],
     "ActiveWeaponSlots": [
         true,
