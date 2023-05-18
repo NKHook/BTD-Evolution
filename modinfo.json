@@ -3,11 +3,12 @@
     "description": "A mod that ports/backports content from other BTD games.",
     "version": "1.0.0",
     "authors": [
-        "DisabledMallis - Lead Developer",
-        "5h3i1ah & BTD5 Expansion Team - Cobra Monkey Tower",
-        "DavidTheSuperior - Druid In-Game Sprites",
-        "Kosmic - Alchemist In-Game Sprites",
-        "TenQwerty - Druid Portraits"
+        "DisabledMallis - Lead developer",
+        "5h3i1ah & BTD5 Expansion Team - Cobra Monkey tower",
+        "DavidTheSuperior - Druid In-Game sprites",
+        "Kosmic - Alchemist In-Game sprites",
+        "TenQwerty - Main Druid portrait",
+        "EpicGamer200245 - Bug fix"
     ],
     "website": "https://nkhook.github.io/",
     "github": "https://github.com/NKHook/NKHook5",
