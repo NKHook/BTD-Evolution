@@ -99,8 +99,8 @@
     ],
     "UpgradeIcons": [
         [
-            "druid_monkey_avatar_druidic_reach_small",
-            "druid_monkey_avatar_hard_thorns_small",
+            "dart_monkey_longer_range_icon",
+            "dart_monkey_enhanced_eyesight_icon",
             "dart_monkey_spikeopult_icon",
             "dart_monkey_juggernaut_icon"
         ],
@@ -113,16 +113,16 @@
     ],
     "UpgradeAvatars": [
         [
-            "dart_monkey_avatar_increased_range_small",
-            "dart_monkey_avatar_enhanced_eyesight_small",
-            "dart_monkey_avatar_spikeopult_small",
-            "dart_monkey_avatar_juggernaut_small"
+            "druid_monkey_avatar_druidic_reach_small",
+            "druid_monkey_avatar_hard_thorns_small",
+            "druid_monkey_avatar_heart_of_thunder_small",
+            "druid_monkey_avatar_poplust_small"
         ],
         [
-            "dart_monkey_avatar_sharp_shots_small",
-            "dart_monkey_avatar_razor_sharp_small",
-            "dart_monkey_avatar_triple_shot_small",
-            "dart_monkey_avatar_supermonkey_fanclub_small"
+            "druid_monkey_avatar_thorn_swarm_small",
+            "druid_monkey_avatar_heart_of_oak_small",
+            "druid_monkey_avatar_druid_of_the_jungle_small",
+            "druid_monkey_avatar_spirit_of_the_forest_small"
         ]
     ],
     "UseRadiusPlacement": true,
