@@ -22,7 +22,7 @@
 					"Status": "AcidEffect",
 					"NumPersists" : 1,
 					"Duration" : 11.428,
-					"DamageRate" : -1,
+					"DamageRate" : 1,
 					"SpeedScale" : 0.5
 				},
 				{
