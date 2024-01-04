@@ -99,16 +99,16 @@
     ],
     "UpgradeIcons": [
         [
-            "dart_monkey_longer_range_icon",
-            "dart_monkey_enhanced_eyesight_icon",
-            "dart_monkey_spikeopult_icon",
-            "dart_monkey_juggernaut_icon"
+            "druid_monkey_druidic_reach_icon",
+            "druid_monkey_hard_thorns_icon",
+            "druid_monkey_heart_of_thunder_icon",
+            "druid_monkey_poplust_icon"
         ],
         [
-            "dart_monkey_sharp_shots_icon",
-            "dart_monkey_razor_icon",
-            "dart_monkey_triple_icon",
-            "dart_monkey_fanclub_icon"
+            "druid_monkey_thorn_swarm_icon",
+            "druid_monkey_heart_of_oak_icon",
+            "druid_monkey_druid_of_the_jungle_icon",
+            "druid_monkey_spirit_of_the_forest_icon"
         ]
     ],
     "UpgradeAvatars": [
